@@ -1,0 +1,10 @@
+IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+export NIFI_HOME="/home/ubuntu/jarvis-nifi"
+export NIFI_BIN="$NIFI_HOME/bin"
+export NIFI_SCRIPTS="$NIFI_HOME/scripts"
+export NIFI_RESULTS="$NIFI_HOME/results"
+alias start_nifi='sudo rm -rf $NIFI_HOME/content_repository/* $NIFI_HOME/provenance_repository/* $NIFI_HOME/flowfile_repository/* $NIFI_HOME/state/local/* $NIFI_HOME/logs/*;sudo $NIFI_BIN/nifi.sh start'
+alias test='curl "http://$IP:8080/nifi-api/access/config" -X GET; echo'
+alias queue='curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | grep flowFilesQueued; echo'
+alias stop_nifi='sudo $NIFI_BIN/nifi.sh stop'
+alias restart_nifi='stop_nifi;start_nifi'
