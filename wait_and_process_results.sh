@@ -24,10 +24,11 @@ MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
 # Start NiFi
-sh $NIFI_SCRIPT/restart_nifi.sh
+sudo sh $HOME/restart_nifi.sh
 
 # Get your current server ip.
 IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+
 FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
 LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
 
@@ -93,8 +94,10 @@ echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo; echo "$SHELL: Stop running Nifi instance..."
-    sh $NIFI_BIN/nifi.sh stop
+    sudo sh $NIFI_BIN/nifi.sh stop
 fi
+
+sudo chown -R ubuntu:ubuntu $NIFI_HOME
 
 # If there is old log_cat file, delete it.
 if [ -f "$NIFI_LOG/log_cat" ]; then
@@ -105,7 +108,7 @@ fi
 # Parse the log and show the result.
 echo "$SHELL: Parsing the log..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
-python3.5 $NIFI_SCRIPT/extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
+python3 $NIFI_SCRIPT/extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 5 $NIFI_LOG/temp; echo "------------------------------------------"; echo
