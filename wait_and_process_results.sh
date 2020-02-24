@@ -47,10 +47,21 @@ echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
 
 echo "$SHELL: NiFi ready, start MiNiFi."
 # Restart MiNiFi
-aws ssm send-command --targets "Key=tag:type,Values=edge" \
+#aws ssm send-command --targets "Key=tag:type,Values=edge" \
+#--document-name "AWS-RunShellScript" \
+#--comment "start MiNiFi" \
+#--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
+#--output text
+aws ssm send-command --targets "Key=tag:command,Values=1" \
 --document-name "AWS-RunShellScript" \
 --comment "start MiNiFi" \
---parameters commands="sudo sh $HOME/scripts/restart_minifi.sh" \
+--parameters commands="sudo sh /home/ubuntu/scripts/start_minifi.sh" \
+--output text
+
+aws ssm send-command --targets "Key=tag:command,Values=2" \
+--document-name "AWS-RunShellScript" \
+--comment "start MiNiFi" \
+--parameters commands="sudo sh /home/ubuntu/scripts/start_minifi.sh" \
 --output text
 
 echo "$SHELL: FlowFiles will be parsed with your NiFi IP($IP)"
