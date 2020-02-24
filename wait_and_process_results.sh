@@ -1,13 +1,15 @@
 #!/bin/bash
 ## USAGE
-## ./wait_and_process_results.sh (sleep time)
+## ./wait_and_process_results.sh (sleep time) (target groups)
 #### e.g. (sleep time): 60s, 10m, 1h
+#### e.g. (target groups): 1, 2, 3, ..."
 
 SHELL=$0
 
-if [ $# != 1 ]; then
-    echo "$SHELL: USAGE: $SHELL (sleep time)"
+if [ $# != 2 ]; then
+    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups)"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
+    echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
     exit 1
 fi
 
@@ -22,16 +24,23 @@ MINIFI_DIR="$HOME/minifi"
 MINIFI_HOME="$MINIFI_DIR/minifi-0.5.0"
 MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
+
+#Variables
+FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
+LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
+cmd_num=0
+target_groups=$2
+
+# Change the ownership to prevent the error
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
+
 # Start NiFi
 sudo sh $HOME/restart_nifi.sh
 
 # Get your current server ip.
 IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
 
-FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
-LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
-
+echo "$SHELL: FlowFiles will be parsed with your NiFi IP($IP)"
 echo "$SHELL: Checking flowFilesQueued...";echo;
 # Parse flowFilesQueued.
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
@@ -52,19 +61,15 @@ echo "$SHELL: NiFi ready, start MiNiFi."
 #--comment "start MiNiFi" \
 #--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
 #--output text
-aws ssm send-command --targets "Key=tag:command,Values=1" \
---document-name "AWS-RunShellScript" \
---comment "start MiNiFi" \
---parameters commands="sudo sh /home/ubuntu/scripts/start_minifi.sh" \
---output text
+while [ $cmd_num -lt $target_groups ]; do
+    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+    --document-name "AWS-RunShellScript" \
+    --comment "start MiNiFi" \
+    --parameters commands="sudo sh $MINIFI_SCRIPT/start_minifi.sh" \
+    --output text
+    cmd_num=$(($cmd_num+1))
+done
 
-aws ssm send-command --targets "Key=tag:command,Values=2" \
---document-name "AWS-RunShellScript" \
---comment "start MiNiFi" \
---parameters commands="sudo sh /home/ubuntu/scripts/start_minifi.sh" \
---output text
-
-echo "$SHELL: FlowFiles will be parsed with your NiFi IP($IP)"
 echo "$SHELL: Sleeping $1..."
 # Sleep as input time.
 sleep $1
