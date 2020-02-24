@@ -65,7 +65,7 @@ while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
     --comment "start MiNiFi" \
-    --parameters commands="sudo sh $MINIFI_SCRIPT/start_minifi.sh" \
+    --parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
     --output text
     cmd_num=$(($cmd_num+1))
 done
