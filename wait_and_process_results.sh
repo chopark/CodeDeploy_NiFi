@@ -75,11 +75,15 @@ echo "$SHELL: Sleeping $1..."
 sleep $1
 
 # Stop MiNiFi
-aws ssm send-command --targets "Key=tag:type,Values=edge" \
---document-name "AWS-RunShellScript" \
---comment "stop MiNiFi" \
---parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
---output text
+cmd_num=0
+while [ $cmd_num -lt $target_groups ]; do
+    aws ssm send-command --targets "Key=tag:type,Values=edge" \
+    --document-name "AWS-RunShellScript" \
+    --comment "stop MiNiFi" \
+    --parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
+    --output text
+    cmd_num=$(($cmd_num+1))
+done
 
 echo "$SHELL: Checking flowFilesQueued...";echo;
 # Parse flowFilesQueued.
