@@ -77,7 +77,7 @@ sleep $1
 # Stop MiNiFi
 cmd_num=0
 while [ $cmd_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:type,Values=edge" \
+    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
     --comment "stop MiNiFi" \
     --parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
