@@ -20,9 +20,9 @@ group_num=0
 count=0
 # Start each group that has 50 instances
 while [ $group_num -lt $target_group ]; do
-    if [ $count -gt 15 ]; then
-        echo "$0: Sleep 1s to prevent requestexceed issue"
-        sleep 2s
+    if [ $count -gt 9 ]; then
+        echo "$0: Sleep 30s to prevent requestexceed issue"
+        sleep 30s
         count=0
     fi
     aws autoscaling set-desired-capacity --auto-scaling-group-name Edges_Group$group_num --desired-capacity $instance_limit --honor-cooldown

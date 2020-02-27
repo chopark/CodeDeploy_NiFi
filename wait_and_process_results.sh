@@ -35,7 +35,7 @@ target_groups=$2
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
 
 # Start NiFi
-sudo sh $HOME/restart_nifi.sh
+sudo sh $HOME/CodeDeploy_NiFi/restart_nifi.sh
 
 # Get your current server ip.
 IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
@@ -76,6 +76,13 @@ sleep $1
 
 # Stop MiNiFi
 cmd_num=0
+
+aws ssm send-command --targets "Key=tag:type,Values=edge" \
+--document-name "AWS-RunShellScript" \
+--comment "stop MiNiFi" \
+--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
+--output text
+
 while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
