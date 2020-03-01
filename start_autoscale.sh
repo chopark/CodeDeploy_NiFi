@@ -14,7 +14,7 @@ fi
 
 #Variables
 target_group=$1
-instance_limit=50
+instance_limit=150
 
 group_num=0
 count=0
@@ -22,7 +22,7 @@ count=0
 while [ $group_num -lt $target_group ]; do
     if [ $count -gt 14 ]; then
         echo "$0: Sleep 30s to prevent requestexceed issue"
-        sleep 30s
+        sleep 60s
         count=0
     fi
     aws autoscaling set-desired-capacity --auto-scaling-group-name Edges_Group$group_num --desired-capacity $instance_limit --honor-cooldown

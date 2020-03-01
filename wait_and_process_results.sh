@@ -67,6 +67,7 @@ while [ $cmd_num -lt $target_groups ]; do
     --document-name "AWS-RunShellScript" \
     --comment "start MiNiFi" \
     --parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
+    --max-concurrency 100% \
     --output text
     cmd_num=$(($cmd_num+1))
 done
@@ -90,6 +91,7 @@ while [ $cmd_num -lt $target_groups ]; do
     --document-name "AWS-RunShellScript" \
     --comment "stop MiNiFi" \
     --parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
+    --max-concurrency 100% \
     --output text
     cmd_num=$(($cmd_num+1))
 done
@@ -137,7 +139,7 @@ fi
 # Parse the log and show the result.
 echo "$SHELL: Parsing the log..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
-python3 $NIFI_SCRIPT/extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
+python3 extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 5 $NIFI_LOG/temp; echo "------------------------------------------"; echo
