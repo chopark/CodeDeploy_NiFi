@@ -56,6 +56,7 @@ echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
 
 echo "$SHELL: NiFi ready, start MiNiFi."
 # Restart MiNiFi
+## Uncomment this to start instances all at once
 #aws ssm send-command --targets "Key=tag:type,Values=edge" \
 #--document-name "AWS-RunShellScript" \
 #--comment "start MiNiFi" \
@@ -77,12 +78,13 @@ sleep $1
 # Stop MiNiFi
 cmd_num=0
 
-aws ssm send-command --targets "Key=tag:type,Values=edge" \
---document-name "AWS-RunShellScript" \
---comment "stop MiNiFi" \
---parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
---output text
-
+## Uncomment this to stop instances all at once
+#aws ssm send-command --targets "Key=tag:type,Values=edge" \
+#--document-name "AWS-RunShellScript" \
+#--comment "stop MiNiFi" \
+#--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
+#--output text
+#
 while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \

@@ -20,7 +20,7 @@ group_num=0
 count=0
 # Start each group that has 50 instances
 while [ $group_num -lt $target_group ]; do
-    if [ $count -gt 9 ]; then
+    if [ $count -gt 14 ]; then
         echo "$0: Sleep 30s to prevent requestexceed issue"
         sleep 30s
         count=0
