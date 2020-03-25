@@ -95,6 +95,7 @@ while [ $cmd_num -lt $target_groups ]; do
     --output text
     cmd_num=$(($cmd_num+1))
 done
+#read -p "Press enter to continue after all minifi stopped"
 
 echo "$SHELL: Checking flowFilesQueued...";echo;
 # Parse flowFilesQueued.

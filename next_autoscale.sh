@@ -16,7 +16,7 @@ fi
 target_group=$1
 instance_limit=200
 
-group_num=0
+group_num=25
 count=0
 # Start each group that has 50 instances
 while [ $group_num -lt $target_group ]; do
