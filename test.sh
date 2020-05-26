@@ -1,15 +1,13 @@
 #!/bin/bash
 ## USAGE
-## ./wait_and_process_results.sh (sleep time) (target groups)
+## ./wait_and_process_results.sh (sleep time)
 #### e.g. (sleep time): 60s, 10m, 1h
-#### e.g. (target groups): 1, 2, 3, ..."
 
 SHELL=$0
 
-if [ $# != 2 ]; then
-    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups)"
+if [ $# != 1 ]; then
+    echo "$SHELL: USAGE: $SHELL (sleep time)"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
-    echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
     exit 1
 fi
 
@@ -20,28 +18,18 @@ NIFI_LOG="$NIFI_HOME/logs"
 NIFI_SCRIPT="$NIFI_HOME/scripts"
 NIFI_BIN="$NIFI_HOME/bin"
 NIFI_RESULTS="$NIFI_HOME/results"
-MINIFI_DIR="$HOME/minifi"
+MINIFI_DIR="$HOME/jarvis-minifi/minifi"
 MINIFI_HOME="$MINIFI_DIR/minifi-0.5.0"
 MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
 
-#Variables
-FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
-LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
-# change this to use in other instances...
-cmd_num=0
-target_groups=$2
-
-# Change the ownership to prevent the error
-sudo chown -R ubuntu:ubuntu $NIFI_HOME
-
-# Start NiFi
-sudo sh $HOME/CodeDeploy_NiFi/restart_nifi.sh
+sudo ./restart_nifi.sh
 
 # Get your current server ip.
 IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
+LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
 
-echo "$SHELL: FlowFiles will be parsed with your NiFi IP($IP)"
 echo "$SHELL: Checking flowFilesQueued...";echo;
 # Parse flowFilesQueued.
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
@@ -54,49 +42,32 @@ while [ -z "$FLOWFILESQUEUED" ]; do
     echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
 done
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
+echo "NiFi ready, start MiNiFi."; echo
 
-echo "$SHELL: NiFi ready, start MiNiFi."
-# Restart MiNiFi
-## Uncomment this to start instances all at once
-#aws ssm send-command --targets "Key=tag:type,Values=edge" \
-#--document-name "AWS-RunShellScript" \
-#--comment "start MiNiFi" \
-#--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
-#--output text
-while [ $cmd_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+start=`date +%s`
+aws ssm send-command --targets "Key=tag:type,Values=edge" \
     --document-name "AWS-RunShellScript" \
     --comment "start MiNiFi" \
     --parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
     --max-concurrency 100% \
     --output text
-    cmd_num=$(($cmd_num+1))
-done
+# For getting CPU utilization, run the following: "cpustat -x -D -a -n 1 1 10"
 
-echo "$SHELL: Sleeping $1..."
+
+echo "$SHELL: FlowFiles will be parsed with your NiFi IP($IP)"; echo;
+echo "$SHELL: Sleeping $1..."; echo;
 # Sleep as input time.
 sleep $1
 
-# Stop MiNiFi
-cmd_num=0
 
-## Uncomment this to stop instances all at once
-#aws ssm send-command --targets "Key=tag:type,Values=edge" \
-#--document-name "AWS-RunShellScript" \
-#--comment "stop MiNiFi" \
-#--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
-#--output text
-#
-while [ $cmd_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+echo "$SHELL: Stop MiNiFi now";echo;
+aws ssm send-command --targets "Key=tag:type,Values=edge" \
     --document-name "AWS-RunShellScript" \
     --comment "stop MiNiFi" \
-    --parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
+    --parameters commands="sudo sh $HOME/scripts/stop_minifi.sh" \
     --max-concurrency 100% \
     --output text
-    cmd_num=$(($cmd_num+1))
-done
-#read -p "Press enter to continue after all minifi stopped"
+
 
 echo "$SHELL: Checking flowFilesQueued...";echo;
 # Parse flowFilesQueued.
@@ -113,11 +84,12 @@ if [ ! -z "$FLOWFILESQUEUED" -a "$FLOWFILESQUEUED" != 0 ]; then
     while [ $FLOWFILESQUEUED != 0 ] ; do
         sleep 2s
         FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
-        echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
+        echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED";echo;
     done
     
     echo; curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary '{"revision":{"clientId":"d02bb153-016c-1000-3bed-7ffc10e019d1","version":0},"component":{"id":"d02bb153-016c-1000-3bed-7ffc10e019d1","state":"STOPPED"}}';echo
 fi  
+end=`date +%s`
 
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
@@ -126,22 +98,22 @@ echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
 echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    echo; echo "$SHELL: Stop running Nifi instance..."
-    sudo sh $NIFI_BIN/nifi.sh stop
+	echo; echo "$SHELL: Stop running Nifi instance..."
+	sudo sh $NIFI_BIN/nifi.sh stop
 fi
 
-sudo chown -R ubuntu:ubuntu $NIFI_HOME
+sudo chown -R ubuntu:ubuntu $NIFI_LOG
 
 # If there is old log_cat file, delete it.
 if [ -f "$NIFI_LOG/log_cat" ]; then
-    echo "$SHELL: Remove previous log_cat..."; echo;
-   rm $NIFI_LOG/log_cat
+    echo "$SHELL: Remove previous log_cat...";echo;
+    rm $NIFI_LOG/log_cat
 fi
 
 # Parse the log and show the result.
-echo "$SHELL: Parsing the log..."
+echo "$SHELL: Parsing the log..."; echo;
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
-python3 extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
+python3.5 $NIFI_SCRIPT/extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 5 $NIFI_LOG/temp; echo "------------------------------------------"; echo
@@ -166,5 +138,9 @@ while true; do
 done
 cp $NIFI_LOG/temp $NIFI_RESULTS/$file_name
 echo "$SHELL: Saving a file as $NIFI_RESULTS/$file_name"
-
+runtime=$((end-start))
+echo "$SHELL: Runtime: $runtime"
+echo "$SHELL: Runtime: $runtime"
+echo "$SHELL: Runtime: $runtime"
+echo "$SHELL: Runtime: $runtime"
 echo;echo "$SHELL: Done."
