@@ -6,7 +6,7 @@
 
 SHELL=$0
 
-if [ $# != 3 ]; then
+if [ $# -lt 3 ]; then
     echo "$SHELL: USAGE: $SHELL (sleep time) (target groups) (cpu_limit)"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
     echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
@@ -63,6 +63,13 @@ echo "$SHELL: NiFi ready, start MiNiFi."
 #--comment "start MiNiFi" \
 #--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
 #--output text
+aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+--document-name "AWS-RunShellScript" \
+--comment "start MiNiFi" \
+--parameters commands="sudo sh $HOME/scripts/start_minifi.sh $3 $4 $5" \
+--max-concurrency 100% \
+--output text
+cmd_num=$(($cmd_num+1))
 while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
@@ -87,6 +94,7 @@ cmd_num=0
 #--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
 #--output text
 #
+
 while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
