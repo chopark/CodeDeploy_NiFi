@@ -1,10 +1,10 @@
 #!/bin/bash
 ## USAGE
-## ./wait_and_process_results.sh (sleep time) (target groups)
+## ./run_exp.sh (sleep time) (the number of target edge group)
 #### e.g. (sleep time): 60s, 10m, 1h
-#### e.g. (target groups): 1, 2, 3, ..."
+#### e.g. (the number of target edge group): 1, 2, 3, ..."
 
-SHELL=$0
+SHELL=`basename "$0"`
 
 if [ $# != 2 ]; then
     echo "$SHELL: USAGE: $SHELL (sleep time) (target groups)"
@@ -39,7 +39,7 @@ sudo chown -R ubuntu:ubuntu $NIFI_HOME
 sudo sh $HOME/CodeDeploy_NiFi/restart_nifi.sh
 
 # Get your current server ip.
-IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+IP=`hostname -i`
 
 echo "$SHELL: FlowFiles will be parsed with your NiFi IP($IP)"
 echo "$SHELL: Checking flowFilesQueued...";echo;

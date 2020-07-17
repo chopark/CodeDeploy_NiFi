@@ -1,6 +1,6 @@
 #!/bin/bash
 ## USAGE
-## ./wait_and_process_results.sh (sleep time) (target groups)
+## ./wait_and_process_results.sh (time) (edges)
 #### e.g. (sleep time): 60s, 10m, 1h
 #### e.g. (target groups): 1, 2, 3, ..."
 
@@ -16,4 +16,9 @@ MINIFI_HOME="$MINIFI_DIR/minifi-0.5.0"
 MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
 
-cat $NIFI_LOG/nifi-app.log | grep -c "o.a.n.r.p.s.SocketFlowFileServerProtocol SocketFlowFile"
+time=$1
+edges=$2
+
+flowfiles=`cat $NIFI_LOG/nifi-app.log | grep -c "o.a.n.r.p.s.SocketFlowFileServerProtocol SocketFlowFile"`
+echo "Flowfiles=$flowfiles"
+python3 count.py $flowfiles $time $edges

@@ -1,5 +1,5 @@
 cd /home/ubuntu/jarvis-nifi/conf
-IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+IP=`hostname -i`
 
 sed -i s/nifi.remote.input.host=.*/nifi.remote.input.host=$IP/ nifi.properties
 sed -i s/nifi.web.http.host=.*/nifi.web.http.host=$IP/ nifi.properties

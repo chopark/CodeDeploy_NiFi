@@ -4,12 +4,12 @@
 #### e.g. (sleep time): 60s, 10m, 1h
 #### e.g. (target groups): 1, 2, 3, ..."
 
-SHELL=$0
+SHELL=`basename "$0"`
 
 if [ $# != 2 ]; then
-    echo "$SHELL: USAGE: $SHELL (upload bandwidth(Kbps)) (target groups)"
+    echo "$SHELL: USAGE: $SHELL (upload bandwidth(Kbps)) (the number of target edge group)"
     echo "$SHELL: e.g. (upload bandwidth(Kbps): 10000, 20000, ..."
-    echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
+    echo "$SHELL: e.g. (the number of target edge group):  1, 2, 3, ..."
     exit 1
 fi
 
