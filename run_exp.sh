@@ -123,7 +123,8 @@ FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X 
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
 
 # Stop NiFi
-echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r
+#echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r
+echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]"
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo; echo "$SHELL: Stop running Nifi instance..."
@@ -144,10 +145,10 @@ cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
 python3 extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
-tail -n 5 $NIFI_LOG/temp; echo "------------------------------------------"; echo
+tail -n 16 $NIFI_LOG/temp; echo "------------------------------------------"; echo
 
 # Ask if you want to save it.
-echo;read -p "$SHELL: Do you want to save this log? [y/n]" -n 1 -r
+echo;read -p "$SHELL: Do you want to save this log? [y/n]"
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
     echo;echo "$SHELL: Done."
     exit 1
