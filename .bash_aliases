@@ -1,4 +1,4 @@
-IP=`ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+IP=`hostname -i`
 export NIFI_HOME="/home/ubuntu/jarvis-nifi"
 export NIFI_BIN="$NIFI_HOME/bin"
 export NIFI_SCRIPTS="$NIFI_HOME/scripts"
