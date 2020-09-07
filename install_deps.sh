@@ -1,6 +1,8 @@
 #!/bin/bash
 cp .bash_aliases ../
 sudo apt-get install openjdk-8-jdk -y
+sudo apt-get install htop -y
+sudo apt-get install iotop -y
 sudo apt-get install iperf -y
 sudo dpkg -i jdk/*
 

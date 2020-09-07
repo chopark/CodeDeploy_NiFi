@@ -15,12 +15,13 @@ fi
 
 # Directories
 HOME="/mnt/ram_disk"
+DEFAULT_HOME="/home/ubuntu"
 NIFI_HOME="$HOME/jarvis-nifi"
 NIFI_LOG="$NIFI_HOME/logs"
 NIFI_SCRIPT="$NIFI_HOME/scripts"
 NIFI_BIN="$NIFI_HOME/bin"
 NIFI_RESULTS="$NIFI_HOME/results"
-MINIFI_DIR="$HOME/minifi"
+MINIFI_DIR="$DEFAULT_HOME/minifi"
 MINIFI_HOME="$MINIFI_DIR/minifi-0.5.0"
 MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
@@ -36,7 +37,7 @@ target_groups=$2
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
 
 # Start NiFi
-sudo sh $HOME/CodeDeploy_NiFi/restart_nifi.sh
+sudo sh $DEFAULT_HOME/CodeDeploy_NiFi/restart_nifi.sh
 
 # Get your current server ip.
 IP=`hostname -i`
@@ -67,7 +68,7 @@ while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
     --comment "start MiNiFi" \
-    --parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
+    --parameters commands="sudo sh $DEFAULT_HOME/scripts/start_minifi.sh" \
     --max-concurrency 100% \
     --output text
     cmd_num=$(($cmd_num+1))
