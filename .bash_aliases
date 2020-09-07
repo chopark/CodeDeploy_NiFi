@@ -1,5 +1,5 @@
 IP=`hostname -i`
-export NIFI_HOME="/home/ubuntu/jarvis-nifi"
+export NIFI_HOME="/mnt/ram_disk/jarvis-nifi"
 export NIFI_BIN="$NIFI_HOME/bin"
 export NIFI_SCRIPTS="$NIFI_HOME/scripts"
 export NIFI_RESULTS="$NIFI_HOME/results"
