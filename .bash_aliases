@@ -1,5 +1,5 @@
 IP=`hostname -i`
-export NIFI_HOME="/mnt/ram_disk/jarvis-nifi"
+export NIFI_HOME="/home/ubuntu/jarvis-nifi"
 export NIFI_BIN="$NIFI_HOME/bin"
 export NIFI_SCRIPTS="$NIFI_HOME/scripts"
 export NIFI_RESULTS="$NIFI_HOME/results"
@@ -15,3 +15,5 @@ alias set_conf='sed -i s/nifi.remote.input.host=.*/nifi.remote.input.host=$IP/ $
 alias ga='git add'
 alias gcmsg='git commit -m'
 alias gp='git push'
+alias gl='git pull'
+alias gst='git status'
