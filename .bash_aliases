@@ -12,3 +12,6 @@ alias queue='curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET 
 alias stop_nifi='sudo $NIFI_BIN/nifi.sh stop'
 alias restart_nifi='stop_nifi;start_nifi'
 alias set_conf='sed -i s/nifi.remote.input.host=.*/nifi.remote.input.host=$IP/ $NIFI_CONF/nifi.properties;sed -i s/nifi.web.http.host=.*/nifi.web.http.host=$IP/ $NIFI_CONF/nifi.properties'
+alias ga='git add'
+alias gcmsg='git commit -m'
+alias gp='git push'
