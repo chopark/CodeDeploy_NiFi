@@ -1,4 +1,4 @@
-HOME=/mnt/ram_disk
+HOME=/home/ubuntu
 cd $HOME/jarvis-nifi/conf
 IP=`hostname -i`
 

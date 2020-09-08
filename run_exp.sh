@@ -14,7 +14,7 @@ if [ $# != 2 ]; then
 fi
 
 # Directories
-HOME="/mnt/ram_disk"
+HOME="/home/ubuntu"
 DEFAULT_HOME="/home/ubuntu"
 NIFI_HOME="$HOME/jarvis-nifi"
 NIFI_LOG="$NIFI_HOME/logs"

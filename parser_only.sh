@@ -2,7 +2,7 @@
 
 SHELL=$0
 
-HOME="/mnt/ram_disk"
+HOME="/home/ubuntu"
 NIFI_HOME="$HOME/jarvis-nifi"
 NIFI_LOG="$NIFI_HOME/logs"
 NIFI_SCRIPT="$NIFI_HOME/scripts"
