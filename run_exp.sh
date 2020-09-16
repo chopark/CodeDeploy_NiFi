@@ -29,6 +29,8 @@ MINIFI_SCRIPT="$MINIFI_DIR/scripts"
 #Variables
 FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
 LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
+#time_limit=`date "+%H%M" -d "+1 min"`
+
 # change this to use in other instances...
 cmd_num=0
 target_groups=$2
