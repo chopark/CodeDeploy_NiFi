@@ -27,8 +27,10 @@ MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
 
 #Variables
-FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
+FINAL_QUEUE_ID="ec73aa70-0174-1000-f201-66b549d134a8"
+#FINAL_QUEUE_ID="e698454e-0174-1000-395e-0ac12663fd63"
 LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
+#LOG_PROCESSOR_ID="e698247f-0174-1000-1c40-f3a6ff2da6c0"
 #time_limit=`date "+%H%M" -d "+1 min"`
 
 # change this to use in other instances...
@@ -111,7 +113,7 @@ echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
 if [ ! -z "$FLOWFILESQUEUED" -a "$FLOWFILESQUEUED" != 0 ]; then
     echo "$SHELL: Cleaning up pending flowfiles..."
 
-    curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary '{"revision":{"clientId":"d02bb153-016c-1000-3bed-7ffc10e019d1","version":0},"component":{"id":"d02bb153-016c-1000-3bed-7ffc10e019d1","state":"RUNNING"}}';echo; echo;
+    curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary "{\"revision\":{\"clientId\":\"$LOG_PROCESSOR_ID\",\"version\":0},\"component\":{\"id\":\"$LOG_PROCESSOR_ID\",\"state\":\"RUNNING\"}}";echo; echo;
     
     while [ $FLOWFILESQUEUED != 0 ] ; do
         sleep 2s
@@ -119,7 +121,7 @@ if [ ! -z "$FLOWFILESQUEUED" -a "$FLOWFILESQUEUED" != 0 ]; then
         echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
     done
     
-    echo; curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary '{"revision":{"clientId":"d02bb153-016c-1000-3bed-7ffc10e019d1","version":0},"component":{"id":"d02bb153-016c-1000-3bed-7ffc10e019d1","state":"STOPPED"}}';echo
+    echo; curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary "{\"revision\":{\"clientId\":\"$LOG_PROCESSOR_ID\",\"version\":0},\"component\":{\"id\":\"$LOG_PROCESSOR_ID\",\"state\":\"STOPPED\"}}";echo
 fi  
 
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
@@ -145,7 +147,7 @@ fi
 # Parse the log and show the result.
 echo "$SHELL: Parsing the log..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
-python3 extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
+python3.5 get_thruput_cloud_merging_v1.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 16 $NIFI_LOG/temp; echo "------------------------------------------"; echo
