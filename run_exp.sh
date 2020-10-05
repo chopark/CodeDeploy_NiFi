@@ -78,6 +78,9 @@ while [ $cmd_num -lt $target_groups ]; do
     cmd_num=$(($cmd_num+1))
 done
 
+cpustat -n 1 >> cpu.csv &
+CPUSTAT_PID=$!
+
 echo "$SHELL: Sleeping $1..."
 # Sleep as input time.
 sleep $1
@@ -126,6 +129,8 @@ fi
 
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
+
+pkill $CPUSTAT_PID
 
 # Stop NiFi
 #echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r

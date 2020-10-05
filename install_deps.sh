@@ -4,6 +4,7 @@ sudo apt-get install openjdk-8-jdk -y
 sudo apt-get install htop -y
 sudo apt-get install iotop -y
 sudo apt-get install iperf -y
+sudo apt-get install cpustat -y
 sudo dpkg -i jdk/*
 
 #curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
