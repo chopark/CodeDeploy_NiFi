@@ -152,7 +152,17 @@ fi
 # Parse the log and show the result.
 echo "$SHELL: Parsing the log..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
-python3.5 get_thruput_cloud_merging_v1.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
+
+# Calculate second
+if [[ $1 == *"m"* ]]; then
+	num=`echo "${1//m}"`
+	runtime_second=$(($num*60))
+elif [[ $1 == *"s"* ]]; then
+	num=`echo "${1//s}"`
+	runtime_second=$num
+fi
+
+python3.5 get_thruput_cloud_merging_v1.py $NIFI_LOG/log_cat $runtime_second > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 16 $NIFI_LOG/temp; echo "------------------------------------------"; echo

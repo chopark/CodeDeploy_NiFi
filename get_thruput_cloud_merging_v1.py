@@ -3,7 +3,7 @@ import sys
 import statistics
 
 file_name=sys.argv[1]
-
+runtime=sys.argv[2]
 # Size is in MB
 epochDataSize=3.4
 
@@ -41,3 +41,4 @@ for key in edge_ips:
 	totalSize+=((edge_ips[key]+1) * epochDataSize)
 
 print("Total data size processed across all edges is: ", totalSize, " MB")
+print("Throughput: ", totalSize/float(runtime), " MBps")
