@@ -78,6 +78,7 @@ while [ $cmd_num -lt $target_groups ]; do
     cmd_num=$(($cmd_num+1))
 done
 
+rm cpu.csv
 cpustat -n 1 >> cpu.csv &
 CPUSTAT_PID=$!
 

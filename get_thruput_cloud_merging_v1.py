@@ -5,8 +5,8 @@ import statistics
 file_name=sys.argv[1]
 runtime=sys.argv[2]
 # Size is in MB
-epochDataSize=3.4
-
+epochDataSize=6
+limitedDataSize=2.5
 numFlowFiles=0
 totalEpochsToProcess=0
 edge_ips={}
@@ -33,12 +33,16 @@ with open(file_name,'r') as fp:
 				edge_ips[ids[0]]=max(int(ids[1]), edge_ips[ids[0]])
 		line=fp.readline()
 
-print("Edge IDs along with the final epoch ID seen from each edge:")
-print(edge_ips)
-print("The number of edges:", len(edge_ips))
 totalSize=0
 for key in edge_ips:
 	totalSize+=((edge_ips[key]+1) * epochDataSize)
 
+len_edge_ips=len(edge_ips)
+
+print("Edge IDs along with the final epoch ID seen from each edge:")
+print(edge_ips)
 print("Total data size processed across all edges is: ", totalSize, " MB")
+print("The number of edges:", len_edge_ips)
 print("Throughput: ", totalSize/float(runtime), " MBps")
+print("Ideal throughput: ", epochDataSize*len_edge_ips, " MBps")
+print("Ideal throughput: ", limitedDataSize*len_edge_ips, " MBps")
