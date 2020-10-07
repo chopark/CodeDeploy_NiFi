@@ -104,6 +104,7 @@ while [ $cmd_num -lt $target_groups ]; do
     --max-concurrency 100% \
     --output text
     cmd_num=$(($cmd_num+1))
+pkill $CPUSTAT_PID
 done
 #read -p "Press enter to continue after all minifi stopped"
 
@@ -131,7 +132,7 @@ fi
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
 
-pkill $CPUSTAT_PID
+
 
 # Stop NiFi
 #echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r

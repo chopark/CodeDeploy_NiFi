@@ -5,7 +5,7 @@ import statistics
 file_name=sys.argv[1]
 runtime=sys.argv[2]
 # Size is in MB
-epochDataSize=6
+epochDataSize=3.4
 limitedDataSize=2.5
 numFlowFiles=0
 totalEpochsToProcess=0
