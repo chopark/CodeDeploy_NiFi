@@ -3,7 +3,7 @@ import sys
 import statistics
 
 file_name=sys.argv[1]
-runtime=sys.argv[2]
+runtime=float(sys.argv[2])
 # Size is in MB
 epochDataSize=3.4
 limitedDataSize=2.5
@@ -41,9 +41,10 @@ len_edge_ips=len(edge_ips)
 
 print("Edge IDs along with the final epoch ID seen from each edge:")
 print(edge_ips)
-print("Runtime: ", runtime, " s")
+print("Expected runtime: ", runtime, " s")
+print("Real Runtime: ", runtime+10, " s")
 print("The number of edges:", len_edge_ips)
 print("Total data size processed across all edges is: ", totalSize, " MB")
-print("Throughput: ", totalSize/float(runtime), " MBps")
-print("Unlimited ideal throughput: ", epochDataSize*len_edge_ips, " MBps")
-print("Limited ideal throughput: ", limitedDataSize*len_edge_ips, " MBps")
+print("Throughput: ", totalSize/runtime, " MBps")
+print("Unlimited network ideal throughput: ", epochDataSize*len_edge_ips, " MBps")
+print("Limited network(",limitedDataSize ,"MB) ideal throughput: ", limitedDataSize*len_edge_ips, " MBps")
