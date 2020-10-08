@@ -163,7 +163,7 @@ elif [[ $1 == *"s"* ]]; then
 	num=`echo "${1//s}"`
 	runtime_second=$num
 fi
-runtime_second=$(($runtime_second-10))
+runtime_second=$(($runtime_second-15))
 python3.5 get_thruput_cloud_merging_v1.py $NIFI_LOG/log_cat $runtime_second > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
