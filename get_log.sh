@@ -30,8 +30,9 @@ str=$(aws ec2 describe-instances --filters "Name=instance-state-code,Values=16" 
 instanceId=(
 	${str}
 )
+rm -rf ~/temp-jarvis/minifi_logs/*
 
 for (( i=0; i<${#instanceId[@]}; i++ )); do
-	scp -o StrictHostKeyChecking=no -i "jarvis.pem" ubuntu@${instanceId[i]}:~/minifi/minifi-0.5.0/logs/minifi-app.log ~/logs/minifi-app$i.log
+	scp -o StrictHostKeyChecking=no -i "jarvis.pem" ubuntu@${instanceId[i]}:~/minifi/minifi-0.5.0/logs/minifi-app.log ~/temp-jarvis/minifi_logs/minifi-app$i.log
 done
 
