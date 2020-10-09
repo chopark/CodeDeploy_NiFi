@@ -1,10 +1,13 @@
 #!/bin/bash
 cp .bash_aliases ../
-sudo apt-get install openjdk-8-jdk -y
-sudo apt-get install htop -y
-sudo apt-get install iotop -y
-sudo apt-get install iperf -y
-sudo apt-get install cpustat -y
+sudo apt install openjdk-8-jdk -y
+sudo apt install htop -y
+sudo apt install iotop -y
+sudo apt install iperf -y
+sudo apt install cpustat -y
+sudo apt install python3-pip
+python3 -m pip install pandas
+
 sudo dpkg -i jdk/*
 
 #curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
