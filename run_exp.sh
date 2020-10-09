@@ -169,6 +169,8 @@ python3.5 get_thruput_cloud_merging_v1.py $NIFI_LOG/log_cat $runtime_second > $N
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 16 $NIFI_LOG/temp; echo "------------------------------------------"; echo
 
+./get_mid_cpu.sh test
+
 # Ask if you want to save it.
 echo;read -p "$SHELL: Do you want to save this log? [y/n]"
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
