@@ -96,6 +96,8 @@ cmd_num=0
 #--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
 #--output text
 #
+pkill $CPUSTAT_PID
+
 while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
@@ -104,7 +106,6 @@ while [ $cmd_num -lt $target_groups ]; do
     --max-concurrency 100% \
     --output text
     cmd_num=$(($cmd_num+1))
-pkill $CPUSTAT_PID
 done
 #read -p "Press enter to continue after all minifi stopped"
 

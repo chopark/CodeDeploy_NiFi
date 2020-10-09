@@ -27,8 +27,10 @@ MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
 
 #Variables
-FINAL_QUEUE_ID="1cebae29-016f-1000-96fd-971ebcf4d231"
+FINAL_QUEUE_ID="ec73aa70-0174-1000-f201-66b549d134a8"
+#FINAL_QUEUE_ID="e698454e-0174-1000-395e-0ac12663fd63"
 LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
+#LOG_PROCESSOR_ID="e698247f-0174-1000-1c40-f3a6ff2da6c0"
 time_limit=`date "+%H%M" -d "+1 min"`
 
 # change this to use in other instances...
@@ -76,6 +78,10 @@ while [ $cmd_num -lt $target_groups ]; do
     cmd_num=$(($cmd_num+1))
 done
 
+rm cpu.csv
+cpustat -n 1 >> cpu.csv &
+CPUSTAT_PID=$!
+
 echo "$SHELL: Sleeping $1..."
 # Sleep as input time.
 sleep $1
@@ -90,6 +96,8 @@ cmd_num=0
 #--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
 #--output text
 #
+pkill $CPUSTAT_PID
+
 while [ $cmd_num -lt $target_groups ]; do
     aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
@@ -111,7 +119,7 @@ echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
 if [ ! -z "$FLOWFILESQUEUED" -a "$FLOWFILESQUEUED" != 0 ]; then
     echo "$SHELL: Cleaning up pending flowfiles..."
 
-    curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary '{"revision":{"clientId":"d02bb153-016c-1000-3bed-7ffc10e019d1","version":0},"component":{"id":"d02bb153-016c-1000-3bed-7ffc10e019d1","state":"RUNNING"}}';echo; echo;
+    curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary "{\"revision\":{\"clientId\":\"$LOG_PROCESSOR_ID\",\"version\":0},\"component\":{\"id\":\"$LOG_PROCESSOR_ID\",\"state\":\"RUNNING\"}}";echo; echo;
     
     while [ $FLOWFILESQUEUED != 0 ] ; do
         sleep 2s
@@ -119,11 +127,13 @@ if [ ! -z "$FLOWFILESQUEUED" -a "$FLOWFILESQUEUED" != 0 ]; then
         echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"; echo;
     done
     
-    echo; curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary '{"revision":{"clientId":"d02bb153-016c-1000-3bed-7ffc10e019d1","version":0},"component":{"id":"d02bb153-016c-1000-3bed-7ffc10e019d1","state":"STOPPED"}}';echo
+    echo; curl "http://$IP:8080/nifi-api/processors/$LOG_PROCESSOR_ID" -X PUT -H 'Content-Type: application/json' -H 'Accept: application/json, text/javascript, */*; q=0.01' --data-binary "{\"revision\":{\"clientId\":\"$LOG_PROCESSOR_ID\",\"version\":0},\"component\":{\"id\":\"$LOG_PROCESSOR_ID\",\"state\":\"STOPPED\"}}";echo
 fi  
 
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
+
+
 
 # Stop NiFi
 #echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r
@@ -145,10 +155,22 @@ fi
 # Parse the log and show the result.
 echo "$SHELL: Parsing the log..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
-python3 extract_latencies.py $NIFI_LOG/log_cat > $NIFI_LOG/temp
+
+# Calculate second
+if [[ $1 == *"m"* ]]; then
+	num=`echo "${1//m}"`
+	runtime_second=$(($num*60))
+elif [[ $1 == *"s"* ]]; then
+	num=`echo "${1//s}"`
+	runtime_second=$num
+fi
+runtime_second=$(($runtime_second-15))
+python3.5 get_thruput_cloud_merging_v1.py $NIFI_LOG/log_cat $runtime_second > $NIFI_LOG/temp
 
 echo; echo "RESULT"; echo "------------------------------------------"
 tail -n 16 $NIFI_LOG/temp; echo "------------------------------------------"; echo
+
+./get_mid_cpu.sh test
 
 # Ask if you want to save it.
 echo;read -p "$SHELL: Do you want to save this log? [y/n]"
