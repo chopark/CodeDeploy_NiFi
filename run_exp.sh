@@ -6,7 +6,7 @@
 
 SHELL=`basename "$0"`
 
-if [ $# != 2 ]; then
+if [ $# -lt 2 ]; then
     echo "$SHELL: USAGE: $SHELL (sleep time) (target groups)"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
     echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
