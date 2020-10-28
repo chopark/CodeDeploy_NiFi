@@ -68,15 +68,40 @@ echo "$SHELL: NiFi ready, start MiNiFi."
 #--comment "start MiNiFi" \
 #--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
 #--output text
-while [ $cmd_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
-    --document-name "AWS-RunShellScript" \
-    --comment "start MiNiFi" \
-    --parameters commands="sudo sh $DEFAULT_HOME/scripts/start_minifi.sh" \
-    --max-concurrency 100% \
-    --output text
-    cmd_num=$(($cmd_num+1))
-done
+
+if [ $# -ge 3 ]; then
+    time_limit=`date "+%H%M" -d "+1 min"`
+    
+    if [ $# -ge 4 ]; then
+        time_limit2=`date "+%H%M" -d "+3 min"`
+    fi
+    
+    if [ $# -ge 5 ]; then
+        time_limit3=`date "+%H%M" -d "+5 min"`
+    fi
+    MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
+    MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
+
+    while [ $cmd_num -lt $target_groups ]; do
+        aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+        --document-name "AWS-RunShellScript" \
+        --comment "start MiNiFi" \
+        --parameters commands="sudo sh $DEFAULT_HOME/scripts/start_minifi.sh $MiNiFi_command" \
+        --max-concurrency 100% \
+        --output text
+        cmd_num=$(($cmd_num+1))
+    done
+else
+    while [ $cmd_num -lt $target_groups ]; do
+        aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+        --document-name "AWS-RunShellScript" \
+        --comment "start MiNiFi" \
+        --parameters commands="sudo sh $DEFAULT_HOME/scripts/start_minifi.sh" \
+        --max-concurrency 100% \
+        --output text
+        cmd_num=$(($cmd_num+1))
+    done
+fi
 
 rm cpu.csv
 cpustat -n 1 >> cpu.csv &
