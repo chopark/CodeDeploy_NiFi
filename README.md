@@ -61,6 +61,7 @@ $ sh run_exp.sh (sleep time) (the number of target edge group) (CPU resource aft
 $ bash run_exp.sh 1m 1
 
 // Start the experiment with cpulimit
+// After 1 minute: 30% limit, After 2 minutes: No limit, After 3 minutes: 50% limit, After 4 minutes: No limit, After 5 minutes: 80% limit
 $ bash run_exp.sh 6m 1 30 50 80
 
 // Also works without sh
