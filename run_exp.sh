@@ -37,6 +37,8 @@ LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
 cmd_num=0
 target_groups=$2
 
+java -version
+
 # Change the ownership to prevent the error
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
 
@@ -44,7 +46,7 @@ sudo chown -R ubuntu:ubuntu $NIFI_HOME
 ./set_edgeId
 
 # Set config files per group
-./set_conf.sh
+./set_conf.sh $target_groups
 
 
 # Start NiFi

@@ -6,7 +6,7 @@
 
 SHELL=`basename "$0"`
 
-if [ $# != 0 ]; then
+if [ $# != 1 ]; then
     echo "$SHELL: USAGE: $SHELL"
     exit 1
 fi
@@ -36,3 +36,4 @@ while [ $group_num -lt $target_groups ]; do
     --output text
     group_num=$(($group_num+1))
 done
+echo "Set config files"

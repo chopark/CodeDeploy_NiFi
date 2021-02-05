@@ -1,0 +1,868 @@
+    1  ll
+    2  git clone https://github.com/chopark/CodeDeploy_NiFi.git
+    3  ll
+    4  cd CodeDeploy_NiFi/
+    5  ll
+    6  chmod +x install_deps.sh 
+    7  vi install_deps.sh 
+    8  ll
+    9  ./install_deps.sh 
+   10  ll
+   11  git add .
+   12  git commit -m "Update dependencies"
+   13  git push
+   14  ll
+   15  git clone ssh://git@omnia-git.unist.ac.kr:4500/chanho/jarvis-nifi.git
+   16  git clone https://omnia-git.unist.ac.kr/chanho/jarvis-nifi.git
+   17  ll
+   18  cd CodeDeploy_NiFi/
+   19  ll
+   20  ./restart_nifi.sh 
+   21  test
+   22  ll
+   23  cp .bash_aliases ../
+   24  source ../.bashrc
+   25  test
+   26  stop_nifi 
+   27  ll
+   28  cd CodeDeploy_NiFi/
+   29  dpkg -i jdk/*
+   30  sudo dpkg -i jdk/*
+   31  df -h
+   32  start_nifi 
+   33  df -h
+   34  queue
+   35  ./run_exp.sh 1m 1
+   36  java --version
+   37  java -version
+   38  ./network_limit.sh 15360 1
+   39  java -version
+   40  iperf -s
+   41  ./run_exp.sh 1m 1
+   42  ./run_exp.sh 370s 1
+   43  java -version
+   44  ll
+   45  cd CodeDeploy_NiFi/
+   46  ll
+   47  ./run_exp.sh 1m 1
+   48  ./run_exp.sh 1m
+   49  ./run_exp.sh 1m 1
+   50  stop_nifi 
+   51  java -version
+   52  sudo dpkg -i jdk/*
+   53  ./run_exp.sh 1m 1
+   54  ll
+   55  cd ..
+   56  ll
+   57  rm -rf jarvis-nifi/
+   58  git clone https://omnia-git.unist.ac.kr/chanho/jarvis-nifi.git
+   59  htop
+   60  sudo apt install htop
+   61  htop
+   62  cd CodeDeploy_NiFi/
+   63  git add .
+   64  git status
+   65  git commit -m "Update"
+   66  ll
+   67  start_nifi 
+   68  test
+   69  cd CodeDeploy_NiFi/
+   70  sudo dpkg -i jdk/*
+   71  stop_nifi 
+   72  ./run_exp.sh 1m 1
+   73  stop_nifi 
+   74  ./run_exp.sh 1m 1
+   75  ll
+   76  ./network_limit.sh 15360 1
+   77  ./run_exp.sh 370s 1
+   78  ll
+   79  cd CodeDeploy_NiFi/
+   80  sudo dpkg -i jdk/*
+   81  ll
+   82  cp -r jarvis-nifi/results/ ./
+   83  rm -rf jarvis-nifi/
+   84  git clone https://omnia-git.unist.ac.kr/chanho/jarvis-nifi.git
+   85  ll
+   86  cd CodeDeploy_NiFi/
+   87  java -version
+   88  ll
+   89  ./run_exp.sh 1m 1
+   90  ll
+   91  cd CodeDeploy_NiFi/
+   92  sudo dpkg -i jdk/*
+   93  ./run_exp.sh 1m 1
+   94  start_nifi 
+   95  ./network_limit.sh 15360 1
+   96  iperf -s
+   97  stop_nifi 
+   98  ll
+   99  ./run_exp.sh 370s 1
+  100  htop
+  101  ll
+  102  cd CodeDeploy_NiFi/
+  103  ll
+  104  ./run_exp.sh 1m 1
+  105  ll
+  106  ./network_limit.sh 15360 1
+  107  iperf -s
+  108  ./run_exp.sh 370s 1
+  109  htop
+  110  ll
+  111  start_nifi 
+  112  ll
+  113  cd CodeDeploy_NiFi/
+  114  ll
+  115  sudo dpkg -i jdk/*
+  116  ./run_exp.sh 1m 1
+  117  stop_nifi 
+  118  ./run_exp.sh 1m 1
+  119  java -version
+  120  htop
+  121  ll
+  122  cd CodeDeploy_NiFi/
+  123  ll
+  124  java -version
+  125  ./run_exp.sh 1m 1
+  126  stop_nifi 
+  127  java -version
+  128  ll
+  129  ./run_exp.sh 0s 1
+  130  ./run_exp.sh 1m 1
+  131  ll
+  132  cd CodeDeploy_NiFi/
+  133  sudo dpkg -i jdk/*
+  134  htop
+  135  cd CodeDeploy_NiFi/
+  136  ./run_exp.sh 1m 1
+  137  start_nifi
+  138  stop_nifi 
+  139  ll
+  140  ./run_exp.sh 1m 1
+  141  ./network_limit.sh 15360 1
+  142  iperf -s
+  143  ./run_exp.sh 370s 1
+  144  ll
+  145  ./run_exp.sh 370s 1
+  146  java -version
+  147  htop
+  148  ll
+  149  cd jarvis-nifi/
+  150  ll
+  151  git pull
+  152  cd .
+  153  cd ..
+  154  ll
+  155  rm -rf jarvis-nifi/
+  156  git clone https://omnia-git.unist.ac.kr/chanho/jarvis-nifi.git
+  157  ll
+  158  cd CodeDeploy_NiFi/
+  159  ./run_exp.sh 1m 1
+  160  stop_nifi 
+  161  ./run_exp.sh 1m 1
+  162  start_nifi
+  163  stop_nifi 
+  164  ./run_exp.sh 1m 1
+  165  start_nifi 
+  166  ./run_exp.sh 1m 1
+  167  stop_nifi 
+  168  ./run_exp.sh 1m 1
+  169  ll
+  170  htop
+  171  java -version
+  172  cd CodeDeploy_NiFi/
+  173  sudo dpkg -i jdk/*
+  174  htop
+  175  ll
+  176  start_nifi
+  177  df -h
+  178  ll
+  179  cd CodeDeploy_NiFi/
+  180  ll
+  181  ./run_exp.sh 1m 1
+  182  stop_nifi 
+  183  ./run_exp.sh 0s 1
+  184  ./run_exp.sh 1m 1
+  185  ./network_limit.sh 15360 1
+  186  iperf -s
+  187  ./run_exp.sh 370s 1
+  188  htop
+  189  cd CodeDeploy_NiFi/
+  190  start_nifi 
+  191  java -version
+  192  ./run_exp.sh 1m 1
+  193  stop_nifi 
+  194  ./run_exp.sh 0s 1
+  195  stop_nifi 
+  196  ./run_exp.sh 
+  197  ./network_limit.sh 15360 1
+  198  start_nifi 
+  199  stop_nifi 
+  200  ./run_exp.sh 1m 1
+  201  ./run_exp.sh 370s 1
+  202  start_nifi 
+  203  ./run_exp.sh 370s 1
+  204  start_nifi 
+  205  stop_nifi 
+  206  ./run_exp.sh 370s 1
+  207  ll
+  208  cd jarvis-nifi/
+  209  git status
+  210  git branch
+  211  rm -rf conf/flow.xml.gz conf/nifi.properties database_repository/nifi-flow-audit.h2.db database_repository/nifi-user-keys.h2.db 
+  212  git pull
+  213  ll
+  214  cd
+  215  ll
+  216  cd CodeDeploy_NiFi/
+  217  git pull
+  218  ll
+  219  sudo dpkg -i jdk/*
+  220  ./run_exp.sh 1m 1
+  221  java -version
+  222  stop_nifi 
+  223  ./run_exp.sh 1m 1
+  224  start_nifi
+  225  stop_nifi 
+  226  ./run_exp.sh 1m 1
+  227  start_nifi
+  228  stop_nifi 
+  229  ./run_exp.sh 1m 1
+  230  vi ../jarvis-nifi/logs/nifi-app.log 
+  231  start_nifi
+  232  stop_nifi 
+  233  ./run_exp.sh 1m 1
+  234  vi ../jarvis-nifi/logs/nifi-app.log 
+  235  ll
+  236  cd ..
+  237  git clone https://omnia-git.unist.ac.kr/chanho/jarvis-temp.git
+  238  ll
+  239  cd jarvis-temp/
+  240  ll
+  241  git pull
+  242  git satus
+  243  ll
+  244  git status
+  245  vi ../jarvis-nifi/logs/nifi-app.log 
+  246  ll
+  247  cd ..
+  248  ll
+  249  cd jarvis-
+  250  cd jarvis-temp/
+  251  ll
+  252  git pull
+  253  ll
+  254  vi copy_logs.sh 
+  255  mv copy_logs.sh push_logs.sh
+  256  ./push_logs.sh "nifi logs"
+  257  cd jarvis-
+  258  cd jarvis-nifi/
+  259  gst
+  260  git status
+  261  rm -rf conf/flow.xml.gz conf/nifi.properties database_repository/nifi-flow-audit.h2.db database_repository/nifi-user-keys.h2.db 
+  262  git pull
+  263  cd ..
+  264  ll
+  265  cd CodeDeploy_NiFi/
+  266  ll
+  267  sudo dpkg -i jdk/*
+  268  ./run_exp.sh 1m 1
+  269  stop_nifi 
+  270  sudo ./restart_nifi.sh 
+  271  ll
+  272  git status
+  273  cd ../jarvis-nifi/
+  274  git status
+  275  git pull
+  276  ll
+  277  wget https://omnia-git.unist.ac.kr/chanho/jarvis-nifi/-/raw/master/conf/nifi.properties?inline=false
+  278  ll
+  279  cd conf/
+  280  ll
+  281  vi nifi.properties
+  282  ll
+  283  cd ..
+  284  git status
+  285  cd ..
+  286  ll
+  287  cd jarvis-
+  288  ll
+  289  cd jarvis-nifi/
+  290  ll
+  291  rm -rf nifi.properties\?inline\=false 
+  292  cd ..
+  293  ll
+  294  cd CodeDeploy_NiFi/
+  295  ll
+  296  ./run_exp.sh 1m 1
+  297  sudo ./restart_nifi.sh 
+  298  test
+  299  queue
+  300  sudo ./restart_nifi.sh 
+  301  sudo mkdir -p /mnt/ram_disk
+  302  cd /mnt/ram_disk/
+  303  ll
+  304  cd
+  305  htop
+  306  stop_nifi 
+  307  cd CodeDeploy_NiFi/
+  308  ./run_exp.sh 1m 1
+  309  stop_nifi 
+  310  htop
+  311  sudo rm -rf /mnt/ram_disk/*
+  312  sudo mount -t tmpfs -o size=13G new_ram_disk /mnt/ram_disk
+  313  ll
+  314  ./run_exp.sh 1m 1
+  315  vi ../jarvis-nifi/logs/nifi-app
+  316  vi ../jarvis-nifi/logs/nifi-app.log 
+  317  java -version
+  318  ll
+  319  cd jarvis-nifi
+  320  git status
+  321  rm -rf conf/flow.xml.gz database_repository/nifi-flow-audit.h2.db database_repository/nifi-user-keys.h2.db 
+  322  git pull
+  323  cd ..
+  324  ll
+  325  cd CodeDeploy_NiFi/
+  326  ./run_exp.sh 1m 1
+  327  sudo dpkg -i jdk/*
+  328  stop_nifi 
+  329  ./run_exp.sh 1m 1
+  330  sudo ./restart_nifi.sh 
+  331  java -version
+  332  stop_nifi 
+  333  ./run_exp.sh 1m 1
+  334  ll
+  335  cd jarvis-temp/
+  336  ll
+  337  rm -rf log_cat 
+  338  ./push_logs.sh "Update new log"
+  339  ll
+  340  cd CodeDeploy_NiFi/
+  341  cd jarvis-temp/
+  342  java -version
+  343  ./run_exp.sh 1m 1
+  344  ll
+  345  vi run_exp.sh 
+  346  ll
+  347  ga .
+  348  git add .
+  349  gcmsg "Update run exp"
+  350  git commit -m "Update run exp"
+  351  git push
+  352  ./run_exp.sh 1m 1
+  353  stop_nifi 
+  354  ll
+  355  java -version
+  356  sudo dpkg -i jdk/*
+  357  ./run_exp.sh 1m 1
+  358  ll
+  359  cd jarvis-temp/
+  360  ll
+  361  rm -rf log_cat 
+  362  ll
+  363  ./push_logs.sh 
+  364  ./push_logs.sh test
+  365  git pull
+  366  ll
+  367  rm -rf log_cat minifi-app.log 
+  368  git pull
+  369  git add .
+  370  git pull
+  371  ll
+  372  cd ..
+  373  rm -rf jarvis-
+  374  rm -rf jarvis-temp
+  375  ll
+  376  git clone https://omnia-git.unist.ac.kr/chanho/jarvis-temp.git
+  377  ll
+  378  cd jarvis-temp/
+  379  ll
+  380  ./push_logs.sh 
+  381  ./push_logs.sh test
+  382  ll
+  383  cd CodeDeploy_NiFi/
+  384  sudo dpkg -i jdk/*
+  385  ll
+  386  java -version
+  387  cd CodeDeploy_NiFi/
+  388  ./run_exp.sh 1m 1
+  389  java -version
+  390  ll
+  391  cd CodeDeploy_NiFi/
+  392  ll
+  393  ll
+  394  cd CodeDeploy_NiFi/
+  395  l
+  396  ls
+  397  ll
+  398  ./run_exp.sh 1m 1
+  399  ll
+  400  cd jarvis-nifi/
+  401  ll
+  402  cd ..
+  403  cd jarvis-
+  404  cd jarvis-nifi/
+  405  rm -rf conf/flow.xml.gz database_repository/nifi-flow-audit.h2.db database_repository/nifi-user-keys.h2.db 
+  406  git pull
+  407  rm conf/nifi.properties 
+  408  git pull
+  409  cd ..
+  410  ll
+  411  cd CodeDeploy_NiFi/
+  412  ./restart_nifi.sh 
+  413  aws deploy create-deployment  --application-name MiNiFi  --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name ScaleTester  --description "MiNiFi deploy"  --github-location repository="chopark/CodeDeploy_MiNiFi",commitId=61e5ab0816f410ab89fe829f956c4f2aad6fdfd8
+  414  ll
+  415  ./set_edgeId.sh 
+  416  ll
+  417  vi run_exp_process_results.sh 
+  418  ll
+  419  vi run_exp.sh 
+  420  ll
+  421  ./run_exp.sh 1m 1
+  422  ll
+  423  vi run_exp
+  424  vi run_exp.sh 
+  425  ll
+  426  stop_nifi 
+  427  aws deploy create-deployment  --application-name MiNiFi  --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name ScaleTester  --description "MiNiFi deploy"  --github-location repository="chopark/CodeDeploy_MiNiFi",commitId=24946b0c71722518a383ef582e585062dee16ab6
+  428  cd CodeDeploy_NiFi/
+  429  ./set_edgeId.sh 
+  430  ll
+  431  ./run_exp.sh 1m 1
+  432  ll
+  433  cd CodeDeploy_NiFi/
+  434  aws deploy create-deployment  --application-name MiNiFi  --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name ScaleTester  --description "MiNiFi deploy"  --github-location repository="chopark/CodeDeploy_MiNiFi",commitId=602565cbd7ee01161095404632e693576eae520d
+  435  ./set_edgeId.sh 
+  436  ./run_exp.sh 1m 1
+  437  vi ../jarvis-nifi/logs/nifi-app.log 
+  438  ll
+  439  sudo dpkg -i jdk/*
+  440  ll
+  441  ./run_exp.sh 1m 1
+  442  vi ../jarvis-nifi/logs/nifi-app.log 
+  443  stop_nifi 
+  444  ./run_exp.sh 1m 1
+  445  vi ../jarvis-nifi/logs/nifi-app.log 
+  446  java -verasion
+  447  java --version
+  448  java -version
+  449  ll
+  450  stop_nifi 
+  451  ./restart_nifi.sh 
+  452  vi ../jarvis-nifi/logs/nifi-app.log 
+  453  ll
+  454  cd ..
+  455  ll
+  456  git pull
+  457  cd jarvis-nifi/
+  458  git pull
+  459  cd ../CodeDeploy_NiFi/
+  460  ll
+  461  stop_nifi 
+  462  cd ../jarvis-nifi/
+  463  git pull
+  464  cd ~/CodeDeploy_NiFi/
+  465  ll
+  466  ./restart_nifi.sh 
+  467  sudo ./restart_nifi.sh 
+  468  stop_nifi 
+  469  vi ../jarvis-nifi/logs/nifi-app.log 
+  470  sudo ./restart_nifi.sh 
+  471  vi ../jarvis-nifi/logs/nifi-app.log 
+  472  stop_nifi 
+  473  ./run_exp.sh 1m 1
+  474  vi ../jarvis-nifi/logs/nifi-app.log 
+  475  cd ../jarvis-
+  476  cd ../jarvis-nifi/
+  477  git pull
+  478  rm -rf conf/state/bf71b0ec-d051-3c8b-a582-cfceae244150_RAW.peers 
+  479  rm -rf database_repository/nifi-flow-audit.lock.db database_repository/nifi-user-keys.lock.db 
+  480  git pull
+  481  rm -rf database_repository/nifi-flow-audit.lock.db 
+  482  rm -rf database_repository/nifi-user-keys.lock.db 
+  483  git pull
+  484  cd database_repository/
+  485  ll
+  486  rm -rf nifi-flow-audit.lock.db 
+  487  ll
+  488  rm -rf nifi-user-keys.lock.db 
+  489  cd ..
+  490  git pull
+  491  stop_nifi 
+  492  git pull
+  493  cd ..
+  494  ll
+  495  cd CodeDeploy_NiFi/
+  496  sudo ./restart_nifi.sh 
+  497  stop_nifi 
+  498  ./run_exp.sh 1m 1
+  499  vi ../jarvis-nifi/logs/nifi-app.log 
+  500  ll
+  501  cd ..
+  502  ll
+  503  du -h
+  504  df -h
+  505  ll
+  506  mv jarvis-nifi/ jarvis-old
+  507  git clone https://gitlab.engr.illinois.edu/sandur2/jarvis-nifi.git
+  508  ll
+  509  mv jarvis-nifi/ jarvis-old
+  510  sudo mv jarvis-nifi/ jarvis-old
+  511  ll
+  512  rm -rf jarvis-nifi/
+  513  stop_nifi 
+  514  cd jarvis-old/
+  515  ll
+  516  cd bin/
+  517  ll
+  518  ./nifi.sh stop
+  519  cd ~
+  520  ll
+  521  sudo rm -rf jarvis-nifi/
+  522  git clone https://gitlab.engr.illinois.edu/sandur2/jarvis-nifi.git
+  523  cd jarvis-nifi/
+  524  ll
+  525  cd ..
+  526  rm -rf jarvis-nifi/
+  527  git clone -b scale-aws-debug --single-branch https://gitlab.engr.illinois.edu/sandur2/jarvis-nifi.git
+  528  cd CodeDeploy_NiFi/
+  529  ll
+  530  sudo ./restart_nifi.sh 
+  531  stop_nifi 
+  532  ./run_exp.sh 1m 1
+  533  ll
+  534  cd CodeDeploy_NiFi/
+  535  sudo dpkg -i jdk/*
+  536  aws deploy create-deployment  --application-name MiNiFi  --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name ScaleTester  --description "MiNiFi deploy"  --github-location repository="chopark/CodeDeploy_MiNiFi",commitId=688153a93cc96d2914918b01f20f0b5847b9e9e9
+  537  ./run_exp.sh 1m 1
+  538  ./set_edgeId.sh 
+  539  stop_nifi 
+  540  ./run_exp.sh 1m 1
+  541  stop_nifi 
+  542  cd jarvis-
+  543  cd jarvis-nifi/
+  544  ll
+  545  git pull
+  546  cd ..
+  547  rm -rf jarvis-nifi/
+  548  sudo rm -rf jarvis-nifi/
+  549  mv jarvis-old/ jarvis-nifi
+  550  cd jarvis-nifi/
+  551  ll
+  552  git pull
+  553  sudo rm -rf conf/flow.xml.gz conf/nifi.properties database_repository/nifi-flow-audit.h2.db database_repository/nifi-user-keys.h2.db
+  554  git pull
+  555  cd ..
+  556  ll
+  557  cd CodeDeploy_NiFi/
+  558  ll
+  559  sudo ./restart_nifi.sh 
+  560  stop_nifi 
+  561  ./run_exp.sh 1m 1
+  562  sudo dpkg -i jdk/*
+  563  stop_nifi 
+  564  ./run_exp.sh 1m 1
+  565  ./set_edgeId.sh 
+  566  ./run_exp.sh 1m 1
+  567  ll
+  568  htop
+  569  du -hs
+  570  df -hs
+  571  df -h
+  572  cd Cod
+  573  cd CodeDeploy_NiFi/
+  574  ll
+  575  vi run_exp.sh 
+  576  ll
+  577  df -h
+  578  htop
+  579  cd /mnt/ram_disk/
+  580  ll
+  581  sudo rm -rf *
+  582  sudo mkdir -p /mnt/ram_disk && sudo mount -t tmpfs -o size=40G new_ram_disk /mnt/ram_disk
+  583  sudo mount -t tmpfs -o size=13G new_ram_disk /mnt/ram_disk
+  584  htop
+  585  sudo mkdir -p /mnt/ram_disk && sudo mount -t tmpfs -o size=13G new_ram_disk /mnt/ram_disk
+  586  sudo mount -t tmpfs -o size=13G new_ram_disk /mnt/ram_disk
+  587  cd
+  588  ll
+  589  df -h
+  590  ll
+  591  cd CodeDeploy_NiFi/
+  592  ll
+  593  ./set_edgeId.sh 
+  594  sudo ./restart_nifi.sh 
+  595  ll
+  596  ./run_exp.sh 1m 1
+  597  stop_nifi 
+  598  cat network_limit.sh 
+  599  java -version
+  600  ./run_exp.sh 1m 1
+  601  ll
+  602  vi get_thruput_cloud_merging_v1.py 
+  603  ll
+  604  vi get_thruput_cloud_merging_v1.py 
+  605  ll
+  606  vi ../jarvis-nifi/logs/log_cat 
+  607  vi ../jarvis-nifi/logs/temp
+  608  sudo ./restart_nifi.sh 
+  609  stop_nifi 
+  610  ./run_exp.sh 1m 1
+  611  vi get_thruput_cloud_merging_v1.py 
+  612  ll
+  613  ./network_limit.sh 20480 1
+  614  vi network_limit.sh 
+  615  ll
+  616  vi set_edgeId.sh 
+  617  ll
+  618  vi ../jarvis-nifi/conf/nifi.properties 
+  619  ./run_exp.sh 6m 1
+  620  vi ../jarvis-nifi/nifi_custom.cfg 
+  621  ll
+  622  sudo ./restart_nifi.sh 
+  623  stop_nifi 
+  624  sudo ./restart_nifi.sh 
+  625  stop_nifi 
+  626  sudo ./restart_nifi.sh 
+  627  java -version
+  628  stop_nifi 
+  629  ./run_exp.sh 6m 1
+  630  ll
+  631  ga .
+  632  git add .
+  633  git commit -m "Update scripts"
+  634  git push
+  635  git commit -m "Update scripts"
+  636  git push
+  637  cd CodeDeploy_NiFi/
+  638  sudo ./restart_nifi.sh 
+  639  wget https://gitlab-beta.engr.illinois.edu/sandur2/jarvis-nifi/-/raw/scale-aws-debug/lib/nifi-edge-nar-1.0-SNAPSHOT.nar?inline=false
+  640  mv nifi-edge-nar-1.0-SNAPSHOT.nar\?inline\=false nifi-edge-nar-1.0-SNAPSHOT.nar
+  641  wget https://gitlab-beta.engr.illinois.edu/sandur2/jarvis-nifi/-/raw/scale-aws-debug/lib/nifi-cloud-nar-1.0-SNAPSHOT.nar
+  642  ll
+  643  cd ../jarvis-
+  644  cd ../jarvis-nifi/lib/
+  645  ll
+  646  mkdir ../backup_lib
+  647  cp nifi-edge-nar-1.0-SNAPSHOT.nar nifi-cloud-nar-1.0-SNAPSHOT.nar ../backup_lib/
+  648  cp ~/CodeDeploy_NiFi/nifi-* ./
+  649  ll
+  650  ll | grep cloud
+  651  ll | grep edge
+  652  stop_nifi 
+  653  start_nifi
+  654  cd ~
+  655  hostname -i
+  656  cd CodeDeploy_NiFi/
+  657  stop_nifi 
+  658  ./run_exp.sh 1m 1
+  659  java -version
+  660  sudo dpkg -i jdk/*
+  661  start_nifi 
+  662  vi ../jarvis-nifi/nifi_custom.cfg 
+  663  ll
+  664  mv jarvis-temp temp
+  665  cd jarvis-nifi/
+  666  ll
+  667  ga .
+  668  git add .
+  669  vi ../.bash_aliases 
+  670  ll
+  671  git commit -m "Update All-SP?"
+  672  gp
+  673  git push
+  674  ll
+  675  cd ../
+  676  ll
+  677  cd CodeDeploy_NiFi/
+  678  ll
+  679  git pull
+  680  ll
+  681  vi run_exp.sh 
+  682  ll
+  683  cp .bash_aliases ../
+  684  source ../.bashrc
+  685  git pull
+  686  ll
+  687  git pull
+  688  rm -rf nifi-*
+  689  rm -rf cpu.csv 
+  690  cd ..
+  691  ll
+  692  sudo apt-get install cpustat
+  693  cd jarvis-nifi/
+  694  ll
+  695  sudo dpkg -i jdk/*
+  696  git pull
+  697  ll
+  698  cd ../CodeDeploy_NiFi/
+  699  ll
+  700  sudo dpkg -i jdk/*
+  701  java -version
+  702  ./run_exp.sh 1m 1
+  703  git pull
+  704  ll
+  705  rm -rf cpu.csv 
+  706  git pull
+  707  ./run_exp.sh 1m 1
+  708  ll
+  709  vi get_thruput_cloud_merging_v1.py 
+  710  ga .
+  711  gcmsg "Add runtime metric"
+  712  gp
+  713  stop_nifi 
+  714  ll
+  715  vi run_exp.sh 
+  716  ll
+  717  sudo ./restart_nifi.sh 
+  718  ./run_exp.sh 1m 1
+  719  stop_nifi 
+  720  ./run_exp.sh 1m 1
+  721  stop_nifi 
+  722  ll
+  723  cd jarvis-nifi/
+  724  cd ../CodeDeploy_NiFi/
+  725  sudo dpkg -i jdk/*
+  726  sudo rm -rf *
+  727  ll
+  728  git pull
+  729  cd ..
+  730  ll
+  731  rm -rf CodeDeploy_NiFi/
+  732  git clone https://github.com/chopark/CodeDeploy_NiFi.git
+  733  cd CodeDeploy_NiFi/
+  734  ll
+  735  sudo ./restart_nifi.sh 
+  736  ll
+  737  stop_nifi 
+  738  ./run_exp.sh 1m 1
+  739  stop_nifi 
+  740  ./set_edgeId.sh 
+  741  ./run_exp.sh 1m 1
+  742  vi get_thruput_cloud_merging_v1.py 
+  743  python3.5 get_thruput_cloud_merging_v1.py ../jarvis-nifi/logs/log_cat 
+  744  python3.5 get_thruput_cloud_merging_v1.py ../jarvis-nifi/logs/log_cat 60
+  745  vi get_thruput_cloud_merging_v1.py 
+  746  python3.5 get_thruput_cloud_merging_v1.py ../jarvis-nifi/logs/log_cat 60
+  747  vi ~/jarvis-nifi/logs/log_cat 
+  748  vi ~/jarvis-nifi/logs/temp 
+  749  vi ~/jarvis-nifi/logs/nifi-app.log 
+  750  ./run_exp.sh 1m 1
+  751  vi get_thruput_cloud_merging_v1.py 
+  752  ll
+  753  python3.5 extract_latencies.py ~/jarvis-nifi/logs/log_cat 
+  754  ll
+  755  cd CodeDeploy_NiFi/
+  756  ll
+  757  sudo dpkg -i jdk/*
+  758  java -version
+  759  ll
+  760  vi cpu_limit_run.sh 
+  761  ./run_exp.sh 2m 1
+  762  ./cpu_limit_run.sh 2m 1
+  763  vi cpu_limit_run.sh 
+  764  ll
+  765  git pull
+  766  ll
+  767  gst
+  768  rm -rf cpu.csv
+  769  git diff get_thruput_cloud_merging_v1.py
+  770  rm -rf cpu_limit_run.sh get_thruput_cloud_merging_v1.py 
+  771  git pull
+  772  vi cpu_limit_run.sh 
+  773  ll
+  774  ./cpu_limit_run.sh 2m 1
+  775  stop_nifi 
+  776  ./cpu_limit_run.sh 2m 1
+  777  python3.5 -m pip install pandas
+  778  sudo apt-get install pip3
+  779  sudo apt-get install python3-pip
+  780  python3.5 -m pip install pandas
+  781  python3.5 -m pip install -upgrade pipi
+  782  python3.5 -m pip install --upgrade pip
+  783  python3.5 -m pip install pandas
+  784  ./cpu_limit_run.sh 2m 1
+  785  vi cpu_limit_run.sh 
+  786  time
+  787  date
+  788  ll
+  789  vi run_exp.sh 
+  790  vi cpu
+  791  vi cpu_limit_run.sh 
+  792  date
+  793  vi cpu_limit_run.sh 
+  794  ./cpu_limit_run.sh 2m 1
+  795  vi cpu_limit_run.sh 
+  796  ./cpu_limit_run.sh 2m 1
+  797  ll
+  798  cd CodeDeploy_NiFi/
+  799  ll
+  800  vi cpu_limit_run.sh 
+  801  ll
+  802  ./cpu_limit_run.sh 3m 1
+  803  java -version
+  804  sudo dpkg -i jdk/*
+  805  ll
+  806  java -version
+  807  java -version | grep 265
+  808  java -version | awk {print $1}
+  809  java -version | awk '{print $1}'
+  810  test=`java -version`
+  811  echo $test
+  812  java -version
+  813  ll
+  814  ./cpu_limit_run.sh 3m 1
+  815  ll
+  816  cd jarvis-nifi/
+  817  ll
+  818  cd ..
+  819  ll
+  820  cd CodeDeploy_NiFi/
+  821  sudo dpkg -i jdk/*
+  822  ll
+  823  git pull
+  824  rm -rf cpu_limit_run.sh 
+  825  git pull
+  826  ll
+  827  ./run_exp.sh 6m 1 50 80 25
+  828  vi run_exp.sh 
+  829  ./run_exp.sh 6m 1 50 80 25
+  830  ls
+  831  cd CodeDeploy_NiFi/
+  832  ls
+  833  cd autoscale_script/
+  834  ls
+  835  git log
+  836  cd ../
+  837  ls
+  838  cd aws/
+  839  ls
+  840  cd ../
+  841  ls
+  842  cd ../
+  843  ls
+  844  cd jarvis-nifi/
+  845  ls
+  846  git remote show origin
+  847  git branch 
+  848  git pull 
+  849  git log
+  850  ls
+  851  cd jarvis-nifi/
+  852  ls
+  853  git remote show origin
+  854  ls
+  855  ps -ax | grep java
+  856  sudo bash scripts/restart_nifi.
+  857  sudo bash scripts/restart_nifi.sh 
+  858  vim scripts/restart_nifi.sh 
+  859  vim temp 
+  860  ps -ax | grep java
+  861  git log
+  862  history
+  863  ls
+  864  cd ../
+  865  ls
+  866  cd CodeDeploy_NiFi/
+  867  ls
+  868  history > save_history
