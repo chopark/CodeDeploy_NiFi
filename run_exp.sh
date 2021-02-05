@@ -40,6 +40,13 @@ target_groups=$2
 # Change the ownership to prevent the error
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
 
+# Set edge id
+./set_edgeId
+
+# Set config files per group
+./set_conf.sh
+
+
 # Start NiFi
 sudo sh $DEFAULT_HOME/CodeDeploy_NiFi/restart_nifi.sh
 
