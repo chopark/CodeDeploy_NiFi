@@ -23,12 +23,26 @@
 # Changing id of edges
 ## set_edgeId.sh
 * setup edges id
-* 
+ 
 ```console
 $ bash set_edgeId.sh
 
 // Also works without sh
 $ ./set_edgeId.sh
+```
+
+# Changing ports
+## set_conf.sh
+* Change ports with total groups
+
+```console
+$ bash set_conf.sh (total groups)
+
+// Set From MiNiFi port to group number 0, Set From MiNiFi1 port to group number 1, ..., and so on.
+$ bash set_conf.sh 2
+
+// Also works without sh
+$ ./set_conf.sh 2
 ```
 
 # Changing resources of edges
