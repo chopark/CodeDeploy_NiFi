@@ -4,6 +4,8 @@
   - [install_deps.sh](#install_depssh)
 - [Changing id of edges](#changing-id-of-edges)
   - [set_edgeId.sh](#set_edgeidsh)
+- [Changing ports](#changing-ports)
+  - [set_conf.sh](#set_confsh)
 - [Changing resources of edges](#changing-resources-of-edges)
   - [network_limit.sh](#network_limitsh)
 - [Start experiment](#start-experiment)
