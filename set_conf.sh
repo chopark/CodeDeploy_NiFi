@@ -28,7 +28,9 @@ group_num=0
 target_groups=$1
 
 while [ $group_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:command,Values=$group_num" \
+    echo "$group_num change_port being called"
+    #aws ssm send-command --targets "Key=tag:command,Values=$group_num" \
+    aws ssm send-command --targets "Key=tag:deploy,Values=$group_num" \
     --document-name "AWS-RunShellScript" \
     --comment "set config MiNiFi Group$group_num" \
     --parameters commands="sudo sh $HOME/scripts/change_port.sh $group_num $IP" \

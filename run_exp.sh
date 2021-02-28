@@ -16,7 +16,7 @@ fi
 # Directories
 HOME="/home/ubuntu"
 DEFAULT_HOME="/home/ubuntu"
-NIFI_HOME="$HOME/jarvis-nifi"
+NIFI_HOME="$HOME/jarvis_nifi"
 NIFI_LOG="$NIFI_HOME/logs"
 NIFI_SCRIPT="$NIFI_HOME/scripts"
 NIFI_BIN="$NIFI_HOME/bin"
@@ -43,7 +43,7 @@ java -version
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
 
 # Set edge id
-./set_edgeId
+./set_edgeId.sh
 
 # Set config files per group
 ./set_conf.sh $target_groups

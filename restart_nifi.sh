@@ -1,10 +1,10 @@
 HOME=/home/ubuntu
-cd $HOME/jarvis-nifi/conf
+cd $HOME/jarvis_nifi/conf
 IP=`hostname -i`
 
 sed -i s/nifi.remote.input.host=.*/nifi.remote.input.host=$IP/ nifi.properties
 sed -i s/nifi.web.http.host=.*/nifi.web.http.host=$IP/ nifi.properties
-cd $HOME/jarvis-nifi/bin
+cd $HOME/jarvis_nifi/bin
 
 sudo ./nifi.sh stop
 rm -rf ../content_repository/* ../provenance_repository/* ../flowfile_repository/* ../state/local/* ../logs/*
