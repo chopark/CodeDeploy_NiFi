@@ -13,7 +13,7 @@ fi
 
 # Directories
 HOME="/home/ubuntu"
-NIFI_HOME="$HOME/jarvis-nifi"
+NIFI_HOME="$HOME/jarvis_nifi"
 NIFI_LOG="$NIFI_HOME/logs"
 NIFI_SCRIPT="$NIFI_HOME/scripts"
 NIFI_BIN="$NIFI_HOME/bin"

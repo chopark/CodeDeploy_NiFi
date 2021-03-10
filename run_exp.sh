@@ -167,12 +167,11 @@ fi
 FLOWFILESQUEUED=`curl "http://$IP:8080/nifi-api/connections/$FINAL_QUEUE_ID" -X GET | cut -d: -f61 | cut -d, -f1`
 echo "$SHELL: flowFilesQueued: $FLOWFILESQUEUED"
 
-
-
 # Stop NiFi
 #echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]" -n 1 -r
-echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]"
-if [[ $REPLY =~ ^[Yy]$ ]]
+#echo; read -p "$SHELL: Do you want to stop NiFi server? [y/n]"
+#if [[ $REPLY =~ ^[Yy]$ ]]
+if true;
 then
     echo; echo "$SHELL: Stop running Nifi instance..."
     sudo sh $NIFI_BIN/nifi.sh stop
@@ -189,6 +188,9 @@ fi
 # Parse the log and show the result.
 echo "$SHELL: Parsing the log..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
+
+# Collecting MiNiFi logs
+
 
 # Calculate second
 if [[ $1 == *"m"* ]]; then
