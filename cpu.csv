@@ -1,1164 +1,518 @@
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  2.97   1.98   0.99 10589 S   26  3.30m java
+  1.98   1.98   0.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+  2.00   2.00   0.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  4.00   3.00   1.00 10589 S   26  3.30m java
+  2.00   1.00   1.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+  3.00   1.00   2.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+  2.00   2.00   0.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+  4.00   3.00   1.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+  4.00   3.00   1.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+  5.00   4.00   1.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+ 25.00  21.00   4.00 15006 S    0  2.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 10589 S   26  3.30m java
+615.00 549.00  66.00 15006 S    0  2.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 14.00  12.00   2.00 10589 S   26  3.31m java
+884.00 776.00 108.00 15006 S    0  2.61m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-477.00 418.00  59.00 10589 S   26  3.38m java
+1141.00 1003.00 138.00 15006 S    0  2.80m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-483.00 436.00  47.00 10589 S   26  3.47m java
+1143.00 815.00 328.00 15006 S    0  2.99m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1544.00 841.00 703.00 10589 S   26  3.72m java
+1031.00 730.00 301.00 15006 S    0  3.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1509.00 1016.00 493.00 10589 S   26  3.97m java
+1324.00 1175.00 149.00 15006 S    0  3.39m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2239.00 1878.00 361.00 10589 S   26  4.35m java
+1482.00 846.00 636.00 15006 S    0  3.63m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2058.00 1449.00 609.00 10589 S   26  4.69m java
+1459.00 595.00 864.00 15006 S    0  3.88m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2364.00 2135.00 229.00 10589 S   26  5.08m java
+1246.00 897.00 349.00 15006 S    0  4.08m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2120.00 1714.00 406.00 10589 S   26  5.44m java
+1349.00 978.00 371.00 15006 S    0  4.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2224.00 1999.00 225.00 10589 S   26  5.81m java
+1477.00 1241.00 236.00 15006 S    0  4.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2013.86 1559.41 454.46 10589 S   26  6.15m java
+1432.00 1174.00 258.00 15006 S    0  4.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2221.21 1717.17 504.04 10589 S   26  6.51m java
+1164.00 907.00 257.00 15006 S    0  4.99m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2112.00 1336.00 776.00 10589 S   26  6.87m java
+1361.00 1043.00 318.00 15006 S    0  5.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1891.00 1155.00 736.00 10589 S   26  7.18m java
+1507.00 1176.00 331.00 15006 S    0  5.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2102.00 1390.00 712.00 10589 S   26  7.53m java
+1510.00 1186.00 324.00 15006 S    0  5.72m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1774.00 1115.00 659.00 10589 S   26  7.83m java
+1504.00 818.00 686.00 15006 S    0  5.97m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1952.00 1616.00 336.00 10589 S   26  8.15m java
+1398.00 964.00 434.00 15006 S    0  6.20m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2309.00 2033.00 276.00 10589 S   26  8.54m java
+1241.00 787.00 454.00 15006 S    0  6.41m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1860.00 1596.00 264.00 10589 S   26  8.85m java
+1538.00 803.00 735.00 15006 S    0  6.66m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2090.00 1730.00 360.00 10589 S   26  9.20m java
+1486.00 1169.00 317.00 15006 S    0  6.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2034.00 1641.00 393.00 10589 S   26  9.53m java
+1555.00 929.00 626.00 15006 S    0  7.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2059.41 1870.30 189.11 10589 S   26  9.88m java
+1554.00 1105.00 449.00 15006 S    0  7.43m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2019.19 1772.73 246.46 10589 S   26 10.21m java
+1353.00 1050.00 303.00 15006 S    0  7.66m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1609.90 1366.34 243.56 10589 S   26 10.49m java
+1535.00 841.00 694.00 15006 S    0  7.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1866.67 1594.95 271.72 10589 S   26 10.79m java
+1205.00 816.00 389.00 15006 S    0  8.11m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2026.00 1750.00 276.00 10589 S   26 11.13m java
+1407.00 1140.00 267.00 15006 S    0  8.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1815.00 1630.00 185.00 10589 S   26 11.43m java
+1498.00 1008.00 490.00 15006 S    0  8.60m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1843.00 1659.00 184.00 10589 S   26 11.74m java
+1442.00 1050.00 392.00 15006 S    0  8.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1567.00 1411.00 156.00 10589 S   26 12.00m java
+1295.00 939.00 356.00 15006 S    0  9.05m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1564.36 1415.84 148.51 10589 S   26 12.27m java
+1539.00 1321.00 218.00 15006 S    0  9.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1040.00 954.00  86.00 10589 S   26 12.44m java
+1447.00 1239.00 208.00 15006 S    0  9.55m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1531.00 1383.00 148.00 10589 S   26 12.69m java
+1572.00 1422.00 150.00 15006 S    0  9.81m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-924.00 842.00  82.00 10589 S   26 12.85m java
+1434.00 1150.00 284.00 15006 S    0 10.05m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1458.00 1301.00 157.00 10589 S   26 13.09m java
+1522.00 1399.00 123.00 15006 S    0 10.30m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1141.00 1052.00  89.00 10589 S   26 13.28m java
+1525.00 938.00 587.00 15006 S    0 10.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1595.00 1462.00 133.00 10589 S   26 13.55m java
+1249.00 1062.00 187.00 15006 S    0 10.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1443.00 1338.00 105.00 10589 S   26 13.79m java
+1487.00 1140.00 347.00 15006 S    0 11.01m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1367.00 1249.00 118.00 10589 S   26 14.02m java
+1527.72 1398.02 129.70 15006 S    0 11.27m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-844.00 773.00  71.00 10589 S   26 14.16m java
+1305.05 1188.89 116.16 15006 S    0 11.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1600.00 1349.00 251.00 10589 S   26 14.42m java
+1491.00 1365.00 126.00 15006 S    0 11.74m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2047.00 1673.00 374.00 10589 S   26 14.76m java
+1489.11 1318.81 170.30 15006 S    0 11.99m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2050.50 1702.97 347.52 10589 S   26 15.11m java
+1350.51 1250.51 100.00 15006 S    0 12.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1695.96 917.17 778.79 10589 S   26 15.39m java
+1555.00 1338.00 217.00 15006 S    0 12.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2244.00 1084.00 1160.00 10589 S   26 15.76m java
+1298.00 1191.00 107.00 15006 S    0 12.69m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2074.00 1574.00 500.00 10589 S   26 16.11m java
+1373.00 1245.00 128.00 15006 S    0 12.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1887.00 1633.00 254.00 10589 S   26 16.42m java
+1467.00 1322.00 145.00 15006 S    0 13.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1749.00 1613.00 136.00 10589 S   26 16.71m java
+1286.00 1199.00  87.00 15006 S    0 13.37m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2163.64 1877.78 285.86 10589 S   26 17.07m java
+1436.00 1341.00  95.00 15006 S    0 13.61m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1569.00 1470.00  99.00 10589 S   26 17.33m java
+1550.00 1454.00  96.00 15006 S    0 13.87m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1673.00 1463.00 210.00 10589 S   26 17.61m java
+1304.00 1230.00  74.00 15006 S    0 14.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1086.00 1002.00  84.00 10589 S   26 17.79m java
+1492.00 1370.00 122.00 15006 S    0 14.34m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1547.00 1352.00 195.00 10589 S   26 18.05m java
+1491.00 1369.00 122.00 15006 S    0 14.58m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1147.00 1049.00  98.00 10589 S   26 18.24m java
+1299.00 1235.00  64.00 15006 S    0 14.80m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1598.00 1386.00 212.00 10589 S   26 18.51m java
+1349.49 1200.00 149.49 15006 S    0 15.02m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1385.00 1248.00 137.00 10589 S   26 18.74m java
+1366.00 1302.00  64.00 15006 S    0 15.25m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1793.00 1331.00 462.00 10589 S   26 19.04m java
+1291.00 1225.00  66.00 15006 S    0 15.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1260.40 1147.52 112.87 10589 S   26 19.25m java
+992.00 847.00 145.00 15006 S    0 15.63m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1596.97 1368.69 228.28 10589 S   26 19.51m java
+1319.00 1177.00 142.00 15006 S    0 15.85m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1254.00 1158.00  96.00 10589 S   26 19.72m java
+1524.00 1291.00 233.00 15006 S    0 16.11m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1674.00 1345.00 329.00 10589 S   26 20.00m java
+1331.00 1143.00 188.00 15006 S    0 16.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1403.00 1314.00  89.00 10589 S   26 20.24m java
+1291.00 1230.00  61.00 15006 S    0 16.54m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1589.00 1407.00 182.00 10589 S   26 20.50m java
+1372.00 1126.00 246.00 15006 S    0 16.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1189.00 1089.00 100.00 10589 S   26 20.70m java
+1418.00 1195.00 223.00 15006 S    0 17.01m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1422.00 1264.00 158.00 10589 S   26 20.94m java
+1261.00 820.00 441.00 15006 S    0 17.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1136.00 1054.00  82.00 10589 S   26 21.12m java
+1297.00 797.00 500.00 15006 S    0 17.43m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1525.25 1250.51 274.75 10589 S   26 21.38m java
+1293.00 1083.00 210.00 15006 S    0 17.65m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1383.00 1079.00 304.00 10589 S   26 21.61m java
+1204.00 983.00 221.00 15006 S    0 17.85m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2229.00 1250.00 979.00 10589 S   26 21.98m java
+1060.00 624.00 436.00 15006 S    0 18.03m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1890.00 1244.00 646.00 10589 S   26 22.29m java
+1439.00 940.00 499.00 15006 S    0 18.27m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2061.00 1774.00 287.00 10589 S   26 22.64m java
+1280.00 854.00 426.00 15006 S    0 18.48m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2006.00 1590.00 416.00 10589 S   26 22.97m java
+1284.00 1265.00  19.00 15006 S    0 18.69m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2517.00 2194.00 323.00 10589 S   26 23.39m java
+1384.00 1284.00 100.00 15006 S    0 18.93m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1762.00 1565.00 197.00 10589 S   26 23.68m java
+1420.00 1315.00 105.00 15006 S    0 19.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2155.00 1925.00 230.00 10589 S   26 24.04m java
+1298.00 1217.00  81.00 15006 S    0 19.38m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1784.00 1590.00 194.00 10589 S   26 24.34m java
+1238.00 1106.00 132.00 15006 S    0 19.58m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1818.00 1644.00 174.00 10589 S   26 24.64m java
+1541.00 1366.00 175.00 15006 S    0 19.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1598.02 1433.66 164.36 10589 S   26 24.91m java
+1310.00 1212.00  98.00 15006 S    0 20.06m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1834.34 1638.38 195.96 10589 S   26 25.22m java
+1248.00 1190.00  58.00 15006 S    0 20.27m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1719.00 1530.00 189.00 10589 S   26 25.50m java
+1484.00 1338.00 146.00 15006 S    0 20.51m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1855.00 1629.00 226.00 10589 S   26 25.81m java
+1441.00 1314.00 127.00 15006 S    0 20.75m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1753.00 1589.00 164.00 10589 S   26 26.10m java
+1306.00 1198.00 108.00 15006 S    0 20.97m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1596.00 1405.00 191.00 10589 S   26 26.37m java
+1271.00 1134.00 137.00 15006 S    0 21.18m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1723.00 1424.00 299.00 10589 S   26 26.66m java
+1317.00 1134.00 183.00 15006 S    0 21.40m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1765.00 1436.00 329.00 10589 S   26 26.95m java
+1295.00 1207.00  88.00 15006 S    0 21.62m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1967.00 1515.00 452.00 10589 S   26 27.28m java
+1278.00 1151.00 127.00 15006 S    0 21.83m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2652.00 1488.00 1164.00 10589 S   26 27.72m java
+1414.00 1106.00 308.00 15006 S    0 22.07m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1964.00 1626.00 338.00 10589 S   26 28.05m java
+1294.00 1011.00 283.00 15006 S    0 22.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2144.00 1574.00 570.00 10589 S   26 28.40m java
+1579.00 1355.00 224.00 15006 S    0 22.55m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2122.00 1606.00 516.00 10589 S   26 28.76m java
+1316.00 942.00 374.00 15006 S    0 22.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1683.17 1540.59 142.57 10589 S   26 29.04m java
+1435.00 1249.00 186.00 15006 S    0 23.01m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2001.01 1752.53 248.48 10589 S   26 29.37m java
+1525.00 1292.00 233.00 15006 S    0 23.26m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1391.00 1297.00  94.00 10589 S   26 29.60m java
+1351.00 1033.00 318.00 15006 S    0 23.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1656.00 1559.00  97.00 10589 S   26 29.88m java
+1436.00 1263.00 173.00 15006 S    0 23.72m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-995.00 905.00  90.00 10589 S   26 30.05m java
+1389.00 1169.00 220.00 15006 S    0 23.96m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1435.00 1340.00  95.00 10589 S   26 30.29m java
+1260.00 843.00 417.00 15006 S    0 24.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-710.00 661.00  49.00 10589 S   26 30.40m java
+1350.00 1146.00 204.00 15006 S    0 24.39m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-547.00 502.00  45.00 10589 S   26 30.49m java
+1582.00 1119.00 463.00 15006 S    0 24.65m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1172.00 1018.00 154.00 10589 S   26 30.69m java
+1408.00 892.00 516.00 15006 S    0 24.89m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1689.00 1275.00 414.00 10589 S   26 30.97m java
+1185.00 860.00 325.00 15006 S    0 25.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1766.00 1470.00 296.00 10589 S   26 31.27m java
+1479.00 1277.00 202.00 15006 S    0 25.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1722.00 1258.00 464.00 10589 S   26 31.55m java
+1559.00 1260.00 299.00 15006 S    0 25.59m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1886.00 1675.00 211.00 10589 S   26 31.87m java
+1149.00 901.00 248.00 15006 S    0 25.78m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2028.00 1893.00 135.00 10589 S   26 32.20m java
+1490.00 1350.00 140.00 15006 S    0 26.03m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2444.66 2114.56 330.10 10589 S   26 32.62m java
+1535.00 1045.00 490.00 15006 S    0 26.29m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1314.29 1223.47  90.82 10589 S   26 32.84m java
+1141.00 847.00 294.00 15006 S    0 26.48m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2331.00 2147.00 184.00 10589 S   26 33.23m java
+1449.00 1282.00 167.00 15006 S    0 26.72m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1523.00 1402.00 121.00 10589 S   26 33.48m java
+1552.00 1296.00 256.00 15006 S    0 26.98m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1787.00 1621.00 166.00 10589 S   26 33.78m java
+1306.00 980.00 326.00 15006 S    0 27.20m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1813.00 1713.00 100.00 10589 S   26 34.08m java
+1449.00 1316.00 133.00 15006 S    0 27.44m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2478.22 2196.04 282.18 10589 S   26 34.50m java
+1541.00 1382.00 159.00 15006 S    0 27.70m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1933.33 1381.82 551.52 10589 S   26 34.82m java
+1418.00 1131.00 287.00 15006 S    0 27.93m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2176.24 1248.51 927.72 10589 S   26 35.18m java
+1449.00 1333.00 116.00 15006 S    0 28.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1689.00 1473.00 216.00 10589 S   26 35.47m java
+1447.06 1325.49 121.57 15006 S    0 28.42m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2234.34 2021.21 213.13 10589 S   26 35.83m java
+1247.96 1055.10 192.86 15006 S    0 28.62m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1208.00 1121.00  87.00 10589 S   26 36.04m java
+1297.00 1268.00  29.00 15006 S    0 28.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1031.00 954.00  77.00 10589 S   26 36.21m java
+1402.00 1289.00 113.00 15006 S    0 29.07m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 13.00   8.00   5.00 10589 S   26 36.21m java
+1498.00 1374.00 124.00 15006 S    0 29.32m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-114.00  72.00  42.00 10589 S   26 36.23m java
+1030.00 923.00 107.00 15006 S    0 29.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-100.00   0.00 100.00 10589 S   26 36.25m java
+1397.00 1373.00  24.00 15006 S    0 29.73m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.19s cpustat
+1444.00 1325.00 119.00 15006 S    0 29.97m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.82s cpustat
+983.00 880.00 103.00 15006 S    0 30.13m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.70s cpustat
+1059.00 917.00 142.00 15006 S    0 30.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.20s cpustat
+1196.00 1083.00 113.00 15006 S    0 30.51m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.38s top
+1405.00 1128.00 277.00 15006 S    0 30.74m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 20.99s cpustat
+1017.00 757.00 260.00 15006 S    0 30.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.21s cpustat
+991.00 839.00 152.00 15006 S    0 31.08m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.71s cpustat
+1246.00 1044.00 202.00 15006 S    0 31.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  3281 S    4 21.00s cpustat
+847.00 702.00 145.00 15006 S    0 31.42m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.22s cpustat
+1215.00 1077.00 138.00 15006 S    0 31.63m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.01s cpustat
+1258.00 1133.00 125.00 15006 S    0 31.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.24s cpustat
+1294.00 1051.00 243.00 15006 S    0 32.05m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 15.89s cpustat
+983.00 838.00 145.00 15006 S    0 32.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.23s cpustat
+1285.00 1150.00 135.00 15006 S    0 32.43m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.02s cpustat
+1389.00 1318.00  71.00 15006 S    0 32.66m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.24s cpustat
+1025.00 921.00 104.00 15006 S    0 32.83m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
+1202.00 1162.00  40.00 15006 S    0 33.03m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.86s cpustat
+1256.00 1209.00  47.00 15006 S    0 33.24m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.25s cpustat
+1338.00 1273.00  65.00 15006 S    0 33.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.27s cpustat
+1140.00 1108.00  32.00 15006 S    0 33.66m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.04s cpustat
+1127.00 1075.00  52.00 15006 S    0 33.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 15.92s cpustat
+1327.00 1251.00  76.00 15006 S    0 34.06m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  2.00   1.00   1.00 11086 S   30  0.42s top
+668.00 609.00  59.00 15006 S    0 34.18m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.88s cpustat
+100.00   0.00 100.00 15006 S    0 34.19m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.27s cpustat
+ 99.00   0.00  99.00 15006 S    0 34.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.76s cpustat
+  1.00   1.00   0.00 14971 S   11  1.41s /usr/bin/java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.06s cpustat
+  1.00   0.00   1.00 12750 S    2  8.17s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.29s cpustat
+  1.00   1.00   0.00  4201 S    8 18.96s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.77s cpustat
+  1.00   0.00   1.00 12750 S    2  8.18s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.28s cpustat
+  1.00   0.00   1.00  4201 S    8 18.97s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.07s cpustat
+  1.00   0.00   1.00 15332 R   14  0.69s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  2.00   1.00   1.00 11086 S   30  0.44s top
+  1.00   1.00   0.00  8693 S    2 15.99s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.29s cpustat
+  1.00   0.00   1.00  4201 S    8 18.98s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.08s cpustat
+  1.00   0.00   1.00 12750 S    2  8.19s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.91s cpustat
+  1.00   1.00   0.00 10073 S    0 12.20s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  3281 S    4 21.09s cpustat
+  1.00   0.00   1.00 12750 S    2  8.20s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.30s cpustat
+  1.00   0.00   1.00  4201 S    8 18.99s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.45s top
+  1.00   0.00   1.00 15332 R   14  0.71s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.31s cpustat
+  1.00   0.00   1.00  8693 S    2 16.01s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11005 R    6  0.92s cpustat
+  1.00   0.00   1.00  4201 S    8 19.00s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.10s cpustat
+  1.00   0.00   1.00 15332 R   14  0.72s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.33s cpustat
+  1.00   1.00   0.00  2230 S   11  0.42s -bash
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.32s cpustat
+  1.00   0.00   1.00 12750 S    2  8.22s cpustat
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.94s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.33s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.34s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  3281 S    4 21.13s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.14s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.01s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.35s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.96s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.15s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.84s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.36s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  2.00   1.00   1.00  1474 S   15  1.67s /usr/lib/snapd/snapd
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.37s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.04s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.17s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.39s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.38s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.18s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.86s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.39s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  0.99s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.41s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.40s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11005 R    6  1.00s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.41s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  8380 S   14  5.42s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.42s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.43s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.21s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.02s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.43s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.03s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.45s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.44s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.23s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.45s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.04s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.24s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.46s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.25s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.47s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.26s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.94s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.48s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  4548 S   14 17.88s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  2.95s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.49s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.15s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.29s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11086 S   30  0.56s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.50s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.51s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.51s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.31s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.10s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  1498 S   21  0.44s /sbin/iscsid
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.52s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.53s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.11s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.33s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.54s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.12s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.21s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.55s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.35s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.13s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.56s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11086 S   30  0.60s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.57s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.36s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.57s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.24s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.58s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.37s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.16s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.38s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.59s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  4548 S   14 17.99s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.39s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.60s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11333 S    7  0.08s vim
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.40s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.61s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.06s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  8.00   8.00   0.00 11333 S    7  0.16s vim
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.62s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.63s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11005 R    6  1.20s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
- 11.00  10.00   1.00 11333 S    7  0.27s vim
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.63s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  4548 S   14 18.04s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.64s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
- 12.00  11.00   1.00 11333 S    7  0.39s vim
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.31s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.22s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.65s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
- 11.00  11.00   0.00 11333 S    7  0.50s vim
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.66s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.46s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.66s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.47s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  7.00   6.00   1.00 11333 S    7  0.57s vim
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.67s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.67s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.68s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.49s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.12s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.69s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.25s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.50s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.70s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.26s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.71s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.37s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.52s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  8380 S   14  5.72s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.72s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.15s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.73s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.29s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  3281 S    4 21.54s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.70s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.74s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.55s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.71s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.75s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.56s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  4548 S   14 18.16s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.76s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.57s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11086 S   30  0.72s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.77s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.58s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  5766 S   11 16.44s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.20s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.59s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  7.78s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.79s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.60s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11086 S   30  0.74s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.80s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.61s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.75s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.81s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.81s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.62s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.82s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.63s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.24s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.83s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.64s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.84s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.84s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.85s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.66s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.39s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.86s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8777 S    4  0.15s -bash
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-306.00  73.00 233.00 11345 R   14  3.12s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.68s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
- 14.00  14.00   0.00 11345 R   14  3.26s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   2.00   1.00 11345 R   14  3.29s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.88s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00 11086 S   30  0.79s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  3281 S    4 21.70s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.88s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.89s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   3.00   0.00 11345 R   14  3.32s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
- 30.00  10.00  20.00 11345 R   14  3.62s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  4.00   3.00   1.00 11345 R   14  3.66s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
- 42.00  20.00  22.00 11345 R   14  4.08s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   1.00   2.00 11345 R   14  4.11s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   1.00   2.00 11345 R   14  4.14s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  8380 S   14  5.91s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11345 R   14  4.15s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.92s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.74s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.45s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  2.00   1.00   1.00 11345 R   14  4.17s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  5.93s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.93s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11005 R    6  1.47s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.33s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.94s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  4548 S   14 18.35s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.77s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   1.00   2.00 11345 R   14  4.20s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  8.00   2.00   6.00 11345 R   14  4.28s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.00   1.00   2.00 11345 R   14  4.31s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  2.00   1.00   1.00 11345 R   14  4.33s python3.5
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.96s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.79s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.36s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.97s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.80s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  1772 S   26  5.23s /snap/amazon-ssm-agent/3552/ssm-agent-worker
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  8380 S   14  5.98s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.98s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  7.99s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   1.00   0.00  7147 S    2  8.00s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.82s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  8380 S   14  6.00s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.83s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  9782 S   27  3.39s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00 11086 S   30  0.87s top
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  8.01s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  3281 S    4 21.84s cpustat
-
-  %CPU   %USR   %SYS   PID S  CPU   Time Task
-  1.00   0.00   1.00  7147 S    2  8.02s cpust
+  1.00   0.00   1.00 10073 S    0 12.23s cpusta
