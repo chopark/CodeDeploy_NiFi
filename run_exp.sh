@@ -6,10 +6,11 @@
 
 SHELL=`basename "$0"`
 
-if [ $# -lt 2 ]; then
-    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups)"
+if [ $# -lt 3 ]; then
+    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups) (number of nodes per group)"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
     echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
+    echo "$SHELL: e.g. (number of nodes per group): 4,8, ..."
     exit 1
 fi
 
@@ -25,6 +26,7 @@ MINIFI_DIR="$DEFAULT_HOME/minifi"
 MINIFI_HOME="$MINIFI_DIR/minifi-0.5.0"
 MINIFI_BIN="$MINIFI_HOME/bin"
 MINIFI_SCRIPT="$MINIFI_DIR/scripts"
+MINIFI_LOGS_LOCATION="$HOME/temp-jarvis/minifi_logs"
 
 #Variables
 FINAL_QUEUE_ID="ec73aa70-0174-1000-f201-66b549d134a8"
@@ -36,6 +38,7 @@ LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
 # change this to use in other instances...
 cmd_num=0
 target_groups=$2
+nodes_per_group=$3
 
 java -version
 
@@ -78,14 +81,14 @@ echo "$SHELL: NiFi ready, start MiNiFi."
 #--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
 #--output text
 
-if [ $# -ge 3 ]; then
+if [ $# -ge 4 ]; then
     time_limit=`date "+%H%M" -d "+1 min"`
     
-    if [ $# -ge 4 ]; then
+    if [ $# -ge 5 ]; then
         time_limit2=`date "+%H%M" -d "+3 min"`
     fi
     
-    if [ $# -ge 5 ]; then
+    if [ $# -ge 6 ]; then
         time_limit3=`date "+%H%M" -d "+5 min"`
     fi
     MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
@@ -186,11 +189,15 @@ if [ -f "$NIFI_LOG/log_cat" ]; then
 fi
 
 # Parse the log and show the result.
-echo "$SHELL: Parsing the log..."
+echo "$SHELL: Parsing the NiFi logs..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
 
-# Collecting MiNiFi logs
+echo "Collecting minifi logs all data source nodes"
+bash $NIFI_SCRIPT/get_minifi_logs.sh
 
+echo "Processing the logs to get throughput"
+total_nodes=$(($target_groups*$nodes_per_group))
+python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION 
 
 # Calculate second
 if [[ $1 == *"m"* ]]; then
