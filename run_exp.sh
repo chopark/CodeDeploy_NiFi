@@ -5,12 +5,14 @@
 #### e.g. (the number of target edge group): 1, 2, 3, ..."
 
 SHELL=`basename "$0"`
+EXPECTED_ARGS=4
 
-if [ $# -lt 3 ]; then
-    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups) (number of nodes per group)"
+if [ $# -lt $EXPECTED_ARGS ]; then
+    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups) (number of nodes per group) (number of wms to skip for analysis)"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
     echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
     echo "$SHELL: e.g. (number of nodes per group): 4,8, ..."
+    echo "$SHELL: e.g. (number of wms to skip during log analysis) 4"
     exit 1
 fi
 
@@ -19,7 +21,9 @@ HOME="/home/ubuntu"
 DEFAULT_HOME="/home/ubuntu"
 NIFI_HOME="$HOME/jarvis_nifi"
 NIFI_LOG="$NIFI_HOME/logs"
+NIFI_CUSTOM_LOG="$NIFI_HOME/nifi_custom.cfg"
 NIFI_SCRIPT="$NIFI_HOME/scripts"
+NIFI_CODEDEPLOY="$DEFAULT_HOME/CodeDeploy_NiFi"
 NIFI_BIN="$NIFI_HOME/bin"
 NIFI_RESULTS="$NIFI_HOME/results"
 MINIFI_DIR="$DEFAULT_HOME/minifi"
@@ -39,8 +43,20 @@ LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
 cmd_num=0
 target_groups=$2
 nodes_per_group=$3
+total_nodes=$(($target_groups*$nodes_per_group))
+
+read -p "Is hyperthreading disabled?(y/n) " ht_disabled
+if [ "$ht_disabled" != "y" ]; then
+	bash $NIFI_SCRIPT/disable_hyperthreading.sh
+fi
 
 java -version
+version=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}')
+if [[ "$version" != *"1.8.0_222"* ]]; then
+	cd $NIFI_CODEDEPLOY/jdk
+	bash reinstall-jdk.sh 
+	cd $NIFI_CODEDEPLOY
+fi
 
 # Change the ownership to prevent the error
 sudo chown -R ubuntu:ubuntu $NIFI_HOME
@@ -51,6 +67,8 @@ sudo chown -R ubuntu:ubuntu $NIFI_HOME
 # Set config files per group
 ./set_conf.sh $target_groups
 
+# Change the nifi custom config file
+sudo sed -i "s~numEdges\"\: \"[[:digit:]]\+\"~numEdges\"\: \"$total_nodes\"~g" $NIFI_CUSTOM_LOG
 
 # Start NiFi
 sudo sh $DEFAULT_HOME/CodeDeploy_NiFi/restart_nifi.sh
@@ -81,21 +99,22 @@ echo "$SHELL: NiFi ready, start MiNiFi."
 #--parameters commands="sudo sh $HOME/scripts/start_minifi.sh" \
 #--output text
 
-if [ $# -ge 4 ]; then
+if [ $# -ge $(($EXPECTED_ARGS+1)) ]; then
     time_limit=`date "+%H%M" -d "+1 min"`
     
-    if [ $# -ge 5 ]; then
+    if [ $# -ge $(($EXPECTED_ARGS+2)) ]; then
         time_limit2=`date "+%H%M" -d "+3 min"`
     fi
     
-    if [ $# -ge 6 ]; then
+    if [ $# -ge $(($EXPECTED_ARGS+3)) ]; then
         time_limit3=`date "+%H%M" -d "+5 min"`
     fi
     MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
     MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
 
     while [ $cmd_num -lt $target_groups ]; do
-        aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+        #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+        aws ssm send-command --targets "Key=tag:deploy,Values=$cmd_num" \
         --document-name "AWS-RunShellScript" \
         --comment "start MiNiFi" \
         --parameters commands="sudo sh $DEFAULT_HOME/scripts/start_minifi.sh $MiNiFi_command" \
@@ -105,7 +124,8 @@ if [ $# -ge 4 ]; then
     done
 else
     while [ $cmd_num -lt $target_groups ]; do
-        aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+        #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+        aws ssm send-command --targets "Key=tag:deploy,Values=$cmd_num" \
         --document-name "AWS-RunShellScript" \
         --comment "start MiNiFi" \
         --parameters commands="sudo sh $DEFAULT_HOME/scripts/start_minifi.sh" \
@@ -136,7 +156,8 @@ cmd_num=0
 pkill $CPUSTAT_PID
 
 while [ $cmd_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+    #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+    aws ssm send-command --targets "Key=tag:deploy,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
     --comment "stop MiNiFi" \
     --parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
@@ -197,7 +218,7 @@ bash $NIFI_SCRIPT/get_minifi_logs.sh
 
 echo "Processing the logs to get throughput"
 total_nodes=$(($target_groups*$nodes_per_group))
-python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION 
+python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION 20 
 
 # Calculate second
 if [[ $1 == *"m"* ]]; then
