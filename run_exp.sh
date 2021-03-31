@@ -100,17 +100,29 @@ echo "$SHELL: NiFi ready, start MiNiFi."
 #--output text
 
 if [ $# -ge $(($EXPECTED_ARGS+1)) ]; then
-    time_limit=`date "+%H%M" -d "+1 min"`
+    NEXT_ARG_NUM_AFTER_EXPECTED=$(($EXPECTED_ARGS+1))
+    NEXT_NEXT_ARG_NUM_AFTER_EXPECTED=$(($EXPECTED_ARGS+2))
+    cpu1=${!NEXT_ARG_NUM_AFTER_EXPECTED}
+    possibleDelay=${!NEXT_NEXT_ARG_NUM_AFTER_EXPECTED}
+    if [ $possibleDelay == "now" ]; then
+	time_limit="now"
+    else
+        time_limit=`date "+%H%M" -d "+1 min"`
+        if [ $# -ge $(($EXPECTED_ARGS+2)) ]; then
+            NEXT_ARG_NUM_AFTER_EXPECTED=$(($EXPECTED_ARGS+2))
+            cpu2=${!NEXT_ARG_NUM_AFTER_EXPECTED}
+            time_limit2=`date "+%H%M" -d "+3 min"`
+        fi
     
-    if [ $# -ge $(($EXPECTED_ARGS+2)) ]; then
-        time_limit2=`date "+%H%M" -d "+3 min"`
-    fi
+        if [ $# -ge $(($EXPECTED_ARGS+3)) ]; then
+            NEXT_ARG_NUM_AFTER_EXPECTED=$(($EXPECTED_ARGS+3))
+            cpu3=${!NEXT_ARG_NUM_AFTER_EXPECTED}
+            time_limit3=`date "+%H%M" -d "+5 min"`
+        fi
+    fi 
     
-    if [ $# -ge $(($EXPECTED_ARGS+3)) ]; then
-        time_limit3=`date "+%H%M" -d "+5 min"`
-    fi
-    MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
-    MiNiFi_command="$3 $time_limit $4 $time_limit2 $5 $time_limit3"
+    MiNiFi_command="$cpu1 $time_limit $cpu2 $time_limit2 $cpu3 $time_limit3"
+    MiNiFi_command="$cpu1 $time_limit $cpu2 $time_limit2 $cpu3 $time_limit3"
 
     while [ $cmd_num -lt $target_groups ]; do
         #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \

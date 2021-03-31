@@ -51,8 +51,9 @@ with open(nifi_log_name, 'r') as fp:
 		#if("Received SHUTDOWN" in line):
 		#	end_time_str=line.split(" INFO ")
 		#	end_time_obj=datetime.datetime.strptime(end_time_str[0],'%Y-%m-%d %H:%M:%S,%f')
-		if("ERROR" in line and ("Ghost" not in line and ("Site-to-Site Worker" not in line or "EOFException" not in line) and ("Site-to-Site Worker" not in line or "java.net.SocketTimeoutException" not in line) and ("Site-to-Site Worker" not in line or "RequestExpiredException" not in line))):
+		if("ERROR" in line and ("Ghost" not in line and ("Site-to-Site Worker" not in line or "EOFException" not in line) and ("Site-to-Site Worker" not in line or "java.net.SocketTimeoutException" not in line) and ("Site-to-Site Worker" not in line or "RequestExpiredException" not in line) and ("SocketRemoteSiteListener Unable to communicate with remote instance" not in line))):
 			print("Some error occurred during the experiment run. Investigate")
+			print(line)
 			sys.exit(-1)			
 		line=fp.readline()
 
@@ -96,14 +97,16 @@ for minifi_log in os.listdir(minifi_folder):
 		print("Minifi log file name being read is: ", minifi_log)
 		line=fp.readline()
 		minifi_wm_timestamp={}
+		linenum=0
 		while line:
+			linenum+=1
 			m=re.search("(.*) INFO \[.*New epoch entering.*num will be: (\d+)",line)
 			if m:
 				total_minifi_flowfiles_gen+=1
 				curr_time=parse_timestamp(m.group(1))
 				if (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
 					num_expected_flowfiles_minifi+=1
-					minifi_wm_timestamp[int(m.group(2))]=curr_time			
+					minifi_wm_timestamp[int(m.group(2))]=curr_time
 			line=fp.readline()
 		minifi_wm_list.append(minifi_wm_timestamp)
 
@@ -114,8 +117,8 @@ analysis_dur_sec=(end_time_obj-start_time_obj).total_seconds()
 print("log analysis duration in seconds: ", analysis_dur_sec)
 actual_thruput=total_finished_flow_files_pipeline/analysis_dur_sec
 expected_thruput=num_expected_flowfiles_minifi/analysis_dur_sec
-print("Actual throughput: ", actual_thruput)
-print("Expected throughput: ", expected_thruput)
+print("Actual throughput in terms of flowfiles: ", actual_thruput)
+print("Expected throughput in terms of flowfiles: ", expected_thruput)
 print("Total number of minifi flowfiles generated: ", total_minifi_flowfiles_gen)
 
 print("Computing latencies")

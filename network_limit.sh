@@ -32,7 +32,8 @@ target_groups=$2
 
 
 while [ $cmd_num -lt $target_groups ]; do
-    aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+    #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
+    aws ssm send-command --targets "Key=tag:deploy,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
     --comment "Set network group$i" \
     --parameters commands="sudo sh $HOME/scripts/limit_netband.sh $1" \
