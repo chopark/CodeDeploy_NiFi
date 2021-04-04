@@ -30,7 +30,7 @@ with open(nifi_log_name, 'r') as fp:
 	line=fp.readline()
 	while line:
 		if(not start_time_read):
-			m=re.search("^(.*) INFO [.*[FinalControlProxy.putWaterMark](.*)records = (.+)$",line)
+			m=re.search("^(.*) INFO [.*[FinalControlProxy.putWaterMark](.*)records = (.+), with per item size: (.+)$",line)
 			if m:
 				curr_time=parse_timestamp(m.group(1))
 				num_records=float(m.group(3))
@@ -66,7 +66,7 @@ nifi_wm_timestamp={}
 with open(nifi_log_name,'r') as fp:
 	line=fp.readline()
 	while line:
-		m=re.search("^(.*) INFO [.*[FinalControlProxy.putWaterMark](.*)records = (.+)$",line)
+		m=re.search("^(.*) INFO [.*[FinalControlProxy.putWaterMark](.*)records = (.+), with per item size: (.+)$",line)
 		if m:
 			curr_time=parse_timestamp(m.group(1))
 			num_records=float(m.group(3))
@@ -135,9 +135,11 @@ for minifi_wms in minifi_wm_list:
 			num_wm_occurrences[wm]=1
 			max_wm_ts[wm]=ts
 
+"""
 print(max_wm_ts)
 print("Nifi wm")
 print(nifi_wm_timestamp)
+"""
 lat_seconds=[]
 for wm,max_ts in max_wm_ts.items():
 	if num_wm_occurrences[wm]==expected_wm_occurrences:

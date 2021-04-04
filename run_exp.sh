@@ -50,6 +50,12 @@ if [ "$ht_disabled" != "y" ]; then
 	bash $NIFI_SCRIPT/disable_hyperthreading.sh
 fi
 
+read -p "Is network bandwidth correctly set?(y/n) " net_bw_set
+if [ "$net_bw_set" != "y" ]; then
+	echo "set network bw correctly before continuing"
+	exit 1	
+fi
+
 java -version
 version=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}')
 if [[ "$version" != *"1.8.0_222"* ]]; then
@@ -249,8 +255,10 @@ tail -n 16 $NIFI_LOG/temp; echo "------------------------------------------"; ec
 ./get_mid_cpu.sh test
 
 # Ask if you want to save it.
-echo;read -p "$SHELL: Do you want to save this log? [y/n]"
-if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+#echo;read -p "$SHELL: Do you want to save this log? [y/n]"
+SAVE_REPLY="n"
+#if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+if [[ ! $SAVE_REPLY =~ ^[Yy]$ ]]; then
     echo;echo "$SHELL: Done."
     exit 1
 fi
