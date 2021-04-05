@@ -157,6 +157,8 @@ rm cpu.csv
 cpustat -n 1 >> cpu.csv &
 CPUSTAT_PID=$!
 
+current_time_now=$(date)
+echo "Current time: $current_time_now"
 echo "$SHELL: Sleeping $1..."
 # Sleep as input time.
 sleep $1
