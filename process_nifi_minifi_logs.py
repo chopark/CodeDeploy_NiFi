@@ -124,6 +124,13 @@ for minifi_log in os.listdir(minifi_folder):
 				curr_time=parse_timestamp(m.group(1))
 				if (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
 					minifi_wm_left_ds_ts[int(m.group(2))]=curr_time
+			
+			# Tracking wm timestamp when it leaves data source for no adapt control proxy
+			m=re.search("(.*) INFO \[.*FinalControlProxyNoAdapt.putWaterMark] Seen watermark in final queue with seq num: (\d+),",line)
+			if m:
+				curr_time=parse_timestamp(m.group(1))
+				if (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
+					minifi_wm_left_ds_ts[int(m.group(2))]=curr_time
 			line=fp.readline()
 		minifi_wm_list.append(minifi_wm_timestamp)
 		minifi_wm_left_ds_list.append(minifi_wm_left_ds_ts)

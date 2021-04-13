@@ -7,7 +7,7 @@ sed -i s/nifi.web.http.host=.*/nifi.web.http.host=$IP/ nifi.properties
 cd $HOME/jarvis_nifi/bin
 
 sudo ./nifi.sh stop
-rm -rf ../content_repository/* ../provenance_repository/* ../flowfile_repository/* ../state/local/* ../logs/*
+sudo rm -rf ../content_repository/* ../provenance_repository/* ../flowfile_repository/* ../state/local/* ../logs/*
 if [ -d /mnt/ram_disk ]; then
 	sudo rm -rf /mnt/ram_disk/*
 fi
