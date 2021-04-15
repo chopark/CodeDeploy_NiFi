@@ -173,14 +173,19 @@ cmd_num=0
 #--parameters commands="sudo sh /home/ubuntu/scripts/stop_minifi.sh" \
 #--output text
 #
-pkill $CPUSTAT_PID
+echo "cpustat PID is: $CPUSTAT_PID"
+#pkill $CPUSTAT_PID
+sudo kill -9 $CPUSTAT_PID
 
+############Older command######################
+#--parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
+############Older command######################
 while [ $cmd_num -lt $target_groups ]; do
     #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     aws ssm send-command --targets "Key=tag:deploy,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
     --comment "stop MiNiFi" \
-    --parameters commands="sudo $MINIFI_BIN/minifi.sh stop" \
+    --parameters commands="sudo sh $DEFAULT_HOME/scripts/stop_minifi.sh" \
     --max-concurrency 100% \
     --output text
     cmd_num=$(($cmd_num+1))

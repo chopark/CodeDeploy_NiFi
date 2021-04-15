@@ -190,6 +190,10 @@ lat_seconds=[]
 nifi_proc_latency=[]
 for wm,max_ts in max_wm_ts.items():
 	if num_wm_occurrences[wm]==expected_wm_occurrences:
+		if not wm in nifi_wm_timestamp:
+			print(wm, " is not in nifi_wm_timestamp")
+		if not wm in nifi_wm_arrival_ts:
+			print(wm, " is not in nifi_wm_arrival_ts")
 		proc_latency=nifi_wm_timestamp[wm]-nifi_wm_arrival_ts[wm]
 		latency=nifi_wm_timestamp[wm]-max_ts
 		lat_seconds.append(latency.total_seconds())
