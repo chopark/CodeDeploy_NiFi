@@ -243,7 +243,7 @@ bash $NIFI_SCRIPT/get_minifi_logs.sh
 
 echo "Processing the logs to get throughput"
 total_nodes=$(($target_groups*$nodes_per_group))
-python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION 20 
+python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION $4 
 
 # Calculate second
 if [[ $1 == *"m"* ]]; then

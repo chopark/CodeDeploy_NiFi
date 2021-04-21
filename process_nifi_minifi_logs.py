@@ -74,12 +74,12 @@ with open(nifi_log_name,'r') as fp:
 			if (num_records>0) and (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
 				num_finished_flow_files_nifi+=1
 		# Track all watermarks after processing on nifi side
-		m=re.search("^(.*) INFO [.*[CustomHashGlobalAggOperator.onComplete](.*)and sent watermark (.+)$",line)
+		m=re.search("^(.*) INFO [.*[CustomDnnHashGlobalAggOperator.onComplete](.*)sent watermark (.+)$",line)
 		if m:
 			curr_time=parse_timestamp(m.group(1))
 			nifi_wm_timestamp[int(m.group(3))]=curr_time
 		
-		# Track watermarks when they enter on nifi SP side 
+		# Track all watermarks when they enter on nifi SP side 
 		m=re.search("^(.*) INFO \[(.*)MyProcessor.extractRecords] Final watermark seen is: (.+)$",line)
 		if m:
 			curr_time=parse_timestamp(m.group(1))
