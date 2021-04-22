@@ -110,7 +110,7 @@ if [ $# -ge $(($EXPECTED_ARGS+1)) ]; then
     NEXT_NEXT_ARG_NUM_AFTER_EXPECTED=$(($EXPECTED_ARGS+2))
     cpu1=${!NEXT_ARG_NUM_AFTER_EXPECTED}
     possibleDelay=${!NEXT_NEXT_ARG_NUM_AFTER_EXPECTED}
-    if [ $possibleDelay == "now" ]; then
+    if [[ $possibleDelay == "now" ]]; then
 	time_limit="now"
     else
         time_limit=`date "+%H%M" -d "+1 min"`
