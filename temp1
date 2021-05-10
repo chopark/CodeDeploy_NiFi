@@ -1,0 +1,877 @@
+COMMAND	7b86fa0c-1e3a-4597-b726-cb58be9d3b31	set id0	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:22.148000+00:00	100%	0			2021-05-09T21:55:22.148000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0a0a4d91779808b73
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 0
+COMMAND	0f11cab5-91f8-4771-8b50-6df4c112d554	set id1	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:22.972000+00:00	100%	0			2021-05-09T21:55:22.972000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0c350a60decaeab0e
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 1
+COMMAND	cae1abff-ea27-4bf8-9bb2-26e2eb32c7f7	set id2	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:23.765000+00:00	100%	0			2021-05-09T21:55:23.765000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-00ea707d50673faf6
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 2
+COMMAND	6e77b074-1ea3-41d3-bc7d-3319c48d519b	set id3	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:24.586000+00:00	100%	0			2021-05-09T21:55:24.586000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0cf218815b3192270
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 3
+COMMAND	5a1dc12a-c75b-4851-86ea-261f2d2b1c99	set id4	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:25.452000+00:00	100%	0			2021-05-09T21:55:25.452000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0799e9339d216ca46
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 4
+COMMAND	0913c663-0768-4148-8445-9817b3d90ebe	set id5	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:26.262000+00:00	100%	0			2021-05-09T21:55:26.262000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-03a4df5e0ddf90c5a
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 5
+COMMAND	445fd3a0-2aee-4c30-abd3-f514e24c02f7	set id6	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:27.065000+00:00	100%	0			2021-05-09T21:55:27.065000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b8342b90532868f3
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 6
+COMMAND	f7165d37-ae15-48c5-86c4-ae9eaeebea20	set id7	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:27.855000+00:00	100%	0			2021-05-09T21:55:27.855000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-005b9cd5111faed93
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 7
+COMMAND	6e5cfea2-3817-4052-ad26-b3ec07ed15aa	set id8	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:28.683000+00:00	100%	0			2021-05-09T21:55:28.683000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-034711c7b6333adc4
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 8
+COMMAND	7ac864b4-3105-4b6e-b673-3e9e1ceabe5b	set id9	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:29.500000+00:00	100%	0			2021-05-09T21:55:29.500000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b7f7b46ab2e01fbe
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 9
+COMMAND	d844949d-3517-41b6-804e-dae01efff910	set id10	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:30.276000+00:00	100%	0			2021-05-09T21:55:30.276000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0c1adef3dd8cdd6b6
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 10
+COMMAND	ecc1a0b7-4080-4aad-964c-8ef52fb00653	set id11	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:31.034000+00:00	100%	0			2021-05-09T21:55:31.034000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-01857cd2663958461
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 11
+COMMAND	1a486b4b-1bc9-4aec-87b3-b46d8d35cf14	set id12	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:31.783000+00:00	100%	0			2021-05-09T21:55:31.783000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-01ad58adf718325ed
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 12
+COMMAND	5937cb70-d47b-4352-a017-83e89f254b4e	set id13	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:32.544000+00:00	100%	0			2021-05-09T21:55:32.544000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ba10239f870d2f6b
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 13
+COMMAND	6d2992f2-3fe7-4f84-b5a4-2ed62089673b	set id14	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:33.352000+00:00	100%	0			2021-05-09T21:55:33.352000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0df23b95126f75a7b
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 14
+COMMAND	03e99a6e-7b27-4127-acd3-cc1c6cc47c0e	set id15	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:34.237000+00:00	100%	0			2021-05-09T21:55:34.237000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0465cf11aca1020fd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 15
+COMMAND	483d1ae8-7334-41f0-bb9d-b1312efcce65	set id16	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:35.019000+00:00	100%	0			2021-05-09T21:55:35.019000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0be82b7c82b62ca25
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 16
+COMMAND	129217e6-c342-48ff-9994-c15731197623	set id17	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:35.775000+00:00	100%	0			2021-05-09T21:55:35.775000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-026ecc18f71ce63fd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 17
+COMMAND	d7bc0818-1488-4faa-ab49-c0af21da5553	set id18	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:36.605000+00:00	100%	0			2021-05-09T21:55:36.605000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0330bd37b7c5b6fdd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 18
+COMMAND	0852ef01-c77c-47bb-ac17-415cf8e550a5	set id19	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:37.384000+00:00	100%	0			2021-05-09T21:55:37.384000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-03088d32db23501ee
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 19
+COMMAND	85025fe7-3d0c-4a90-ac8d-3b24af9df0f2	set id20	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:38.157000+00:00	100%	0			2021-05-09T21:55:38.157000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-05be96b328e4666ea
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 20
+COMMAND	3eff7ad8-816b-4f6d-8af9-71f7116e0d08	set id21	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:38.956000+00:00	100%	0			2021-05-09T21:55:38.956000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0e5af1ad076059a46
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 21
+COMMAND	7393eabd-40c6-4300-b81c-8ac24751d771	set id22	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:39.742000+00:00	100%	0			2021-05-09T21:55:39.742000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ef2392a3babfc29f
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 22
+COMMAND	012f8cfc-9fab-4df4-98e3-e340d40f15f7	set id23	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:40.581000+00:00	100%	0			2021-05-09T21:55:40.581000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0688915df9bab993b
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 23
+COMMAND	712df7ee-bb21-41e1-bc0f-712e0768d7ec	set id24	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:41.362000+00:00	100%	0			2021-05-09T21:55:41.362000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-07e147fff5cd1dfe7
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 24
+COMMAND	7cc087a1-ed50-481b-b08b-9206de67aa02	set id25	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:42.147000+00:00	100%	0			2021-05-09T21:55:42.147000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ab17ae49400d4711
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 25
+COMMAND	89264d30-bc8e-41f7-aee1-c49fa81c92ce	set id26	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:42.922000+00:00	100%	0			2021-05-09T21:55:42.922000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b4de4e01153813a8
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 26
+COMMAND	2d17cb22-9add-4b85-a3eb-2ab56628cfb8	set id27	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:43.763000+00:00	100%	0			2021-05-09T21:55:43.763000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-05dee25685e602cdd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 27
+COMMAND	17f71380-9d27-4d85-9036-6bbe32dde617	set id28	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:44.591000+00:00	100%	0			2021-05-09T21:55:44.591000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-00426b282f91d6373
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 28
+COMMAND	b65a03f4-b1f6-4882-896b-1ecc9a589caf	set id29	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:45.413000+00:00	100%	0			2021-05-09T21:55:45.413000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0455e5c4d26bfeb5f
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 29
+COMMAND	feb38256-cc6e-474b-8121-7e4625b84bae	set id30	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:46.190000+00:00	100%	0			2021-05-09T21:55:46.190000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0a2d369d655c55a1a
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 30
+COMMAND	bd0ee0cf-cb0a-49c2-92c3-aa5cffbb23c2	set id31	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:46.970000+00:00	100%	0			2021-05-09T21:55:46.970000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0d12fddc5e840f720
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 31
+COMMAND	f83050c5-f5c8-4f42-90c0-21143fac1290	set id32	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:47.750000+00:00	100%	0			2021-05-09T21:55:47.750000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0a4b4b60839a374b7
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 32
+COMMAND	6f2b41bf-da8b-4678-a01b-a2518e11b145	set id33	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:48.501000+00:00	100%	0			2021-05-09T21:55:48.501000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b0bead6354eaf0d2
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 33
+COMMAND	00b315b4-9921-47a3-9f73-66025d27ec45	set id34	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:49.239000+00:00	100%	0			2021-05-09T21:55:49.239000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ba6194ae099269fd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 34
+COMMAND	942b8d33-ee47-4f75-a2c2-c6695c8d8630	set id35	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:50.028000+00:00	100%	0			2021-05-09T21:55:50.028000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0d3089cfc0c1baaa0
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 35
+COMMAND	97ab35cd-ca8e-4662-86aa-c4d83e1fa9f9	set id36	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:50.776000+00:00	100%	0			2021-05-09T21:55:50.776000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-09ab30d59448e1729
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 36
+COMMAND	56fd246b-0f23-42e2-b26b-667fe82eb855	set id37	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:51.572000+00:00	100%	0			2021-05-09T21:55:51.572000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-017b6d8394942fd87
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 37
+COMMAND	0eb2763e-d7b2-43c2-831a-04a0afa8441e	set id38	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:52.384000+00:00	100%	0			2021-05-09T21:55:52.384000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0c89bd6862a9560a4
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 38
+COMMAND	695dd5f7-755f-4a05-a3e7-bc4ddfa3f5d7	set id39	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:53.164000+00:00	100%	0			2021-05-09T21:55:53.164000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-068cd6ef620c037bc
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 39
+COMMAND	bc5579e7-7bd9-4715-b74d-c7ad89649930	set id40	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:53.998000+00:00	100%	0			2021-05-09T21:55:53.998000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-04d48d8b878b2daa1
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 40
+COMMAND	1060a1b2-77d4-4bd2-8e78-8843b6d20009	set id41	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:54.804000+00:00	100%	0			2021-05-09T21:55:54.804000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-002051ece837b0b84
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 41
+COMMAND	cb7f2b25-366c-424e-aabf-ec6b86c1d1f1	set id42	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:55.636000+00:00	100%	0			2021-05-09T21:55:55.636000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ca251f77e8faaa80
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 42
+COMMAND	bf931789-8dfe-4099-ad70-412e4eb801fe	set id43	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:56.431000+00:00	100%	0			2021-05-09T21:55:56.431000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0e008b0ce2914c549
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/set_conf.sh 43
+0 change_port being called
+COMMAND	82a00ff9-a61a-45bc-bc9d-be46b3e300b4	set config MiNiFi Group0	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:55:57.219000+00:00	100%	0			2021-05-09T21:55:57.219000+00:00		Pending	Pending	0	3600
+CLOUDWATCHOUTPUTCONFIG		False
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/change_port.sh 0 172.31.1.181
+TARGETS	tag:deploy
+VALUES	0
+Set config files
+nifi.sh: JAVA_HOME not set; results may vary
+
+Java home: 
+NiFi home: /home/ubuntu/jarvis_nifi
+
+Bootstrap Config File: /home/ubuntu/jarvis_nifi/conf/bootstrap.conf
+
+2021-05-09 21:55:58,154 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi is not currently running
+
+nifi.sh: JAVA_HOME not set; results may vary
+
+Java home: 
+NiFi home: /home/ubuntu/jarvis_nifi
+
+Bootstrap Config File: /home/ubuntu/jarvis_nifi/conf/bootstrap.conf
+
+
+run_exp.sh: FlowFiles will be parsed with your NiFi IP(172.31.1.181)
+run_exp.sh: Checking flowFilesQueued...
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 
+
+run_exp.sh: flowFilesQueued: 0
+
+run_exp.sh: flowFilesQueued: 0
+
+run_exp.sh: NiFi ready, start MiNiFi.
+COMMAND	cca26d76-8565-4166-8c24-f270596effec	start MiNiFi	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-09T23:56:55.112000+00:00	100%	0			2021-05-09T21:56:55.112000+00:00		Pending	Pending	0	3600
+CLOUDWATCHOUTPUTCONFIG		False
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/start_minifi.sh
+TARGETS	tag:deploy
+VALUES	0
+Current time: Sun May  9 21:56:55 UTC 2021
+run_exp.sh: Sleeping 6m...
+cpustat PID is: 4896
+COMMAND	8f166cfc-74f6-4ce0-8557-796c65a33517	stop MiNiFi	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:02:55.956000+00:00	100%	0			2021-05-09T22:02:55.956000+00:00		Pending	Pending	0	3600
+CLOUDWATCHOUTPUTCONFIG		False
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/stop_minifi.sh
+TARGETS	tag:deploy
+VALUES	0
+run_exp.sh: Checking flowFilesQueued...
+
+run_exp.sh: flowFilesQueued: 0
+
+run_exp.sh: flowFilesQueued: 0
+
+run_exp.sh: Stop running Nifi instance...
+nifi.sh: JAVA_HOME not set; results may vary
+
+Java home: 
+NiFi home: /home/ubuntu/jarvis_nifi
+
+Bootstrap Config File: /home/ubuntu/jarvis_nifi/conf/bootstrap.conf
+
+2021-05-09 22:02:57,263 INFO [main] org.apache.nifi.bootstrap.Command Apache NiFi has accepted the Shutdown Command and is shutting down now
+2021-05-09 22:02:57,288 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:02:59,308 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:01,328 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:03,348 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:05,368 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:07,388 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:09,409 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:11,430 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:13,449 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:15,469 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:17,489 INFO [main] org.apache.nifi.bootstrap.Command Waiting for Apache NiFi to finish shutting down...
+2021-05-09 22:03:17,509 WARN [main] org.apache.nifi.bootstrap.Command NiFi has not finished shutting down after 20 seconds. Killing process.
+2021-05-09 22:03:17,531 INFO [main] org.apache.nifi.bootstrap.Command NiFi has finished shutting down.
+
+run_exp.sh: Parsing the NiFi logs...
+Collecting minifi logs all data source nodes
+COMMAND	844f99f8-05d2-4662-869c-a31c1635e09b	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:22.390000+00:00	100%	0			2021-05-09T22:03:22.390000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0a0a4d91779808b73
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	442996c8-4139-4bd2-a9fb-c5b5977a8e46	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:23.220000+00:00	100%	0			2021-05-09T22:03:23.220000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0c350a60decaeab0e
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	0b903e3d-268d-4993-b1d1-ffe044f307b0	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:23.968000+00:00	100%	0			2021-05-09T22:03:23.968000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-00ea707d50673faf6
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	8c74d190-709f-4339-8502-7e7a382edf34	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:24.755000+00:00	100%	0			2021-05-09T22:03:24.755000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0cf218815b3192270
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	2ef130a0-ddf5-4e41-ad90-cbeb80750b44	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:25.548000+00:00	100%	0			2021-05-09T22:03:25.548000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0799e9339d216ca46
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	b1007153-0660-48c6-97be-c881f839be00	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:26.347000+00:00	100%	0			2021-05-09T22:03:26.347000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-03a4df5e0ddf90c5a
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	13ea03fd-74d3-4357-8b8b-a8e63540a4a2	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:27.238000+00:00	100%	0			2021-05-09T22:03:27.238000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b8342b90532868f3
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	942e963c-c80d-4993-b30a-a6a3768bf86b	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:27.992000+00:00	100%	0			2021-05-09T22:03:27.992000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-005b9cd5111faed93
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	196f547c-4178-454e-adfa-f018b9aae9ce	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:28.771000+00:00	100%	0			2021-05-09T22:03:28.771000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-034711c7b6333adc4
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	9dad4d22-3181-4889-a5e4-8ae09d7d44f1	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:29.581000+00:00	100%	0			2021-05-09T22:03:29.581000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b7f7b46ab2e01fbe
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	7ea9bc4c-e4d8-4b33-924d-8adb250dc129	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:30.384000+00:00	100%	0			2021-05-09T22:03:30.384000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0c1adef3dd8cdd6b6
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	1f027d08-f4ef-48a2-83fa-0f8c21c3f802	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:31.201000+00:00	100%	0			2021-05-09T22:03:31.201000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-01857cd2663958461
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	2a61fee4-b364-42fb-97ba-9b431849f91b	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:32.018000+00:00	100%	0			2021-05-09T22:03:32.018000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-01ad58adf718325ed
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	6ed0ede4-30a3-4933-a6fd-d5f9914b02d8	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:32.846000+00:00	100%	0			2021-05-09T22:03:32.846000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ba10239f870d2f6b
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	ee257f19-30cc-4c5f-aace-a8bfcc074578	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:33.593000+00:00	100%	0			2021-05-09T22:03:33.593000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0df23b95126f75a7b
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	7873f0af-d216-48df-8420-2aa7661ee313	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:34.408000+00:00	100%	0			2021-05-09T22:03:34.408000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0465cf11aca1020fd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	c20f2c88-88c4-4de3-a2f8-882d2c4f54e3	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:35.205000+00:00	100%	0			2021-05-09T22:03:35.205000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0be82b7c82b62ca25
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	cf7db15f-fc68-400b-a1fc-cdff40de2b4a	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:36.036000+00:00	100%	0			2021-05-09T22:03:36.036000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-026ecc18f71ce63fd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	0b2f263c-29e0-4f78-a1fc-b3fb3fecf91d	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:36.822000+00:00	100%	0			2021-05-09T22:03:36.822000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0330bd37b7c5b6fdd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	9e84e94c-524a-4c45-be34-b5eb2337cb8d	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:37.647000+00:00	100%	0			2021-05-09T22:03:37.647000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-03088d32db23501ee
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	4c4dd5e0-1708-40e7-a170-ceec0e9125e3	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:38.501000+00:00	100%	0			2021-05-09T22:03:38.501000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-05be96b328e4666ea
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	5961baa5-0aa0-403b-a40c-a0765595b328	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:39.318000+00:00	100%	0			2021-05-09T22:03:39.318000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0e5af1ad076059a46
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	2b837eb6-c47d-4159-8d77-4a07976aa120	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:40.140000+00:00	100%	0			2021-05-09T22:03:40.140000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ef2392a3babfc29f
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	2e566a31-ab43-4ed4-937a-465a67a9f3d5	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:40.919000+00:00	100%	0			2021-05-09T22:03:40.919000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0688915df9bab993b
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	39565761-29c4-4f89-8d32-27fa5c598b39	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:41.710000+00:00	100%	0			2021-05-09T22:03:41.710000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-07e147fff5cd1dfe7
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	77e49ead-8b61-4e5b-8f98-4a4cd5c8b18e	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:42.490000+00:00	100%	0			2021-05-09T22:03:42.490000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ab17ae49400d4711
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	7fa155b1-b53b-4e9b-b3fb-7833438e84a7	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:43.276000+00:00	100%	0			2021-05-09T22:03:43.276000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b4de4e01153813a8
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	37343239-79a4-4288-9dac-f1eeb5ff5ba3	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:44.104000+00:00	100%	0			2021-05-09T22:03:44.104000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-05dee25685e602cdd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	78f2146f-e16b-4742-871c-a38e4667816e	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:44.934000+00:00	100%	0			2021-05-09T22:03:44.934000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-00426b282f91d6373
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	cc204309-3159-4ff5-9861-a97e4dc6d460	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:45.733000+00:00	100%	0			2021-05-09T22:03:45.733000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0455e5c4d26bfeb5f
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	c33fb1c7-edc8-4653-b7c7-d25980b28adc	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:46.491000+00:00	100%	0			2021-05-09T22:03:46.491000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0a2d369d655c55a1a
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	0b3eb470-8ddf-4c84-9ad6-86de72b5463b	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:47.289000+00:00	100%	0			2021-05-09T22:03:47.289000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0d12fddc5e840f720
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	8cb36755-1b05-49d7-b8fb-0b4b412bc87e	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:48.103000+00:00	100%	0			2021-05-09T22:03:48.103000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0a4b4b60839a374b7
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	40202a93-c3b7-4c5a-8c02-1c89b5c19883	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:48.921000+00:00	100%	0			2021-05-09T22:03:48.921000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0b0bead6354eaf0d2
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	70c3b9be-acc8-4b14-8dbc-79298bde250c	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:49.708000+00:00	100%	0			2021-05-09T22:03:49.708000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ba6194ae099269fd
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	c0d6589a-e7bb-4d39-b177-463f2018d7a9	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:50.531000+00:00	100%	0			2021-05-09T22:03:50.531000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0d3089cfc0c1baaa0
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	68d8e02b-5164-4934-a15a-4f8592c2e423	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:51.369000+00:00	100%	0			2021-05-09T22:03:51.369000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-09ab30d59448e1729
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	6ac9caaf-2529-4426-8c55-962d508ee734	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:52.175000+00:00	100%	0			2021-05-09T22:03:52.175000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-017b6d8394942fd87
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	49be3855-9ebf-4572-891d-4d07fe9a8d15	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:52.987000+00:00	100%	0			2021-05-09T22:03:52.987000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0c89bd6862a9560a4
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	bc15673f-83c7-497b-a93f-44754b3a676a	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:53.821000+00:00	100%	0			2021-05-09T22:03:53.821000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-068cd6ef620c037bc
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	7808b6c4-1bbc-41ca-8ba2-745e213bcf5e	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:54.602000+00:00	100%	0			2021-05-09T22:03:54.602000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-04d48d8b878b2daa1
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	78c10d86-ae4f-4d2d-9f52-a89a60e1ef7a	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:55.485000+00:00	100%	0			2021-05-09T22:03:55.485000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-002051ece837b0b84
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	f31d61ed-af0e-4cfe-8b53-43a8de05ab7c	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:56.270000+00:00	100%	0			2021-05-09T22:03:56.270000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0ca251f77e8faaa80
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+COMMAND	e407ce8f-3304-4274-9c5a-b3584f72a255	concat logs	0	0	AWS-RunShellScript	$DEFAULT	0	2021-05-10T00:03:57.109000+00:00	100%	0			2021-05-09T22:03:57.109000+00:00		Pending	Pending	1	3600
+CLOUDWATCHOUTPUTCONFIG		False
+INSTANCEIDS	i-0e008b0ce2914c549
+NOTIFICATIONCONFIG		
+COMMANDS	sudo sh /home/ubuntu/scripts/concat_logs.sh
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+log_cat
+
+sent 51 bytes  received 2,544,350 bytes  1,017,760.40 bytes/sec
+total size is 2,543,646  speedup is 1.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+log_cat
+
+sent 51 bytes  received 2,576,584 bytes  1,717,756.67 bytes/sec
+total size is 2,575,872  speedup is 1.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+log_cat
+
+sent 51 bytes  received 2,538,493 bytes  1,692,362.67 bytes/sec
+total size is 2,537,788  speedup is 1.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+log_cat
+
+sent 51 bytes  received 2,540,739 bytes  1,016,316.00 bytes/sec
+total size is 2,540,035  speedup is 1.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  78.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+receiving incremental file list
+
+sent 8 bytes  received 109 bytes  234.00 bytes/sec
+total size is 0  speedup is 0.00
+Processing the logs to get throughput
+Actual number of finished flowfiles by pipeline:  480
+Now processing minifi files for expected count
+Minifi log file name being read is:  minifi-app21.log
+Minifi log file name being read is:  minifi-app32.log
+Minifi log file name being read is:  minifi-app5.log
+Minifi log file name being read is:  minifi-app23.log
+Expected number of flowfiles in pipeline:  480
+Start time for log analysis:  2021-05-09 21:58:29.281000
+End time for log analysis:  2021-05-09 22:00:29.281000
+log analysis duration in seconds:  120.0
+Actual throughput in terms of flowfiles:  4.0
+Expected throughput in terms of flowfiles:  4.0
+Total number of minifi flowfiles generated:  1384
+Printing wms
+Stats for minifi proc latency: 1.415 0.158 0.115
+Printing nifi wm arrival ts
+Stats for network latency: 7.514 1.146 0.295
+Computing latencies
+latency:  0.877  and nifi proc latency is:  0.032 , for wm:  77
+latency:  0.927  and nifi proc latency is:  0.043 , for wm:  78
+latency:  0.881  and nifi proc latency is:  0.072 , for wm:  79
+latency:  0.873  and nifi proc latency is:  0.059 , for wm:  80
+latency:  0.892  and nifi proc latency is:  0.057 , for wm:  81
+latency:  0.869  and nifi proc latency is:  0.053 , for wm:  82
+latency:  0.903  and nifi proc latency is:  0.084 , for wm:  83
+latency:  0.884  and nifi proc latency is:  0.079 , for wm:  84
+latency:  0.903  and nifi proc latency is:  0.054 , for wm:  85
+latency:  0.924  and nifi proc latency is:  0.044 , for wm:  86
+latency:  0.919  and nifi proc latency is:  0.035 , for wm:  87
+latency:  0.882  and nifi proc latency is:  0.038 , for wm:  88
+latency:  0.891  and nifi proc latency is:  0.041 , for wm:  89
+latency:  0.864  and nifi proc latency is:  0.037 , for wm:  90
+latency:  0.876  and nifi proc latency is:  0.055 , for wm:  91
+latency:  0.836  and nifi proc latency is:  0.04 , for wm:  92
+latency:  0.944  and nifi proc latency is:  0.04 , for wm:  93
+latency:  0.824  and nifi proc latency is:  0.036 , for wm:  94
+latency:  0.941  and nifi proc latency is:  0.06 , for wm:  95
+latency:  0.914  and nifi proc latency is:  0.055 , for wm:  96
+latency:  0.945  and nifi proc latency is:  0.046 , for wm:  97
+latency:  0.857  and nifi proc latency is:  0.052 , for wm:  98
+latency:  0.945  and nifi proc latency is:  0.079 , for wm:  99
+latency:  0.944  and nifi proc latency is:  0.08 , for wm:  100
+latency:  0.884  and nifi proc latency is:  0.03 , for wm:  101
+latency:  0.918  and nifi proc latency is:  0.04 , for wm:  102
+latency:  0.975  and nifi proc latency is:  0.068 , for wm:  103
+latency:  0.944  and nifi proc latency is:  0.072 , for wm:  104
+latency:  0.891  and nifi proc latency is:  0.035 , for wm:  105
+latency:  0.918  and nifi proc latency is:  0.054 , for wm:  106
+latency:  0.943  and nifi proc latency is:  0.032 , for wm:  107
+latency:  0.827  and nifi proc latency is:  0.041 , for wm:  108
+latency:  0.885  and nifi proc latency is:  0.036 , for wm:  109
+latency:  0.909  and nifi proc latency is:  0.035 , for wm:  110
+latency:  0.91  and nifi proc latency is:  0.071 , for wm:  111
+latency:  1.005  and nifi proc latency is:  0.105 , for wm:  112
+latency:  0.896  and nifi proc latency is:  0.059 , for wm:  113
+latency:  0.956  and nifi proc latency is:  0.089 , for wm:  114
+latency:  0.899  and nifi proc latency is:  0.062 , for wm:  115
+latency:  0.897  and nifi proc latency is:  0.052 , for wm:  116
+latency:  0.902  and nifi proc latency is:  0.046 , for wm:  117
+latency:  0.878  and nifi proc latency is:  0.047 , for wm:  118
+latency:  0.757  and nifi proc latency is:  0.048 , for wm:  119
+latency:  0.878  and nifi proc latency is:  0.044 , for wm:  120
+latency:  0.886  and nifi proc latency is:  0.03 , for wm:  121
+latency:  0.929  and nifi proc latency is:  0.029 , for wm:  122
+latency:  0.934  and nifi proc latency is:  0.051 , for wm:  123
+latency:  0.867  and nifi proc latency is:  0.048 , for wm:  124
+latency:  0.897  and nifi proc latency is:  0.055 , for wm:  125
+latency:  0.856  and nifi proc latency is:  0.041 , for wm:  126
+latency:  0.896  and nifi proc latency is:  0.042 , for wm:  127
+latency:  0.901  and nifi proc latency is:  0.051 , for wm:  128
+latency:  0.915  and nifi proc latency is:  0.05 , for wm:  129
+latency:  0.923  and nifi proc latency is:  0.048 , for wm:  130
+latency:  0.872  and nifi proc latency is:  0.057 , for wm:  131
+latency:  0.94  and nifi proc latency is:  0.054 , for wm:  132
+latency:  0.876  and nifi proc latency is:  0.058 , for wm:  133
+latency:  0.92  and nifi proc latency is:  0.047 , for wm:  134
+latency:  0.89  and nifi proc latency is:  0.058 , for wm:  135
+latency:  1.012  and nifi proc latency is:  0.044 , for wm:  136
+latency:  0.886  and nifi proc latency is:  0.045 , for wm:  137
+latency:  0.954  and nifi proc latency is:  0.049 , for wm:  138
+latency:  0.976  and nifi proc latency is:  0.048 , for wm:  139
+latency:  0.906  and nifi proc latency is:  0.049 , for wm:  140
+latency:  0.968  and nifi proc latency is:  0.04 , for wm:  141
+latency:  0.943  and nifi proc latency is:  0.036 , for wm:  142
+latency:  1.022  and nifi proc latency is:  0.08 , for wm:  143
+latency:  0.828  and nifi proc latency is:  0.03 , for wm:  144
+latency:  0.958  and nifi proc latency is:  0.046 , for wm:  145
+latency:  0.946  and nifi proc latency is:  0.038 , for wm:  146
+latency:  0.865  and nifi proc latency is:  0.043 , for wm:  147
+latency:  0.922  and nifi proc latency is:  0.048 , for wm:  148
+latency:  0.897  and nifi proc latency is:  0.046 , for wm:  149
+latency:  0.863  and nifi proc latency is:  0.048 , for wm:  150
+latency:  0.994  and nifi proc latency is:  0.044 , for wm:  151
+latency:  0.884  and nifi proc latency is:  0.043 , for wm:  152
+latency:  0.895  and nifi proc latency is:  0.044 , for wm:  153
+latency:  0.89  and nifi proc latency is:  0.028 , for wm:  154
+latency:  1.02  and nifi proc latency is:  0.035 , for wm:  155
+latency:  0.861  and nifi proc latency is:  0.04 , for wm:  156
+latency:  0.971  and nifi proc latency is:  0.039 , for wm:  157
+latency:  0.883  and nifi proc latency is:  0.049 , for wm:  158
+latency:  0.919  and nifi proc latency is:  0.048 , for wm:  159
+latency:  0.9  and nifi proc latency is:  0.052 , for wm:  160
+latency:  1.004  and nifi proc latency is:  0.038 , for wm:  161
+latency:  0.94  and nifi proc latency is:  0.044 , for wm:  162
+latency:  0.94  and nifi proc latency is:  0.048 , for wm:  163
+latency:  0.886  and nifi proc latency is:  0.041 , for wm:  164
+latency:  0.895  and nifi proc latency is:  0.045 , for wm:  165
+latency:  0.936  and nifi proc latency is:  0.046 , for wm:  166
+latency:  0.701  and nifi proc latency is:  0.048 , for wm:  167
+latency:  1.219  and nifi proc latency is:  0.048 , for wm:  168
+latency:  3.545  and nifi proc latency is:  0.095 , for wm:  169
+latency:  5.449  and nifi proc latency is:  0.073 , for wm:  170
+latency:  4.834  and nifi proc latency is:  0.062 , for wm:  171
+latency:  4.852  and nifi proc latency is:  0.044 , for wm:  172
+latency:  4.073  and nifi proc latency is:  0.044 , for wm:  173
+latency:  4.828  and nifi proc latency is:  0.047 , for wm:  174
+latency:  3.944  and nifi proc latency is:  0.087 , for wm:  175
+latency:  3.503  and nifi proc latency is:  0.041 , for wm:  176
+latency:  5.504  and nifi proc latency is:  0.077 , for wm:  177
+latency:  4.608  and nifi proc latency is:  0.066 , for wm:  178
+latency:  3.677  and nifi proc latency is:  0.068 , for wm:  179
+latency:  7.333  and nifi proc latency is:  0.266 , for wm:  180
+latency:  6.472  and nifi proc latency is:  0.19 , for wm:  181
+latency:  5.587  and nifi proc latency is:  0.232 , for wm:  182
+latency:  6.426  and nifi proc latency is:  0.141 , for wm:  183
+latency:  5.448  and nifi proc latency is:  0.137 , for wm:  184
+latency:  4.485  and nifi proc latency is:  0.16 , for wm:  185
+latency:  4.844  and nifi proc latency is:  0.102 , for wm:  186
+latency:  4.654  and nifi proc latency is:  0.07 , for wm:  187
+latency:  3.67  and nifi proc latency is:  0.09 , for wm:  188
+latency:  3.471  and nifi proc latency is:  0.069 , for wm:  189
+latency:  2.542  and nifi proc latency is:  0.073 , for wm:  190
+latency:  1.791  and nifi proc latency is:  0.039 , for wm:  191
+latency:  1.11  and nifi proc latency is:  0.026 , for wm:  192
+latency:  0.937  and nifi proc latency is:  0.044 , for wm:  193
+latency:  0.94  and nifi proc latency is:  0.04 , for wm:  194
+latency:  0.85  and nifi proc latency is:  0.037 , for wm:  195
+Average latency per flowfile is: 7.333 0.92 0.701
+
+RESULT
+------------------------------------------
+Edge IDs along with the final epoch ID seen from each edge:
+{}
+Expected runtime:  -15.0  s
+Actual Runtime:  0.0  s
+The number of edges: 0
+Total data size processed across all edges is:  0  MB
+Throughput:  -0.0  MBps
+Unlimited network ideal throughput:  0.0  MBps
+Limited network( 2.5 MB) ideal throughput:  0.0  MBps
+------------------------------------------
+
+CPU min:  3.0
+CPU median:  84.0
+CPU max:  593.0
+
+run_exp.sh: Done.

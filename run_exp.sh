@@ -5,10 +5,11 @@
 #### e.g. (the number of target edge group): 1, 2, 3, ..."
 
 SHELL=`basename "$0"`
-EXPECTED_ARGS=4
+EXPECTED_ARGS=5
 
 if [ $# -lt $EXPECTED_ARGS ]; then
-    echo "$SHELL: USAGE: $SHELL (sleep time) (target groups) (number of nodes per group) (number of wms to skip for analysis)"
+    echo "$SHELL: USAGE: $SHELL (interactive) (sleep time) (target groups) (number of nodes per group) (number of wms to skip for analysis)"
+    echo "$SHELL: e.g. (interactive): true,false"
     echo "$SHELL: e.g. (sleep time): 60s, 10m, 1h"
     echo "$SHELL: e.g. (target groups): 1, 2, 3, ..."
     echo "$SHELL: e.g. (number of nodes per group): 4,8, ..."
@@ -41,16 +42,27 @@ LOG_PROCESSOR_ID="d02bb153-016c-1000-3bed-7ffc10e019d1"
 
 # change this to use in other instances...
 cmd_num=0
-target_groups=$2
-nodes_per_group=$3
+interactive=$1
+target_groups=$3
+nodes_per_group=$4
 total_nodes=$(($target_groups*$nodes_per_group))
 
-read -p "Is hyperthreading disabled?(y/n) " ht_disabled
+if [ "$interactive" != "true" ]; then
+	ht_disabled="n"
+else
+	read -p "Is hyperthreading disabled?(y/n) " ht_disabled	
+fi
+
 if [ "$ht_disabled" != "y" ]; then
 	bash $NIFI_SCRIPT/disable_hyperthreading.sh
 fi
 
-read -p "Is network bandwidth correctly set?(y/n) " net_bw_set
+if [ "$interactive" != "true" ]; then
+	net_bw_set="y"
+else
+	read -p "Is network bandwidth correctly set?(y/n) " net_bw_set
+fi
+
 if [ "$net_bw_set" != "y" ]; then
 	echo "set network bw correctly before continuing"
 	exit 1	
@@ -159,9 +171,9 @@ CPUSTAT_PID=$!
 
 current_time_now=$(date)
 echo "Current time: $current_time_now"
-echo "$SHELL: Sleeping $1..."
+echo "$SHELL: Sleeping $2..."
 # Sleep as input time.
-sleep $1
+sleep $2
 
 # Stop MiNiFi
 cmd_num=0
@@ -243,13 +255,13 @@ bash $NIFI_SCRIPT/get_minifi_logs.sh
 
 echo "Processing the logs to get throughput"
 total_nodes=$(($target_groups*$nodes_per_group))
-python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION $4 
+python3.5 process_nifi_minifi_logs.py $NIFI_LOG/log_cat $total_nodes $MINIFI_LOGS_LOCATION $5
 
 # Calculate second
-if [[ $1 == *"m"* ]]; then
+if [[ $2 == *"m"* ]]; then
 	num=`echo "${1//m}"`
 	runtime_second=$(($num*60))
-elif [[ $1 == *"s"* ]]; then
+elif [[ $2 == *"s"* ]]; then
 	num=`echo "${1//s}"`
 	runtime_second=$num
 fi

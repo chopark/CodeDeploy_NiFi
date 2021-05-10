@@ -35,7 +35,7 @@ while [ $cmd_num -lt $target_groups ]; do
     #aws ssm send-command --targets "Key=tag:command,Values=$cmd_num" \
     aws ssm send-command --targets "Key=tag:deploy,Values=$cmd_num" \
     --document-name "AWS-RunShellScript" \
-    --comment "Set network group$i" \
+    --comment "Set network group$cmd_num" \
     --parameters commands="sudo sh $HOME/scripts/limit_netband.sh $1" \
     --max-concurrency 100% \
     --output text
