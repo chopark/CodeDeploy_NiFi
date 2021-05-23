@@ -34,11 +34,11 @@ with open(nifi_log_name, 'r') as fp:
 			if m:
 				curr_time=parse_timestamp(m.group(1))
 				num_records=float(m.group(3))
-				if(num_records>0):
-					num_watermarks_seen+=1
-					if num_watermarks_seen == num_wm_skip:
-						start_time_obj=curr_time		
-						start_time_read=True
+				#if(num_records>0):
+				num_watermarks_seen+=1
+				if num_watermarks_seen == num_wm_skip:
+					start_time_obj=curr_time		
+					start_time_read=True
 		"""	
 			if("INFO" in line):
 				start_time_str=line.split(" INFO ")
@@ -71,7 +71,8 @@ with open(nifi_log_name,'r') as fp:
 		if m:
 			curr_time=parse_timestamp(m.group(1))
 			num_records=float(m.group(3))
-			if (num_records>0) and (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
+			#if (num_records>0) and (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
+			if (curr_time <= end_time_obj) and (curr_time >= start_time_obj):
 				num_finished_flow_files_nifi+=1
 		# Track all watermarks after processing on nifi side
 		m=re.search("^(.*) INFO [.*[CustomDnnHashGlobalAggOperator.onComplete](.*)sent watermark (.+)$",line)
@@ -95,8 +96,8 @@ with open(nifi_log_name,'r') as fp:
 			 
 total_finished_flow_files_pipeline=num_finished_flow_files_nifi*int(num_edges)
 print("Actual number of finished flowfiles by pipeline: ", total_finished_flow_files_pipeline)
-
-
+print("Start time for log analysis: ", start_time_obj)
+print("End time for log analysis: ", end_time_obj)
 print("Now processing minifi files for expected count")
 num_expected_flowfiles_minifi=0
 if len(os.listdir(minifi_folder)) == 0:
@@ -146,8 +147,6 @@ for minifi_log in os.listdir(minifi_folder):
 		minifi_wm_left_ds_list.append(minifi_wm_left_ds_ts)
 
 print("Expected number of flowfiles in pipeline: ", num_expected_flowfiles_minifi)
-print("Start time for log analysis: ", start_time_obj)
-print("End time for log analysis: ", end_time_obj)
 analysis_dur_sec=(end_time_obj-start_time_obj).total_seconds()
 print("log analysis duration in seconds: ", analysis_dur_sec)
 actual_thruput=total_finished_flow_files_pipeline/analysis_dur_sec

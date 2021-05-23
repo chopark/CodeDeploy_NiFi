@@ -251,7 +251,7 @@ echo "$SHELL: Parsing the NiFi logs..."
 cat $NIFI_LOG/nifi-app* >> $NIFI_LOG/log_cat
 
 echo "Collecting minifi logs all data source nodes"
-bash $NIFI_SCRIPT/get_minifi_logs.sh
+bash $NIFI_SCRIPT/get_minifi_logs.sh $target_groups
 
 echo "Processing the logs to get throughput"
 total_nodes=$(($target_groups*$nodes_per_group))

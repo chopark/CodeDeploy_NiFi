@@ -1,1046 +1,1321 @@
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  3.96   1.98   1.98 31380 S    8  3.39m java
+  3.96   1.98   1.98  3291 S   11  5.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  5.00   3.00   2.00 31380 S    8  3.39m java
+  5.00   3.00   2.00  3291 S   11  5.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  4.00   3.00   1.00 31380 S    8  3.40m java
+  4.00   3.00   1.00  3291 S   11  5.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  5.00   3.00   2.00 31380 S    8  3.40m java
+  5.00   3.00   2.00  3291 S   11  5.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 20.00  17.00   3.00 31380 S    8  3.40m java
+  4.00   3.00   1.00  3291 S   11  5.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  4.00   2.00   2.00 31380 S    8  3.40m java
+  5.00   3.00   2.00  3291 S   11  5.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  4.00   2.00   2.00 31380 S    8  3.40m java
+  5.00   3.00   2.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 18.00  14.00   4.00 31380 S    8  3.40m java
+  4.00   3.00   1.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-103.00  92.00  11.00 31380 S    8  3.42m java
+  5.00   3.00   2.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-145.00 122.00  23.00 31380 S    8  3.44m java
+  5.00   4.00   1.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 84.00  70.00  14.00 31380 S    8  3.46m java
+  4.00   3.00   1.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-102.00  89.00  13.00 31380 S    8  3.48m java
+  4.00   3.00   1.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-120.00  86.00  34.00 31380 S    8  3.50m java
+  5.00   3.00   2.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-113.00  84.00  29.00 31380 S    8  3.51m java
+ 17.00  13.00   4.00  3291 S   11  5.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-116.00  88.00  28.00 31380 S    8  3.53m java
+ 94.00  82.00  12.00  3291 S   11  5.59m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-170.00 133.00  37.00 31380 S    8  3.56m java
+ 82.00  62.00  20.00  3291 S   11  5.60m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-653.00 571.00  82.00 31380 S    8  3.67m java
+114.00  95.00  19.00  3291 S   11  5.62m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1634.00 1147.00 487.00 31380 S    8  3.94m java
+100.00  85.00  15.00  3291 S   11  5.64m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1451.00 1390.00  61.00 31380 S    8  4.19m java
+385.00 349.00  36.00  3291 S   11  5.70m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-365.00 304.00  61.00 31380 S    8  4.25m java
+181.00 166.00  15.00  3291 S   11  5.73m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-272.00 242.00  30.00 31380 S    8  4.29m java
+128.00 113.00  15.00  3291 S   11  5.75m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-156.00 144.00  12.00 31380 S    8  4.32m java
+ 77.00  63.00  14.00  3291 S   11  5.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-148.00 139.00   9.00 31380 S    8  4.34m java
+ 50.00  38.00  12.00  3291 S   11  5.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-144.00 137.00   7.00 31380 S    8  4.37m java
+ 48.00  39.00   9.00  3291 S   11  5.78m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-293.00 234.00  59.00 31380 S    8  4.42m java
+ 27.00  21.00   6.00  3291 S   11  5.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-143.00 134.00   9.00 31380 S    8  4.44m java
+  8.00   5.00   3.00  3291 S   11  5.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-152.00 146.00   6.00 31380 S    8  4.46m java
+159.00 116.00  43.00  3291 S   11  5.82m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-321.00 232.00  89.00 31380 S    8  4.52m java
+ 31.00  24.00   7.00  3291 S   11  5.82m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-241.00 139.00 102.00 31380 S    8  4.56m java
+234.00 156.00  78.00  3291 S   11  5.86m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-214.00 137.00  77.00 31380 S    8  4.59m java
+326.00 212.00 114.00  3291 S   11  5.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-177.00 143.00  34.00 31380 S    8  4.62m java
+ 35.00  29.00   6.00  3291 S   11  5.92m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-325.00 259.00  66.00 31380 S    8  4.68m java
+ 39.00  29.00  10.00  3291 S   11  5.93m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-149.00 139.00  10.00 31380 S    8  4.70m java
+ 32.00  25.00   7.00  3291 S   11  5.93m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-141.00 133.00   8.00 31380 S    8  4.73m java
+ 33.00  22.00  11.00  3291 S   11  5.94m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-140.00 130.00  10.00 31380 S    8  4.75m java
+ 42.00  35.00   7.00  3291 S   11  5.94m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-349.00 286.00  63.00 31380 S    8  4.81m java
+ 30.00  24.00   6.00  3291 S   11  5.95m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-135.00 127.00   8.00 31380 S    8  4.83m java
+ 33.00  30.00   3.00  3291 S   11  5.95m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-143.00 133.00  10.00 31380 S    8  4.85m java
+ 34.00  26.00   8.00  3291 S   11  5.96m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-168.00 155.00  13.00 31380 S    8  4.88m java
+ 29.00  22.00   7.00  3291 S   11  5.96m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-150.00 136.00  14.00 31380 S    8  4.91m java
+ 31.00  28.00   3.00  3291 S   11  5.97m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-155.00 141.00  14.00 31380 S    8  4.93m java
+ 27.00  23.00   4.00  3291 S   11  5.97m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-150.00 140.00  10.00 31380 S    8  4.96m java
+ 27.00  22.00   5.00  3291 S   11  5.98m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-232.00 213.00  19.00 31380 S    8  5.00m java
+ 44.00  39.00   5.00  3291 S   11  5.99m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-135.00 129.00   6.00 31380 S    8  5.02m java
+ 34.00  28.00   6.00  3291 S   11  5.99m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-144.00 136.00   8.00 31380 S    8  5.04m java
+ 56.00  51.00   5.00  3291 S   11  6.00m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-151.00 144.00   7.00 31380 S    8  5.07m java
+ 56.00  51.00   5.00  3291 S   11  6.01m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-216.00 131.00  85.00 31380 S    8  5.10m java
+ 44.00  36.00   8.00  3291 S   11  6.02m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-155.00 123.00  32.00 31380 S    8  5.13m java
+ 77.00  67.00  10.00  3291 S   11  6.03m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-147.00 118.00  29.00 31380 S    8  5.15m java
+ 35.00  30.00   5.00  3291 S   11  6.04m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-149.00 122.00  27.00 31380 S    8  5.18m java
+ 28.00  21.00   7.00  3291 S   11  6.04m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-153.00 117.00  36.00 31380 S    8  5.20m java
+ 27.00  22.00   5.00  3291 S   11  6.05m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-145.00 111.00  34.00 31380 S    8  5.23m java
+ 29.00  24.00   5.00  3291 S   11  6.05m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-153.00 120.00  33.00 31380 S    8  5.25m java
+ 30.00  27.00   3.00  3291 S   11  6.06m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-147.00 117.00  30.00 31380 S    8  5.28m java
+ 32.00  27.00   5.00  3291 S   11  6.06m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-157.00 129.00  28.00 31380 S    8  5.30m java
+ 32.00  26.00   6.00  3291 S   11  6.07m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 71.00  56.00  15.00 31380 S    8  5.32m java
+ 26.00  22.00   4.00  3291 S   11  6.07m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-177.00 118.00  59.00 31380 S    8  5.35m java
+ 26.00  20.00   6.00  3291 S   11  6.08m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  6.00   2.00   4.00 31380 S    8  5.35m java
+ 32.00  26.00   6.00  3291 S   11  6.08m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 23.00  19.00   4.00 31380 S    8  5.35m java
+ 40.00  35.00   5.00  3291 S   11  6.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-270.00 194.00  76.00 31380 S    8  5.40m java
+ 27.00  22.00   5.00  3291 S   11  6.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-345.00 258.00  87.00 31380 S    8  5.45m java
+ 25.00  21.00   4.00  3291 S   11  6.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-340.00 275.00  65.00 31380 S    8  5.51m java
+ 26.00  21.00   5.00  3291 S   11  6.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-125.00 101.00  24.00 31380 S    8  5.53m java
+ 27.00  23.00   4.00  3291 S   11  6.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  4.00   3.00   1.00 31380 S    8  5.53m java
+ 32.00  29.00   3.00  3291 S   11  6.11m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-235.00 170.00  65.00 31380 S    8  5.57m java
+ 25.00  21.00   4.00  3291 S   11  6.11m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-243.00 188.00  55.00 31380 S    8  5.61m java
+ 24.00  23.00   1.00  3291 S   11  6.12m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-146.00 113.00  33.00 31380 S    8  5.64m java
+ 97.00  75.00  22.00  3291 S   11  6.13m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1212.00 1078.00 134.00 31380 S    8  5.84m java
+ 24.00  21.00   3.00  3291 S   11  6.14m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-357.00 190.00 167.00 31380 S    8  5.90m java
+ 26.00  24.00   2.00  3291 S   11  6.14m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-120.00  79.00  41.00 31380 S    8  5.92m java
+ 30.00  27.00   3.00  3291 S   11  6.15m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-344.00 212.00 132.00 31380 S    8  5.97m java
+ 26.00  22.00   4.00  3291 S   11  6.15m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-969.00 223.00 746.00 31380 S    8  6.14m java
+ 34.00  25.00   9.00  3291 S   11  6.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1568.00 287.00 1281.00 31380 S    8  6.40m java
+ 33.00  23.00  10.00  3291 S   11  6.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1329.00 330.00 999.00 31380 S    8  6.62m java
+ 44.00  28.00  16.00  3291 S   11  6.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1989.00 277.00 1712.00 31380 S    8  6.95m java
+ 43.00  29.00  14.00  3291 S   11  6.18m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1839.00 255.00 1584.00 31380 S    8  7.26m java
+ 48.00  30.00  18.00  3291 S   11  6.19m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1170.00 230.00 940.00 31380 S    8  7.45m java
+ 54.00  33.00  21.00  3291 S   11  6.19m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2056.00 292.00 1764.00 31380 S    8  7.79m java
+ 40.00  31.00   9.00  3291 S   11  6.20m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1422.00 197.00 1225.00 31380 S    8  8.03m java
+ 34.00  18.00  16.00  3291 S   11  6.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2425.00 319.00 2106.00 31380 S    8  8.44m java
+ 36.00  23.00  13.00  3291 S   11  6.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1752.00 185.00 1567.00 31380 S    8  8.73m java
+ 35.00  24.00  11.00  3291 S   11  6.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2401.00 277.00 2124.00 31380 S    8  9.13m java
+ 37.00  26.00  11.00  3291 S   11  6.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2457.00 287.00 2170.00 31380 S    8  9.54m java
+ 36.00  23.00  13.00  3291 S   11  6.23m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1423.00 269.00 1154.00 31380 S    8  9.77m java
+ 36.00  22.00  14.00  3291 S   11  6.24m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2187.00 557.00 1630.00 31380 S    8 10.14m java
+ 41.00  27.00  14.00  3291 S   11  6.24m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1105.00 816.00 289.00 31380 S    8 10.32m java
+ 22.00  18.00   4.00  3291 S   11  6.25m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1219.00 903.00 316.00 31380 S    8 10.53m java
+175.00 130.00  45.00  3291 S   11  6.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-662.00 506.00 156.00 31380 S    8 10.64m java
+ 55.00  34.00  21.00  3291 S   11  6.29m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1919.00 274.00 1645.00 31380 S    8 10.96m java
+ 43.00  25.00  18.00  3291 S   11  6.29m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2294.00  27.00 2267.00 31380 S    8 11.34m java
+ 45.00  33.00  12.00  3291 S   11  6.30m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1372.00 553.00 819.00 31380 S    8 11.57m java
+ 38.00  27.00  11.00  3291 S   11  6.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1247.00 659.00 588.00 31380 S    8 11.78m java
+ 26.00  21.00   5.00  3291 S   11  6.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1134.00 722.00 412.00 31380 S    8 11.96m java
+ 17.00  13.00   4.00  3291 S   11  6.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1181.00 797.00 384.00 31380 S    8 12.16m java
+ 36.00  30.00   6.00  3291 S   11  6.32m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1294.00 1154.00 140.00 31380 S    8 12.38m java
+ 33.00  27.00   6.00  3291 S   11  6.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1365.00 1139.00 226.00 31380 S    8 12.60m java
+ 28.00  20.00   8.00  3291 S   11  6.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1223.00 1120.00 103.00 31380 S    8 12.81m java
+ 24.00  22.00   2.00  3291 S   11  6.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1500.00 1063.00 437.00 31380 S    8 13.06m java
+ 28.00  21.00   7.00  3291 S   11  6.34m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1101.00 1009.00  92.00 31380 S    8 13.24m java
+ 25.00  19.00   6.00  3291 S   11  6.34m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1222.00 921.00 301.00 31380 S    8 13.45m java
+ 27.00  20.00   7.00  3291 S   11  6.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1309.00 1208.00 101.00 31380 S    8 13.66m java
+ 36.00  26.00  10.00  3291 S   11  6.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1307.00 1242.00  65.00 31380 S    8 13.88m java
+ 35.00  25.00  10.00  3291 S   11  6.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1008.00 915.00  93.00 31380 S    8 14.05m java
+ 51.00  35.00  16.00  3291 S   11  6.37m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-981.00 911.00  70.00 31380 S    8 14.21m java
+ 39.00  26.00  13.00  3291 S   11  6.37m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1757.00 1627.00 130.00 31380 S    8 14.51m java
+ 42.00  24.00  18.00  3291 S   11  6.38m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2286.00 2200.00  86.00 31380 S    8 14.89m java
+ 42.00  24.00  18.00  3291 S   11  6.39m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2038.00 1348.00 690.00 31380 S    8 15.23m java
+136.00  85.00  51.00  3291 S   11  6.41m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1331.00 690.00 641.00 31380 S    8 15.45m java
+ 40.00  23.00  17.00  3291 S   11  6.42m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1781.00 1304.00 477.00 31380 S    8 15.74m java
+ 38.00  28.00  10.00  3291 S   11  6.42m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1036.00 939.00  97.00 31380 S    8 15.92m java
+ 33.00  23.00  10.00  3291 S   11  6.43m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1178.00 959.00 219.00 31380 S    8 16.11m java
+ 42.00  29.00  13.00  3291 S   11  6.44m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1122.00 1056.00  66.00 31380 S    8 16.30m java
+ 60.00  47.00  13.00  3291 S   11  6.45m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1371.00 1115.00 256.00 31380 S    8 16.53m java
+ 96.00  73.00  23.00  3291 S   11  6.46m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1123.00 1074.00  49.00 31380 S    8 16.72m java
+ 37.00  23.00  14.00  3291 S   11  6.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1581.00 1430.00 151.00 31380 S    8 16.98m java
+ 40.00  24.00  16.00  3291 S   11  6.48m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-999.00 925.00  74.00 31380 S    8 17.15m java
+ 34.00  23.00  11.00  3291 S   11  6.48m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-769.00 692.00  77.00 31380 S    8 17.27m java
+ 39.00  22.00  17.00  3291 S   11  6.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1209.00 1050.00 159.00 31380 S    8 17.48m java
+ 34.00  24.00  10.00  3291 S   11  6.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1258.00 1162.00  96.00 31380 S    8 17.69m java
+ 92.00  70.00  22.00  3291 S   11  6.51m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1889.00 1693.00 196.00 31380 S    8 18.00m java
+ 33.00  24.00   9.00  3291 S   11  6.51m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2285.00 2193.00  92.00 31380 S    8 18.38m java
+ 49.00  30.00  19.00  3291 S   11  6.52m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2292.00 2222.00  70.00 31380 S    8 18.76m java
+ 23.00  15.00   8.00  3291 S   11  6.53m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1358.00 878.00 480.00 31380 S    8 18.99m java
+ 49.00  31.00  18.00  3291 S   11  6.53m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1686.00 593.00 1093.00 31380 S    8 19.27m java
+ 32.00  15.00  17.00  3291 S   11  6.54m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1140.00 989.00 151.00 31380 S    8 19.46m java
+ 30.00  19.00  11.00  3291 S   11  6.54m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1022.00 939.00  83.00 31380 S    8 19.63m java
+ 33.00  22.00  11.00  3291 S   11  6.55m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  5.00   3.00   2.00 31380 S    8 19.63m java
+ 48.00  31.00  17.00  3291 S   11  6.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  8.00   6.00   2.00 31380 S    8 19.63m java
+272.00 214.00  58.00  3291 S   11  6.60m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 11.00   9.00   2.00 31380 S    8 19.64m java
+ 42.00  24.00  18.00  3291 S   11  6.61m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  7.00   5.00   2.00 31380 S    8 19.64m java
+ 37.00  25.00  12.00  3291 S   11  6.62m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-553.00 350.00 203.00 31380 S    8 19.73m java
+ 25.00  15.00  10.00  3291 S   11  6.62m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1339.00 1251.00  88.00 31380 S    8 19.95m java
+ 41.00  22.00  19.00  3291 S   11  6.63m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-911.00 844.00  67.00 31380 S    8 20.10m java
+ 35.00  22.00  13.00  3291 S   11  6.63m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-857.00 796.00  61.00 31380 S    8 20.25m java
+ 44.00  26.00  18.00  3291 S   11  6.64m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1237.00 1091.00 146.00 31380 S    8 20.45m java
+ 47.00  29.00  18.00  3291 S   11  6.65m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1771.00 1449.00 322.00 31380 S    8 20.75m java
+ 42.00  27.00  15.00  3291 S   11  6.66m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1014.00 948.00  66.00 31380 S    8 20.92m java
+ 76.00  61.00  15.00  3291 S   11  6.67m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1388.00 1034.00 354.00 31380 S    8 21.15m java
+ 50.00  38.00  12.00  3291 S   11  6.68m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1861.00 1471.00 390.00 31380 S    8 21.46m java
+ 60.00  41.00  19.00  3291 S   11  6.69m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1180.00 856.00 324.00 31380 S    8 21.65m java
+ 22.00  15.00   7.00  3291 S   11  6.69m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1763.00 1397.00 366.00 31380 S    8 21.95m java
+  5.00   5.00   0.00  3291 S   11  6.69m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-927.00 881.00  46.00 31380 S    8 22.10m java
+  6.00   4.00   2.00  3291 S   11  6.69m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1595.00 1267.00 328.00 31380 S    8 22.37m java
+ 89.00  64.00  25.00  3291 S   11  6.71m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-906.00 637.00 269.00 31380 S    8 22.52m java
+ 72.00  52.00  20.00  3291 S   11  6.72m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1743.00 1153.00 590.00 31380 S    8 22.81m java
+ 40.00  23.00  17.00  3291 S   11  6.73m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1030.00 764.00 266.00 31380 S    8 22.98m java
+ 35.00  26.00   9.00  3291 S   11  6.73m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1405.00 1268.00 137.00 31380 S    8 23.22m java
+ 38.00  16.00  22.00  3291 S   11  6.74m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1186.00 992.00 194.00 31380 S    8 23.41m java
+127.00  74.00  53.00  3291 S   11  6.76m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1446.00 1188.00 258.00 31380 S    8 23.65m java
+ 41.00  24.00  17.00  3291 S   11  6.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1321.00 1060.00 261.00 31380 S    8 23.88m java
+ 48.00  32.00  16.00  3291 S   11  6.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1133.00 1051.00  82.00 31380 S    8 24.06m java
+ 48.00  33.00  15.00  3291 S   11  6.78m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1250.00 1122.00 128.00 31380 S    8 24.27m java
+ 36.00  29.00   7.00  3291 S   11  6.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1232.00 1066.00 166.00 31380 S    8 24.48m java
+ 37.00  24.00  13.00  3291 S   11  6.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1404.00 1231.00 173.00 31380 S    8 24.71m java
+ 43.00  23.00  20.00  3291 S   11  6.80m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1525.00 1349.00 176.00 31380 S    8 24.97m java
+ 39.00  22.00  17.00  3291 S   11  6.81m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1558.00 1398.00 160.00 31380 S    8 25.23m java
+ 37.00  25.00  12.00  3291 S   11  6.81m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1369.00 1101.00 268.00 31380 S    8 25.45m java
+ 51.00  32.00  19.00  3291 S   11  6.82m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1276.00 676.00 600.00 31380 S    8 25.67m java
+ 41.00  26.00  15.00  3291 S   11  6.83m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1287.00 1066.00 221.00 31380 S    8 25.88m java
+ 33.00  22.00  11.00  3291 S   11  6.83m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1229.00 836.00 393.00 31380 S    8 26.09m java
+ 38.00  25.00  13.00  3291 S   11  6.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1540.00 779.00 761.00 31380 S    8 26.34m java
+ 35.00  23.00  12.00  3291 S   11  6.85m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-881.00 812.00  69.00 31380 S    8 26.49m java
+ 34.00  21.00  13.00  3291 S   11  6.85m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1184.00 1069.00 115.00 31380 S    8 26.69m java
+ 33.00  19.00  14.00  3291 S   11  6.86m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-666.00 609.00  57.00 31380 S    8 26.80m java
+ 30.00  24.00   6.00  3291 S   11  6.86m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1165.00 1029.00 136.00 31380 S    8 26.99m java
+ 63.00  28.00  35.00  3291 S   11  6.87m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1003.00 926.00  77.00 31380 S    8 27.16m java
+ 39.00  24.00  15.00  3291 S   11  6.88m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-942.00 875.00  67.00 31380 S    8 27.32m java
+ 43.00  22.00  21.00  3291 S   11  6.89m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1510.00 1266.00 244.00 31380 S    8 27.57m java
+ 43.00  26.00  17.00  3291 S   11  6.89m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-939.00 873.00  66.00 31380 S    8 27.72m java
+ 34.00  22.00  12.00  3291 S   11  6.90m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1601.00 1371.00 230.00 31380 S    8 27.99m java
+ 32.00  24.00   8.00  3291 S   11  6.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1745.00 1473.00 272.00 31380 S    8 28.28m java
+1051.00 967.00  84.00  3291 S   11  7.08m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1207.00 825.00 382.00 31380 S    8 28.48m java
+ 33.00  22.00  11.00  3291 S   11  7.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1506.00 1219.00 287.00 31380 S    8 28.73m java
+ 34.00  19.00  15.00  3291 S   11  7.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-911.00 790.00 121.00 31380 S    8 28.89m java
+ 34.00  23.00  11.00  3291 S   11  7.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1134.00 970.00 164.00 31380 S    8 29.07m java
+ 43.00  30.00  13.00  3291 S   11  7.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1459.00 1237.00 222.00 31380 S    8 29.32m java
+ 34.00  23.00  11.00  3291 S   11  7.11m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1657.00 943.00 714.00 31380 S    8 29.59m java
+ 34.00  20.00  14.00  3291 S   11  7.12m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2057.00 1432.00 625.00 31380 S    8 29.94m java
+ 37.00  20.00  17.00  3291 S   11  7.12m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1225.00 980.00 245.00 31380 S    8 30.14m java
+ 37.00  23.00  14.00  3291 S   11  7.13m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-862.00 803.00  59.00 31380 S    8 30.28m java
+ 37.00  23.00  14.00  3291 S   11  7.13m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-615.00 559.00  56.00 31380 S    8 30.39m java
+ 35.00  23.00  12.00  3291 S   11  7.14m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-981.00 918.00  63.00 31380 S    8 30.55m java
+ 49.00  37.00  12.00  3291 S   11  7.15m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-861.00 788.00  73.00 31380 S    8 30.69m java
+ 35.00  25.00  10.00  3291 S   11  7.15m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-694.00 637.00  57.00 31380 S    8 30.81m java
+ 32.00  23.00   9.00  3291 S   11  7.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1255.00 1050.00 205.00 31380 S    8 31.02m java
+ 29.00  21.00   8.00  3291 S   11  7.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2253.00 2173.00  80.00 31380 S    8 31.39m java
+ 28.00  19.00   9.00  3291 S   11  7.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2288.00 2201.00  87.00 31380 S    8 31.78m java
+ 24.00  18.00   6.00  3291 S   11  7.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-2269.00 2084.00 185.00 31380 S    8 32.15m java
+ 23.00  18.00   5.00  3291 S   11  7.18m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1006.00 735.00 271.00 31380 S    8 32.32m java
+ 24.00  19.00   5.00  3291 S   11  7.18m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1504.00 1243.00 261.00 31380 S    8 32.57m java
+ 25.00  19.00   6.00  3291 S   11  7.18m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1102.00 979.00 123.00 31380 S    8 32.76m java
+ 45.00  23.00  22.00  3291 S   11  7.19m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-860.00 807.00  53.00 31380 S    8 32.90m java
+ 35.00  24.00  11.00  3291 S   11  7.20m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1656.00 1408.00 248.00 31380 S    8 33.18m java
+ 34.00  23.00  11.00  3291 S   11  7.20m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1129.00 750.00 379.00 31380 S    8 33.36m java
+ 52.00  32.00  20.00  3291 S   11  7.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1826.00 1159.00 667.00 31380 S    8 33.67m java
+ 34.00  25.00   9.00  3291 S   11  7.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1021.00 924.00  97.00 31380 S    8 33.84m java
+ 36.00  26.00  10.00  3291 S   11  7.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1552.00 1250.00 302.00 31380 S    8 34.10m java
+ 36.00  30.00   6.00  3291 S   11  7.23m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1228.00 1148.00  80.00 31380 S    8 34.30m java
+ 20.00  14.00   6.00  3291 S   11  7.23m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1682.00 1502.00 180.00 31380 S    8 34.58m java
+ 43.00  33.00  10.00  3291 S   11  7.24m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-962.00 888.00  74.00 31380 S    8 34.74m java
+ 31.00  20.00  11.00  3291 S   11  7.25m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1742.00 1493.00 249.00 31380 S    8 35.03m java
+ 28.00  20.00   8.00  3291 S   11  7.25m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1434.00 1269.00 165.00 31380 S    8 35.27m java
+ 31.00  23.00   8.00  3291 S   11  7.26m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1680.00 1188.00 492.00 31380 S    8 35.55m java
+ 28.00  21.00   7.00  3291 S   11  7.26m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1031.00 944.00  87.00 31380 S    8 35.72m java
+ 28.00  19.00   9.00  3291 S   11  7.26m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1040.00 937.00 103.00 31380 S    8 35.90m java
+ 27.00  15.00  12.00  3291 S   11  7.27m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1512.00 1376.00 136.00 31380 S    8 36.15m java
+ 27.00  21.00   6.00  3291 S   11  7.27m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1448.00 1250.00 198.00 31380 S    8 36.39m java
+ 28.00  17.00  11.00  3291 S   11  7.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1416.00 1349.00  67.00 31380 S    8 36.63m java
+ 28.00  21.00   7.00  3291 S   11  7.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1661.00 1326.00 335.00 31380 S    8 36.90m java
+ 27.00  19.00   8.00  3291 S   11  7.29m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-902.00 637.00 265.00 31380 S    8 37.05m java
+ 27.00  19.00   8.00  3291 S   11  7.29m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1537.00 983.00 554.00 31380 S    8 37.31m java
+ 26.00  18.00   8.00  3291 S   11  7.30m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1275.00 1102.00 173.00 31380 S    8 37.52m java
+ 24.00  19.00   5.00  3291 S   11  7.30m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-954.00 894.00  60.00 31380 S    8 37.68m java
+ 27.00  20.00   7.00  3291 S   11  7.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1822.00 1534.00 288.00 31380 S    8 37.98m java
+ 28.00  22.00   6.00  3291 S   11  7.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1075.00 989.00  86.00 31380 S    8 38.16m java
+ 27.00  19.00   8.00  3291 S   11  7.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1423.00 1226.00 197.00 31380 S    8 38.40m java
+ 28.00  20.00   8.00  3291 S   11  7.32m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1887.00 1715.00 172.00 31380 S    8 38.72m java
+ 41.00  24.00  17.00  3291 S   11  7.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1192.00 932.00 260.00 31380 S    8 38.91m java
+ 33.00  27.00   6.00  3291 S   11  7.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1932.00 1779.00 153.00 31380 S    8 39.24m java
+ 27.00  18.00   9.00  3291 S   11  7.34m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1563.00 1413.00 150.00 31380 S    8 39.50m java
+ 26.00  18.00   8.00  3291 S   11  7.34m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1196.00 1136.00  60.00 31380 S    8 39.70m java
+ 31.00  22.00   9.00  3291 S   11  7.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1528.00 1267.00 261.00 31380 S    8 39.95m java
+ 25.00  16.00   9.00  3291 S   11  7.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-999.00 891.00 108.00 31380 S    8 40.12m java
+ 28.00  21.00   7.00  3291 S   11  7.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1502.00 1146.00 356.00 31380 S    8 40.37m java
+ 28.00  19.00   9.00  3291 S   11  7.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1281.00 1126.00 155.00 31380 S    8 40.58m java
+ 35.00  26.00   9.00  3291 S   11  7.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1195.00 994.00 201.00 31380 S    8 40.78m java
+ 31.00  22.00   9.00  3291 S   11  7.37m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1073.00 911.00 162.00 31380 S    8 40.96m java
+ 34.00  26.00   8.00  3291 S   11  7.38m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1639.00 1333.00 306.00 31380 S    8 41.23m java
+ 31.00  22.00   9.00  3291 S   11  7.38m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1251.00 1184.00  67.00 31380 S    8 41.44m java
+ 29.00  17.00  12.00  3291 S   11  7.39m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1803.00 1593.00 210.00 31380 S    8 41.74m java
+ 28.00  18.00  10.00  3291 S   11  7.39m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1690.00 1325.00 365.00 31380 S    8 42.02m java
+ 26.00  21.00   5.00  3291 S   11  7.39m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1359.00 1278.00  81.00 31380 S    8 42.25m java
+ 30.00  22.00   8.00  3291 S   11  7.40m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1412.00 1336.00  76.00 31380 S    8 42.48m java
+ 30.00  20.00  10.00  3291 S   11  7.40m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1450.00 1394.00  56.00 31380 S    8 42.73m java
+ 26.00  19.00   7.00  3291 S   11  7.41m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1259.00 1181.00  78.00 31380 S    8 42.94m java
+ 27.00  19.00   8.00  3291 S   11  7.41m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1398.00 1347.00  51.00 31380 S    8 43.17m java
+ 27.00  18.00   9.00  3291 S   11  7.42m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1332.00 1238.00  94.00 31380 S    8 43.39m java
+ 29.00  19.00  10.00  3291 S   11  7.42m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-663.00 616.00  47.00 31380 S    8 43.50m java
+ 29.00  17.00  12.00  3291 S   11  7.43m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-903.00 850.00  53.00 31380 S    8 43.65m java
+ 30.00  20.00  10.00  3291 S   11  7.43m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-705.00 660.00  45.00 31380 S    8 43.77m java
+121.00 114.00   7.00  3291 S   11  7.45m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1089.00 1021.00  68.00 31380 S    8 43.95m java
+ 27.00  20.00   7.00  3291 S   11  7.46m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-371.00 340.00  31.00 31380 S    8 44.01m java
+ 27.00  23.00   4.00  3291 S   11  7.46m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1611.00 1489.00 122.00 31380 S    8 44.28m java
+ 29.00  19.00  10.00  3291 S   11  7.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-332.00 314.00  18.00 31380 S    8 44.34m java
+ 27.00  19.00   8.00  3291 S   11  7.47m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1023.00 786.00 237.00 31380 S    8 44.51m java
+ 38.00  19.00  19.00  3291 S   11  7.48m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1723.00 1376.00 347.00 31380 S    8 44.79m java
+ 28.00  19.00   9.00  3291 S   11  7.48m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1619.00 1388.00 231.00 31380 S    8 45.06m java
+ 27.00  19.00   8.00  3291 S   11  7.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1355.00 1275.00  80.00 31380 S    8 45.29m java
+ 31.00  21.00  10.00  3291 S   11  7.49m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1763.00 1591.00 172.00 31380 S    8 45.58m java
+ 28.00  24.00   4.00  3291 S   11  7.50m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-609.00 570.00  39.00 31380 S    8 45.69m java
+ 26.00  20.00   6.00  3291 S   11  7.50m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-931.00 885.00  46.00 31380 S    8 45.84m java
+ 26.00  19.00   7.00  3291 S   11  7.50m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1265.00 1200.00  65.00 31380 S    8 46.05m java
+ 28.00  19.00   9.00  3291 S   11  7.51m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1365.00 1303.00  62.00 31380 S    8 46.28m java
+ 27.00  21.00   6.00  3291 S   11  7.51m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1399.00 1295.00 104.00 31380 S    8 46.51m java
+ 35.00  23.00  12.00  3291 S   11  7.52m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1238.00 1192.00  46.00 31380 S    8 46.72m java
+ 39.00  29.00  10.00  3291 S   11  7.53m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1478.00 1410.00  68.00 31380 S    8 46.96m java
+ 25.00  20.00   5.00  3291 S   11  7.53m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1199.00 1101.00  98.00 31380 S    8 47.16m java
+ 46.00  35.00  11.00  3291 S   11  7.54m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1513.00 1386.00 127.00 31380 S    8 47.42m java
+ 19.00  13.00   6.00  3291 S   11  7.54m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1759.00 1414.00 345.00 31380 S    8 47.71m java
+ 37.00  25.00  12.00  3291 S   11  7.55m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1611.00 1414.00 197.00 31380 S    8 47.98m java
+ 30.00  22.00   8.00  3291 S   11  7.55m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1410.00 1207.00 203.00 31380 S    8 48.21m java
+ 36.00  27.00   9.00  3291 S   11  7.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1188.00 1087.00 101.00 31380 S    8 48.41m java
+ 38.00  35.00   3.00  3291 S   11  7.56m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1213.00 1092.00 121.00 31380 S    8 48.61m java
+ 30.00  20.00  10.00  3291 S   11  7.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1533.00 1157.00 376.00 31380 S    8 48.87m java
+ 15.00  10.00   5.00  3291 S   11  7.57m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-976.00 927.00  49.00 31380 S    8 49.03m java
+ 46.00  36.00  10.00  3291 S   11  7.58m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-758.00 713.00  45.00 31380 S    8 49.16m java
+ 30.00  21.00   9.00  3291 S   11  7.58m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-854.00 784.00  70.00 31380 S    8 49.30m java
+ 27.00  18.00   9.00  3291 S   11  7.59m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-993.00 930.00  63.00 31380 S    8 49.47m java
+ 27.00  20.00   7.00  3291 S   11  7.59m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-898.02 852.48  45.54 31380 S    8 49.62m java
+ 27.00  21.00   6.00  3291 S   11  7.60m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1207.07 1116.16  90.91 31380 S    8 49.82m java
+ 27.00  21.00   6.00  3291 S   11  7.60m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1604.00 1448.00 156.00 31380 S    8 50.08m java
+ 32.00  22.00  10.00  3291 S   11  7.61m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-967.00 929.00  38.00 31380 S    8 50.24m java
+ 54.00  31.00  23.00  3291 S   11  7.62m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1615.00 1457.00 158.00 31380 S    8 50.51m java
+887.00 761.00 126.00  3291 S   11  7.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1517.00 1145.00 372.00 31380 S    8 50.77m java
+ 38.00  24.00  14.00  3291 S   11  7.77m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1006.00 863.00 143.00 31380 S    8 50.93m java
+ 46.00  27.00  19.00  3291 S   11  7.78m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1032.00 888.00 144.00 31380 S    8 51.11m java
+ 36.00  22.00  14.00  3291 S   11  7.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1249.00 1160.00  89.00 31380 S    8 51.31m java
+ 31.00  19.00  12.00  3291 S   11  7.79m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1072.00 1024.00  48.00 31380 S    8 51.49m java
+ 41.00  27.00  14.00  3291 S   11  7.80m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1371.00 1276.00  95.00 31380 S    8 51.72m java
+ 35.00  24.00  11.00  3291 S   11  7.80m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1818.00 1450.00 368.00 31380 S    8 52.02m java
+ 36.00  22.00  14.00  3291 S   11  7.81m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-856.00 644.00 212.00 31380 S    8 52.17m java
+ 32.00  17.00  15.00  3291 S   11  7.81m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1387.00 1228.00 159.00 31380 S    8 52.40m java
+ 33.00  24.00   9.00  3291 S   11  7.82m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1004.00 943.00  61.00 31380 S    8 52.57m java
+ 67.00  51.00  16.00  3291 S   11  7.83m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1046.00 974.00  72.00 31380 S    8 52.74m java
+ 43.00  32.00  11.00  3291 S   11  7.84m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1267.00 1076.00 191.00 31380 S    8 52.95m java
+101.00  85.00  16.00  3291 S   11  7.86m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1026.00 861.00 165.00 31380 S    8 53.12m java
+ 43.00  31.00  12.00  3291 S   11  7.86m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-879.00 818.00  61.00 31380 S    8 53.27m java
+ 42.00  26.00  16.00  3291 S   11  7.87m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-805.00 763.00  42.00 31380 S    8 53.40m java
+ 68.00  28.00  40.00  3291 S   11  7.88m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-963.00 916.00  47.00 31380 S    8 53.56m java
+ 31.00  21.00  10.00  3291 S   11  7.89m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1037.00 993.00  44.00 31380 S    8 53.74m java
+ 40.00  23.00  17.00  3291 S   11  7.89m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1127.00 1061.00  66.00 31380 S    8 53.92m java
+ 64.00  51.00  13.00  3291 S   11  7.90m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1098.00 949.00 149.00 31380 S    8 54.11m java
+ 50.00  35.00  15.00  3291 S   11  7.91m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1272.00 1191.00  81.00 31380 S    8 54.32m java
+ 37.00  21.00  16.00  3291 S   11  7.92m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-797.00 735.00  62.00 31380 S    8 54.45m java
+ 37.00  25.00  12.00  3291 S   11  7.92m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1154.00 1108.00  46.00 31380 S    8 54.64m java
+ 36.00  23.00  13.00  3291 S   11  7.93m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-984.00 928.00  56.00 31380 S    8 54.81m java
+ 34.00  20.00  14.00  3291 S   11  7.94m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-533.00 487.00  46.00 31380 S    8 54.90m java
+ 40.00  21.00  19.00  3291 S   11  7.94m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1001.00 707.00 294.00 31380 S    8 55.06m java
+ 41.00  22.00  19.00  3291 S   11  7.95m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-485.00 427.00  58.00 31380 S    8 55.14m java
+ 41.00  19.00  22.00  3291 S   11  7.96m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-260.00 226.00  34.00 31380 S    8 55.19m java
+ 46.00  21.00  25.00  3291 S   11  7.96m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-270.00 246.00  24.00 31380 S    8 55.23m java
+ 45.00  24.00  21.00  3291 S   11  7.97m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1171.00 923.00 248.00 31380 S    8 55.43m java
+ 42.00  19.00  23.00  3291 S   11  7.98m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1261.00 1085.00 176.00 31380 S    8 55.64m java
+ 55.00  20.00  35.00  3291 S   11  7.99m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-678.00 640.00  38.00 31380 S    8 55.75m java
+ 49.00  23.00  26.00  3291 S   11  8.00m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1175.00 1043.00 132.00 31380 S    8 55.95m java
+ 59.00  29.00  30.00  3291 S   11  8.01m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-945.00 757.00 188.00 31380 S    8 56.10m java
+ 49.00  22.00  27.00  3291 S   11  8.01m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1061.00 988.00  73.00 31380 S    8 56.28m java
+ 71.00  22.00  49.00  3291 S   11  8.03m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1081.00 1040.00  41.00 31380 S    8 56.46m java
+ 51.00  20.00  31.00  3291 S   11  8.03m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-934.00 878.00  56.00 31380 S    8 56.62m java
+ 51.00  22.00  29.00  3291 S   11  8.04m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-940.00 867.00  73.00 31380 S    8 56.77m java
+ 49.00  20.00  29.00  3291 S   11  8.05m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1119.00 1030.00  89.00 31380 S    8 56.96m java
+ 57.00  24.00  33.00  3291 S   11  8.06m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-983.00 937.00  46.00 31380 S    8 57.12m java
+ 64.00  21.00  43.00  3291 S   11  8.07m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1052.00 986.00  66.00 31380 S    8 57.30m java
+ 59.00  23.00  36.00  3291 S   11  8.08m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1078.00 999.00  79.00 31380 S    8 57.48m java
+ 47.00  18.00  29.00  3291 S   11  8.09m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 72.00  64.00   8.00 31380 S    8 57.49m java
+ 55.00  22.00  33.00  3291 S   11  8.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-687.00 561.00 126.00 31380 S    8 57.61m java
+ 36.00  24.00  12.00  3291 S   11  8.10m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1004.00 884.00 120.00 31380 S    8 57.77m java
+ 73.00  37.00  36.00  3291 S   11  8.12m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1036.00 948.00  88.00 31380 S    8 57.95m java
+ 41.00  15.00  26.00  3291 S   11  8.12m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-892.00 835.00  57.00 31380 S    8 58.09m java
+ 79.00  26.00  53.00  3291 S   11  8.14m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1400.00 1124.00 276.00 31380 S    8 58.33m java
+ 43.00  22.00  21.00  3291 S   11  8.14m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-815.00 779.00  36.00 31380 S    8 58.46m java
+ 52.00  21.00  31.00  3291 S   11  8.15m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1607.00 1327.00 280.00 31380 S    8 58.73m java
+ 48.00  20.00  28.00  3291 S   11  8.16m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-937.00 889.00  48.00 31380 S    8 58.89m java
+ 48.00  18.00  30.00  3291 S   11  8.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1707.00 1630.00  77.00 31380 S    8 59.17m java
+ 14.00   5.00   9.00  3291 S   11  8.17m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1132.00 1096.00  36.00 31380 S    8 59.36m java
+145.00  42.00 103.00  3291 S   11  8.19m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1308.00 1264.00  44.00 31380 S    8 59.58m java
+ 48.00  22.00  26.00  3291 S   11  8.20m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1237.00 1198.00  39.00 31380 S    8 59.78m java
+ 51.00  22.00  29.00  3291 S   11  8.21m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-794.00 736.00  58.00 31380 S    8 59.92m java
+ 44.00  19.00  25.00  3291 S   11  8.22m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-707.00 677.00  30.00 31380 S    8  1.00h java
+ 46.00  23.00  23.00  3291 S   11  8.23m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1175.00 1123.00  52.00 31380 S    8  1.00h java
+ 55.00  24.00  31.00  3291 S   11  8.23m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1106.00 1062.00  44.00 31380 S    8  1.01h java
+ 35.00  19.00  16.00  3291 S   11  8.24m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-787.00 696.00  91.00 31380 S    8  1.01h java
+ 40.00  21.00  19.00  3291 S   11  8.25m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1394.00 1188.00 206.00 31380 S    8  1.01h java
+ 38.00  20.00  18.00  3291 S   11  8.25m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1800.00 1709.00  91.00 31380 S    8  1.02h java
+ 52.00  22.00  30.00  3291 S   11  8.26m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1001.00 685.00 316.00 31380 S    8  1.02h java
+ 43.00  18.00  25.00  3291 S   11  8.27m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-933.00 892.00  41.00 31380 S    8  1.02h java
+ 50.00  28.00  22.00  3291 S   11  8.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1140.00 1095.00  45.00 31380 S    8  1.03h java
+ 42.00  24.00  18.00  3291 S   11  8.28m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1051.00 1013.00  38.00 31380 S    8  1.03h java
+ 55.00  21.00  34.00  3291 S   11  8.29m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1397.00 1326.00  71.00 31380 S    8  1.03h java
+ 43.00  21.00  22.00  3291 S   11  8.30m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-804.00 770.00  34.00 31380 S    8  1.04h java
+ 44.00  23.00  21.00  3291 S   11  8.31m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-891.00 858.00  33.00 31380 S    8  1.04h java
+ 50.00  17.00  33.00  3291 S   11  8.32m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-673.00 630.00  43.00 31380 S    8  1.04h java
+ 50.00  24.00  26.00  3291 S   11  8.32m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-973.00 774.00 199.00 31380 S    8  1.04h java
+ 54.00  20.00  34.00  3291 S   11  8.33m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-1148.00 957.00 191.00 31380 S    8  1.05h java
+ 44.00  24.00  20.00  3291 S   11  8.34m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-997.00 926.00  71.00 31380 S    8  1.05h java
+ 50.00  30.00  20.00  3291 S   11  8.35m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-778.00 743.00  35.00 31380 S    8  1.05h java
+ 58.00  23.00  35.00  3291 S   11  8.36m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-500.00 472.00  28.00 31380 S    8  1.05h java
+ 86.00  54.00  32.00  3291 S   11  8.37m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
- 13.00  10.00   3.00 31380 S    8  1.05h java
+ 54.00  28.00  26.00  3291 S   11  8.38m java
 
   %CPU   %USR   %SYS   PID S  CPU   Time Task
-  
+ 40.00  18.00  22.00  3291 S   11  8.39m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 53.00  32.00  21.00  3291 S   11  8.40m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 44.00  22.00  22.00  3291 S   11  8.41m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 51.00  17.00  34.00  3291 S   11  8.41m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 49.00  25.00  24.00  3291 S   11  8.42m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 65.00  19.00  46.00  3291 S   11  8.43m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 67.00  24.00  43.00  3291 S   11  8.44m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 43.00  20.00  23.00  3291 S   11  8.45m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 61.00  25.00  36.00  3291 S   11  8.46m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 45.00  21.00  24.00  3291 S   11  8.47m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 46.00  22.00  24.00  3291 S   11  8.48m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 43.00  19.00  24.00  3291 S   11  8.48m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 42.00  21.00  21.00  3291 S   11  8.49m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 43.00  21.00  22.00  3291 S   11  8.50m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 43.00  23.00  20.00  3291 S   11  8.50m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 46.00  25.00  21.00  3291 S   11  8.51m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 48.00  21.00  27.00  3291 S   11  8.52m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 45.00  22.00  23.00  3291 S   11  8.53m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 46.00  26.00  20.00  3291 S   11  8.54m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 54.00  22.00  32.00  3291 S   11  8.54m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 47.00  21.00  26.00  3291 S   11  8.55m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 41.00  22.00  19.00  3291 S   11  8.56m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 51.00  21.00  30.00  3291 S   11  8.57m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 58.00  20.00  38.00  3291 S   11  8.58m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 58.00  22.00  36.00  3291 S   11  8.59m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 53.00  28.00  25.00  3291 S   11  8.60m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 54.00  34.00  20.00  3291 S   11  8.60m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  20.00  12.00  3291 S   11  8.61m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 54.00  29.00  25.00  3291 S   11  8.62m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 31.00  21.00  10.00  3291 S   11  8.62m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  19.00   9.00  3291 S   11  8.63m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  23.00   6.00  3291 S   11  8.63m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  20.00   7.00  3291 S   11  8.64m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  22.00   6.00  3291 S   11  8.64m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  18.00   9.00  3291 S   11  8.65m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  19.00  10.00  3291 S   11  8.65m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  20.00  12.00  3291 S   11  8.66m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  19.00   8.00  3291 S   11  8.66m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  19.00  10.00  3291 S   11  8.67m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  18.00   9.00  3291 S   11  8.67m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  19.00   9.00  3291 S   11  8.68m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  18.00   9.00  3291 S   11  8.68m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  18.00   9.00  3291 S   11  8.69m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  19.00   9.00  3291 S   11  8.69m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  20.00   8.00  3291 S   11  8.69m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  20.00   8.00  3291 S   11  8.70m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  21.00   7.00  3291 S   11  8.70m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  22.00   6.00  3291 S   11  8.71m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  22.00   7.00  3291 S   11  8.71m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  18.00  11.00  3291 S   11  8.72m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  20.00   9.00  3291 S   11  8.72m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 26.00  20.00   6.00  3291 S   11  8.73m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 27.00  20.00   7.00  3291 S   11  8.73m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  21.00   7.00  3291 S   11  8.74m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  19.00   9.00  3291 S   11  8.74m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 30.00  19.00  11.00  3291 S   11  8.75m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  23.00   9.00  3291 S   11  8.75m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  21.00   8.00  3291 S   11  8.76m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 39.00  28.00  11.00  3291 S   11  8.76m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+213.00  96.00 117.00  3291 S   11  8.80m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 37.00  22.00  15.00  3291 S   11  8.80m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 35.00  22.00  13.00  3291 S   11  8.81m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 31.00  19.00  12.00  3291 S   11  8.82m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 33.00  21.00  12.00  3291 S   11  8.82m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 35.00  19.00  16.00  3291 S   11  8.83m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 31.00  20.00  11.00  3291 S   11  8.83m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 36.00  19.00  17.00  3291 S   11  8.84m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  22.00   7.00  3291 S   11  8.84m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  23.00   9.00  3291 S   11  8.85m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 30.00  22.00   8.00  3291 S   11  8.85m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 38.00  23.00  15.00  3291 S   11  8.86m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  19.00  13.00  3291 S   11  8.87m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 29.00  20.00   9.00  3291 S   11  8.87m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 33.00  24.00   9.00  3291 S   11  8.88m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  21.00  11.00  3291 S   11  8.88m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 33.00  18.00  15.00  3291 S   11  8.89m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 35.00  21.00  14.00  3291 S   11  8.89m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 31.00  25.00   6.00  3291 S   11  8.90m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  21.00  11.00  3291 S   11  8.90m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 32.00  20.00  12.00  3291 S   11  8.91m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 33.00  21.00  12.00  3291 S   11  8.91m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 35.00  19.00  16.00  3291 S   11  8.92m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 34.00  21.00  13.00  3291 S   11  8.92m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 33.00  19.00  14.00  3291 S   11  8.93m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 33.00  23.00  10.00  3291 S   11  8.94m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 37.00  22.00  15.00  3291 S   11  8.94m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 38.00  25.00  13.00  3291 S   11  8.95m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 37.00  25.00  12.00  3291 S   11  8.95m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 49.00  34.00  15.00  3291 S   11  8.96m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 28.00  21.00   7.00  3291 S   11  8.97m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 38.00  26.00  12.00  3291 S   11  8.97m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Time Task
+ 31.00  21.00  10.00  3291 S   11  8.98m java
+
+  %CPU   %USR   %SYS   PID S  CPU   Tim
