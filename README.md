@@ -1,15 +1,5 @@
-# NOTE TO REVIEWERS 
-
-WE COULDN'T UPLOAD CODE THAT RUNS FOR JARVIS ON DATA SOURCE NODE WITH THE SUPPLEMENTARY MATERIAL ON CMT SUBMISSION TOOL BECAUSE IT EXCEEDED THE ALLOWED SIZE LIMIT. THIS FILE IS REFERENCED IN JARVIS_README AS edge-processor.tar.gz.*. WE ARE MAKING THE SAME FILE AVAILABLE AT ROOT LOCATION OF THIS REPOSITORY i.e. CodeDeploy_NiFi.
-
-SINCE THE FILE EXCEED THE SIZE LIMIT OF GITHUB LFS (LARGE FILE STORAGE), WE SPLITED THE FILE UNDER 40MB. PLEASE EXTRACT SUCH AS `cat $HOME/minifi.tar.gz.* | tar -zxvf -`. 
-
-MORE DETAILS ABOUT THE FILE CAN BE FOUND IN JARVIS_README FILE UPLOADED WITH SUPPLEMENTARY MATERIAL. 
-
-----------------------------
-
 **Table of Contents**
-- [NOTE TO REVIEWERS](#note-to-reviewers)
+- [Additional README](#additional-readme)
 - [Scripts](#scripts)
 - [For new instance](#for-new-instance)
   - [install_deps.sh](#install_depssh)
@@ -24,6 +14,9 @@ MORE DETAILS ABOUT THE FILE CAN BE FOUND IN JARVIS_README FILE UPLOADED WITH SUP
 - [Process results](#process-results)
   - [get_mid_cpu.sh](#get_mid_cpush)
   - [get_log.sh](#get_logsh)
+
+# Additional README
+* [Link](./README)
 
 # Scripts
 * All scripts in `~/CodeDeploy_NiFi/`
