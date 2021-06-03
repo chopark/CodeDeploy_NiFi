@@ -1,4 +1,15 @@
+# NOTE TO REVIEWERS 
+
+WE COULDN'T UPLOAD CODE THAT RUNS FOR JARVIS ON DATA SOURCE NODE WITH THE SUPPLEMENTARY MATERIAL ON CMT SUBMISSION TOOL BECAUSE IT EXCEEDED THE ALLOWED SIZE LIMIT. THIS FILE IS REFERENCED IN JARVIS_README AS edge-processor.tar.gz.*. WE ARE MAKING THE SAME FILE AVAILABLE AT ROOT LOCATION OF THIS REPOSITORY i.e. CodeDeploy_NiFi.
+
+SINCE THE FILE EXCEED THE SIZE LIMIT OF GITHUB LFS (LARGE FILE STORAGE), WE SPLITED THE FILE UNDER 40MB. PLEASE EXTRACT SUCH AS `cat $HOME/minifi.tar.gz.* | tar -zxvf -`. 
+
+MORE DETAILS ABOUT THE FILE CAN BE FOUND IN JARVIS_README FILE UPLOADED WITH SUPPLEMENTARY MATERIAL. 
+
+----------------------------
+
 **Table of Contents**
+- [NOTE TO REVIEWERS](#note-to-reviewers)
 - [Scripts](#scripts)
 - [For new instance](#for-new-instance)
   - [install_deps.sh](#install_depssh)
@@ -16,7 +27,6 @@
 
 # Scripts
 * All scripts in `~/CodeDeploy_NiFi/`
-* [GitHub](https://github.com/chopark/CodeDeploy_NiFi)
 
 # For new instance
 ## install_deps.sh
@@ -67,21 +77,24 @@ I set the current target edge group "1" as 10 edges.
 ## run_exp.sh 
 * Run experiment with edges
 * limit CPU resources of each edge with arguments
-* Possible to change the time parameter time_limit=date "+%H%M" -d "**+# min**" in line 73,76,80.
-* The minimum time unit is minute due to using Linux 'at' command
-* Automatically kill cpulimit program before 1 minute of new cpulimit execution
+* (Interactive): Directive process with script
+  * e.g. true, false
+* (Sleep time): Experiment runtime
+  * e.g.  60s, 10m, 1h, ...
+* (Target groups): The number of AWS Autoscale groups
+  * e.g. 1, 2, 3, ...
+* (number of nodes per group): The number of instances in each AWS Autoscale group
+  * e.g. 4, 8, ...
+* (number of wms to skip during log analysis): Skip the number of instances
+  * e.g. 4, 8, ...
 
 ```console
-$ sh run_exp.sh (sleep time) (the number of target edge group) (CPU resource after 1 minute) (CPU resource after 3 minutes) (CPU resource after 5 minutes)
+$ sh run_exp.sh (interactive) (sleep time) (target groups) (number of nodes per group) (number of wms to skip for analysis)
 // Start the experiment with edge group named '1' for 1 minutes
-$ bash run_exp.sh 1m 1
-
-// Start the experiment with cpulimit
-// After 1 minute: 30% limit, After 2 minutes: No limit, After 3 minutes: 50% limit, After 4 minutes: No limit, After 5 minutes: 80% limit
-$ bash run_exp.sh 6m 1 30 50 80
+$ bash run_exp.sh true 1m 1 4 0
 
 // Also works without sh
-$ ./run_exp.sh 1m 1
+$ ./run_exp.sh true 1m 1 4 0
 ```
 
 # Process results
